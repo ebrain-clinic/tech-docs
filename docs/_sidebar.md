@@ -1,2 +1,6 @@
 - **Documentação**
-    - [Views](documentacao/super_views.md)
+
+  - **Views**
+
+    - [Pessoa](documentacao/view_pessoa.md)
+    - [Agendamento](documentacao/view_agendamento.md)
