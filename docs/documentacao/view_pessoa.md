@@ -95,3 +95,23 @@ Neste documento serão descritos os campos necessários para importar os dados d
 | email4_preferido| bool | Indica se o email 4 é preferido | Obrigatório |
 | email4_receber_propagandas | bool | Indica se o email 4 deseja receber propagandas | Obrigatório |
 | email4_receber_confirmacoes | bool | Indica se o email 4 deseja receber confirmações | Obrigatório |
+
+
+
+## Lista de Siglas e Padrões de Nomenclatura dos Campos
+
+### sexo_biologico_ao_nascer
+
+| Descrição | sigla |    
+| Masculino | M |
+| Feminino  | F |
+
+
+
+### estado_civil
+
+| Nomenclatura padrão | 
+| CASADO | 
+| SOLTEIRO |
+| DIVORCIADO |
+| VIUVO |
