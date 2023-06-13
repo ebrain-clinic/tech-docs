@@ -18,5 +18,5 @@ Neste documento, estão descritos os campos necessários para importar os dados 
 | atende_particular     | boolean   | Indica se aceita atendimento particular                                  |                 |
 | atende_convenio     | boolean   | Indica se aceita convênio médico                                 |                 |
 | especialidade_id     | boolean   | Especialidade do serviço                                 |                 |
-| valor_particular     |  decimal(10, 2)   | valor do serviço particular                           |                 |
+| valor_particular     |  decimal(10, 2)   | Valor do serviço particular                           |                 |
 
