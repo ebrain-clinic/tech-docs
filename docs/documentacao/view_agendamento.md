@@ -3,6 +3,8 @@
 Neste documento, estão descritos os campos necessários para importar os dados de agendamento no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações do evento agendado, bem como os serviços relacionados ao agendamento, independentemente do número de serviços envolvidos. Além disso, também é registrado se o agendamento foi efetivamente realizado.
  </p>
 
+## Descrição dos campos
+
 | Campo                        | Tipo       | Descrição                                                                                         | Restrição   |
 |------------------------------|------------|---------------------------------------------------------------------------------------------------|-------------|
 | externo_cod                  | varchar    | Chave primária da pessoa                                                                          | Obrigatório | 

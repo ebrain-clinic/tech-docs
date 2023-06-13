@@ -1,4 +1,4 @@
-# Pessoa
+# Paciente
 <p align="justify"> 
 Neste documento são descritos os campos necessários para importar os dados de pacientes no sistema Ebrain. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
  </p>
