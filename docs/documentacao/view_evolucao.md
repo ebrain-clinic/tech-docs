@@ -15,7 +15,7 @@ Neste documento, estão descritos os campos necessários para importar os dados 
 | data_atualizacao            | timestamp | Data e hora da última atualização do prontuário              |                 |
 | data_exclusao               | timestamp | Data e hora de exclusão do prontuário                        |                 |
 | diag_evolucao_descricao     | varchar   | Descrição do prontuário                                      | Obrigatório                |
-| diag_evolucao_adendo        | Booleano  | Indica se existe um adendo relacionado ao prontuário           |                 |
-| diag_evolucao_data_exclusao | Timestamp | Data e hora de exclusão do prontuário                         |                 |
+| diag_evolucao_adendo        | boolean | Indica se existe um adendo relacionado ao prontuário           |                 |
+| diag_evolucao_data_exclusao | timestamp | Data e hora de exclusão do prontuário                         |                 |
 
 
