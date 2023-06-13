@@ -1,6 +1,6 @@
 # Pessoa
 <p align="justify"> 
-Neste documento serão descritos os campos necessários para importar os dados de pacientes no sistema Ebrain. A view se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
+Neste documento são descritos os campos necessários para importar os dados de pacientes no sistema Ebrain. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
  </p>
 
 ## Descrição dos campos
@@ -42,7 +42,7 @@ Neste documento serão descritos os campos necessários para importar os dados d
 | contato1_descricao          | varchar  | Descrição do contato 1                                                                            |                  |
 | contato1_telefone_ddd       | int  | DDD do telefone do contato 1                                                                     |                  |
 | contato1_telefone_numero    | int  | Número do telefone do contato 1                                                                  |                  |
-| contato1_telefone_completo  | varchar  | Número completo do telefone do contato 1                                                         |                  |
+| contato1_telefone_completo  | varchar  | Número completo do telefone do contato formato: (99)  99 999999999                                                         |                  |
 | contato1_preferido          | bool  | Indica se o contato 1 é preferido             |         Obrigatório         |
 | contato1_tipo_contato_id    | int   | ID do tipo de contato do contato 1 (1 - celular, 2 - fixo)     |      Obrigatório            |
 | contato1_receber_propagandas | bool  | Indica se o contato 1 deseja receber propagandas       |     Obrigatório             |
@@ -102,16 +102,24 @@ Neste documento serão descritos os campos necessários para importar os dados d
 
 ### sexo_biologico_ao_nascer
 
-| Descrição | sigla |    
-| Masculino | M |
-| Feminino  | F |
+| Descrição  | sigla |
+|------------|-------|
+| Masculino  |   M   |
+| Feminino   |   F   |
+
 
 
 
 ### estado_civil
 
-| Nomenclatura padrão | 
-| CASADO | 
-| SOLTEIRO |
-| DIVORCIADO |
-| VIUVO |
+| Nomenclatura padrão |
+|---------------------|
+| CASADO              |
+| SOLTEIRO            |
+| DIVORCIADO          |
+| VIUVO               |
+
+
+
+## Arquivo
+<p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
