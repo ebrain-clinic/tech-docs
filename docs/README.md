@@ -14,7 +14,7 @@ Nesta documentação são apresentados os modelos de importação de dados para 
 * [Operadora de Saúde](documentacao/view_operadora_saude.md)
 * [Serviços](documentacao/view_servicos.md)
 * [Prescrição de Medicamentos](documentacao/view_prescricao_medicamento.md)
-
+* [Prescrição de Exames](documentacao/view_exames.md)
 
 
 
