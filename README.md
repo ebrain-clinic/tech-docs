@@ -1,20 +1,16 @@
 # ebrainclinic-tech-docs
-Documentação técnica pública do ebrain.clinic
 
-<left>
+Documentação técnica pública do ebrain.clinic.
+
+Documentação gerada com o [docsify](https://docsify.js.org/#/).
+
+Endereço público: https://ebrain-clinic.github.io/tech-docs/
 
 ## Para acessar o repositório localmente
 
-<p align="left">
+Passos:
 
-<strong>Passo 1 - </strong>Clonar o repositório.
-
-<strong>Passo 2 - </strong>Para instalar e subir a wiki localmente execute o comando: `npm i docsify-cli -g`
-
-<strong>Passo 3 - </strong>Na pasta raiz do repositório rodar o comando: `docsify serve docs`
-
-<strong>Passo 4 - </strong>Acessar o localhost: `http://localhost:3000`
-
-</p>
-
-</left>
+- **Passo 1** - Clonar o repositório
+- **Passo 2** - Instalar e subir a wiki localmente: `npm i docsify-cli -g`
+- **Passo 3** - Na pasta raiz do repositório rodar o comando: `docsify serve docs`
+- **Passo 4** - Acessar o localhost: `http://localhost:3000`

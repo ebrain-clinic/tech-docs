@@ -1,20 +1,21 @@
 # Agendamento
+
 <p align="justify"> 
-Neste documento, estão descritos os campos necessários para importar os dados de agendamento no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações do evento agendado, bem como os serviços relacionados ao agendamento, independentemente do número de serviços envolvidos. Além disso, também é registrado se o agendamento foi efetivamente realizado.
+Este documento descreve a estrutura necessária para produzir os dados de agendamento a serem importados no sistema Ebrain. A tabela de descrição dos campos abrange as informações do evento agendado, bem como os serviços relacionados ao agendamento, independentemente do número de serviços envolvidos. Além disso, também é registrado se o agendamento foi efetivamente realizado.
  </p>
 
 ## Descrição dos campos
 
 | Campo                        | Tipo       | Descrição                                                                                         | Restrição   |
 |------------------------------|------------|---------------------------------------------------------------------------------------------------|-------------|
-| externo_cod                  | varchar    | Chave primária da pessoa                                                                          | Obrigatório | 
+| unique_cod                  | varchar    | Chave primária da pessoa                                                                          | Obrigatório | 
 | descricao                    |   varchar | Descrição do agendamento                                                                                                  |             |
 | data_registro                | timestamp  | Data de registro  |  Obrigatório     | 
 | hora_inicio                  |   timestamp  | Hora do ínicio marcada                                                                                                |             |
 | hora_fim                     |    timestamp  | Hora do fim marcada  | |
 | data_chegada                 | timestamp       |  Data da chegada do paciente  |             |
-| hora_inicio_efetivo          | timestamp  |  Hora que efetivamente ocorre o atendimento                                                                                               |             |
-| hora_fim_efetivo             | timestamp   | Hora que efetivamente acaba o atendimento| |
+| hora_inicio_efetivo          | timestamp  |  Hora que efetivamente ocorre o atendimento.                                                                                                |  Origatório caso o evento tenha de fato acontecido           |
+| hora_fim_efetivo             | timestamp   | Hora que efetivamente acaba o atendimento | Origatório caso o evento tenha de fato acontecido |
 | observacoes                  |  varchar   | Referente à quaisquer observações                                                                                                  |             |
 | motivo_nao_atendimento       |  varchar          |  Motivo do não atendimento                                                                                                 |             |
 | nao_atendido                 |  boolean          |  Indica que não houve o atendimento                                                                                                 |             |

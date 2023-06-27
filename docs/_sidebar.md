@@ -10,6 +10,3 @@
     - [Prescrição de Medicamentos](documentacao/view_prescricao_medicamento.md)
     - [Prescrição de Exames](documentacao/view_exames.md)
 
-
-
-
