@@ -23,9 +23,9 @@ Este documento descreve a estrutura necessária para produzir os dados de agenda
 | remoto                       |  boolean          |  Indica se é um atendimento remoto                                                                                                  |             |
 | particular                   |  boolean          |  Indica se é um atendimento particular                                                                                                  |             |
 | dia_todo                     |  boolean          |  Indica se é o dia todo                                                                                                  |             |
-| pessoa_externo_cod           |  varchar          |  Código do paciente   |      |
+| pessoa_unique_cod           |  varchar          |  Código do paciente   |      |
 | operadora_saude_externo_cod  |  varchar          | Código da operadora de saúde                                                                                                   |             |
-| profissional_externo_cod     | varchar           |  Código do profissional responsável                                                                                                 |             |
+| profissional_unique_cod     | varchar           |  Código do profissional responsável                                                                                                 |             |
 | serv_1_servico_externo_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
 | serv_1_observacao            |  varchar          |  Quaisquer observações sobre o serviço                                                                                                 |             |
 | serv_1_realizado             |  boolean          |  Indica se o serviço foi realizado                                                                                                 |             |
