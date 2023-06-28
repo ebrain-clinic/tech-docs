@@ -17,5 +17,8 @@ Neste documento, estão descritos os campos necessários para importar os dados 
 | cortesia     | boolean   | Indica se é cortesia                                  |                 |
 
 
+## Arquivo
+<p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
 
-  
+[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1vVzRyMKALsSLPdrWSQuzPmXj0wD3tPHo)
+
