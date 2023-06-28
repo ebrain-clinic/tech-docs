@@ -7,7 +7,7 @@ Este documento descreve os campos necessários para importar os dados de serviç
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
-| externo_cod                 | varchar     | Código único do serviço                       |     Obrigatório            |
+| unique_cod                 | varchar     | Código único do serviço                       |     Obrigatório            |
 | nome               | varchar | Nome do serviço                                      |   Obrigatório              |
 | data_inicio          | timestamp     | Data do ínicio deste serviço                   |   Obrigatório              |
 | data_importacao    | timestamp     | Data que ocorreu a importação     |                 |

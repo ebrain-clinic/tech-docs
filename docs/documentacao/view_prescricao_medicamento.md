@@ -1,14 +1,14 @@
 # Prescrição de Medicamentos
 <p align="justify"> 
-Neste documento, estão descritos os campos necessários para importar os dados de prescrições de medicamento no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações destas prescrições.
+Este documento descreve os campos necessários para importar os dados de prescrições de medicamento no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações destas prescrições.
  </p>
 
  ## Descrição dos campos
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
-| externo_cod                 | varchar     | Código único para cada medicamento na prescrição                       |  Obrigatório            |
-| prescricao_opcional_externo_cod     | varchar | Código opcional para a pescrição                                       |                 |
+| unique_cod                 | varchar     | Código único para cada medicamento na prescrição                       |  Obrigatório            |
+| prescricao_unique_cod     | varchar | Código da pescrição                                       |                 |
 | data_prescricao          | timestamp     | Data da pescrição                |                 |
 | data_registro    | timestamp     | Data em que ocorreu o registro   | Obrigatório                |
 | data_exclusao | timestamp     |   Data da exclusão da prescrição       |                 |
@@ -22,3 +22,7 @@ Neste documento, estão descritos os campos necessários para importar os dados 
 | medicamento_uso     |  varchar |  Descrição do uso. Sugestões do sistema: tópico, interno, externo, oral, nasal, intralesional, intramuscular, endovenoso               |                 |
 | medicamento_tarja     |  varchar  | Indica a tarja do medicamento                     |                 |
 
+## Arquivo
+<p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
+
+[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1Y2oRkr6LkonyFtLaKompIE4wjeBKk2yv)

@@ -26,23 +26,23 @@ Este documento descreve a estrutura necessária para produzir os dados de agenda
 | pessoa_unique_cod           |  varchar          |  Código do paciente   |      |
 | operadora_saude_externo_cod  |  varchar          | Código da operadora de saúde                                                                                                   |             |
 | profissional_unique_cod     | varchar           |  Código do profissional responsável                                                                                                 |             |
-| serv_1_servico_externo_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
+| serv_1_servico_unique_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
 | serv_1_observacao            |  varchar          |  Quaisquer observações sobre o serviço                                                                                                 |             |
 | serv_1_realizado             |  boolean          |  Indica se o serviço foi realizado                                                                                                 |             |
 | serv_1_quantidade            | numeric(21,2)            |  Quantidade realizada do serviço                                                                                                 |             |
-| serv_2_servico_externo_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
+| serv_2_servico_unique_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
 | serv_2_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
 | serv_2_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
 | serv_2_quantidade            | numeric(21,2)            | Quantidade realizada do serviço                                                                                                  |             |
-| serv_3_servico_externo_cod   | varchar          |   Código do serviço relacionado                                                                                                |             |
+| serv_3_servico_unique_cod   | varchar          |   Código do serviço relacionado                                                                                                |             |
 | serv_3_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
 | serv_3_realizado             |  boolean          |  Indica se o serviço foi realizado                                                                                                 |             |
 | serv_3_quantidade            | numeric(21,2)            |  Quantidade realizada do serviço                                                                                                 |             |
-| serv_4_servico_externo_cod   |  varchar          |  Código do serviço relacionado                                                                                                 |             |
+| serv_4_servico_unique_cod   |  varchar          |  Código do serviço relacionado                                                                                                 |             |
 | serv_4_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
 | serv_4_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
 | serv_4_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço                                                                                                 |             |
-| serv_5_servico_externo_cod   |  varchar         |  Código do serviço relacionado                                                                                                 |             |
+| serv_5_servico_unique_cod   |  varchar         |  Código do serviço relacionado                                                                                                 |             |
 | serv_5_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
 | serv_5_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
 | serv_5_quantidade            |  numeric(21,2)           |  Quantidade realizada do serviço                                                                                                 |             |
@@ -51,4 +51,4 @@ Este documento descreve a estrutura necessária para produzir os dados de agenda
 ## Arquivo
 <p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
 
-[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1AttUrjpJ93bhXki_RWI1x3DzmOGKhTCr)
+[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1c5jdlkdqTo9Plo5veOki2wh8b49SHdBz)
