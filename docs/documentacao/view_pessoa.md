@@ -37,8 +37,8 @@ Este documento descreve os campos necessários para importar os dados de pacient
 | end1_complemento            | varchar  | Complemento do endereço principal                                                                |                  |
 | end1_bairro                 | varchar  | Bairro do endereço principal                                                                     |       |
 | end1_cep                    | varchar  | CEP do endereço principal                                                                        |       |
-| end1_municipio_id           | int   | ID do município do endereço principal                                                            | Obrigatório      |
-| end1_uf_id                  | int   | ID do estado do endereço principal                                                               | Obrigatório      |
+| end1_municipio_id           | int   | ID do município do endereço principal. É extraído da base da Ebrain através do município fornecido.                                                            | Obrigatório      |
+| end1_uf_id                  | int   | ID do estado do endereço principal. É extraído da base da Ebrain através da sigla fornecida.                                                               | Obrigatório      |
 | contato1_descricao          | varchar  | Descrição do contato 1                                                                            |                  |
 | contato1_telefone_ddd       | int  | DDD do telefone do contato 1                                                                     |                  |
 | contato1_telefone_numero    | int  | Número do telefone do contato 1                                                                  |                  |

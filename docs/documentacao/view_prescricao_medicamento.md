@@ -8,7 +8,7 @@ Este documento descreve os campos necessários para importar os dados de prescri
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
 | unique_cod                 | varchar     | Código único para cada medicamento na prescrição                       |  Obrigatório            |
-| prescricao_unique_cod     | varchar | Código da pescrição                                       |                 |
+| prescricao_unique_cod     | varchar | Código da pescrição                                       |  Obrigatório               |
 | data_prescricao          | timestamp     | Data da pescrição                |                 |
 | data_registro    | timestamp     | Data em que ocorreu o registro   | Obrigatório                |
 | data_exclusao | timestamp     |   Data da exclusão da prescrição       |                 |
@@ -20,7 +20,7 @@ Este documento descreve os campos necessários para importar os dados de prescri
 | medicamento_posologia     | varchar   | Posologia do medicamento                               |                 |
 | medicamento_composicao     |  varchar  | Composição do medicamento                        |                 |
 | medicamento_uso     |  varchar |  Descrição do uso. Sugestões do sistema: tópico, interno, externo, oral, nasal, intralesional, intramuscular, endovenoso               |                 |
-| medicamento_tarja     |  varchar  | Indica a tarja do medicamento                     |                 |
+| medicamento_tarja     |  varchar  | Indica a tarja do medicamento. Sugestões: tarja vermelha, tarja preta, tarja amarela...                      |                 |
 
 ## Arquivo
 <p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>

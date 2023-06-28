@@ -1,6 +1,6 @@
 # Prescrição de Exames
 <p align="justify"> 
-Neste documento, estão descritos os campos necessários para importar os dados de prescrições de exames no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações destas prescrições.
+Este documento descreve os campos necessários para importar os dados de prescrições de exames no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações destas prescrições.
  </p>
 
  ## Descrição dos campos
@@ -8,7 +8,7 @@ Neste documento, estão descritos os campos necessários para importar os dados 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
 | unique_cod                 | varchar     | Código único para cada exame na prescrição                       |  Obrigatório            |
-| prescricao_unique_cod     | varchar | Código opcional para a pescrição                                       |                 |
+| prescricao_unique_cod     | varchar | Código opcional para a pescrição                                       |    Obrigatório             |
 | data_prescricao          | timestamp     | Data da pescrição                |                 |
 | data_registro    | timestamp     | Data em que ocorreu o registro   | Obrigatório                |
 | data_exclusao | timestamp     |   Data da exclusão da prescrição       |                 |
