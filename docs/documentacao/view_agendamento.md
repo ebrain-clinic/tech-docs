@@ -46,3 +46,9 @@ Este documento descreve a estrutura necessária para produzir os dados de agenda
 | serv_5_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
 | serv_5_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
 | serv_5_quantidade            |  numeric(21,2)           |  Quantidade realizada do serviço                                                                                                 |             |
+
+
+## Arquivo
+<p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
+
+[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1AttUrjpJ93bhXki_RWI1x3DzmOGKhTCr)

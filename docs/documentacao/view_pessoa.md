@@ -1,6 +1,6 @@
 # Paciente
 <p align="justify"> 
-Neste documento são descritos os campos necessários para importar os dados de pacientes no sistema Ebrain. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
+Este documento descreve os campos necessários para importar os dados de pacientes no sistema Ebrain. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
  </p>
 
 ## Descrição dos campos
@@ -124,5 +124,6 @@ Neste documento são descritos os campos necessários para importar os dados de 
 ## Arquivo
 <p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
 
-[Clique aqui para baixar o arquivo csv](/docs/arquivos_exemplos/pessoa.csv)
+[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1GqlT9TtNxXqw5sda9q7_rI_WllFQs56j)
+
 

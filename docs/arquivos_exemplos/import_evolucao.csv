@@ -1,0 +1,6 @@
+unique_cod,data_registro,pessoa_unique_cod,profissional_unique_cod,prontuario_diagnostico_nome,data_atualizacao,data_exclusao,diag_evolucao_descricao,diag_evolucao_adendo,diag_evolucao_data_exclusao
+1011,2022-10-22 09:30:00.000,100,104,Importação - Anamnese,2023-09-22 10:20:00.000,,"Paciente faz uso de cremes faciais e corporais, sempre usa protetor solar. Queixa principal: surgimentos de estrias.",false,
+1012,2020-10-29 17:00:00.000,200,104,Importação – Condutas,,,Realizado  do retoque  de  botox nas regiões alvo.,false,
+1013,2020-11-19 14:30:00.000,300,104,Importação - Anamnese,,,"Queixa principal: manchas na pele. Paciente se expõe muito ao sol, pois trabalha ao ar livre.",false,
+1014,2020-11-20 14:30:00.000,400,104,Importação - Condutas,,,Realizado  do retoque  de  botox nas regiões alvo.,false,
+1015,2021-11-20 14:30:00.000,800,105,Importação - Anamnese,,2023-09-22 10:20:00.000,Antecedentes familiares: a mãe possui diabetes. Queixa-se de sensibilidade na pele.,true,2023-09-22 10:30:00.000
