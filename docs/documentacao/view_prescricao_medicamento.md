@@ -12,8 +12,8 @@ Este documento descreve os campos necessários para importar os dados de prescri
 | data_prescricao          | timestamp     | Data da pescrição                |                 |
 | data_registro    | timestamp     | Data em que ocorreu o registro   | Obrigatório                |
 | data_exclusao | timestamp     |   Data da exclusão da prescrição       |                 |
-| pessoa_unique_cod            | varchar | Paciente vinculado à prescrição    |                 |
-| profissional_unique_cod               | varchar | Código do profissional que fez a prescrição              |                 |
+| pessoa_unique_cod            | varchar | Paciente vinculado à prescrição    |   Obrigatório              |
+| profissional_unique_cod               | varchar | Código do profissional que fez a prescrição              |  Obrigatório               |
 | documento_nao_estruturado_texto     | varchar   | Documento de prescrição textual, não estruturado                               |                 |
 | medicamento_nome     | varchar   | Nome do medicamento                               |                 |
 | medicamento_descricao     | varchar   | Descrição do medicamento                              |                 |

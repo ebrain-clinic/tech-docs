@@ -8,12 +8,12 @@ Este documento descreve os campos necessários para importar os dados de prescri
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
 | unique_cod                 | varchar     | Código único para cada exame na prescrição                       |  Obrigatório            |
-| prescricao_unique_cod     | varchar | Código opcional para a pescrição                                       |    Obrigatório             |
+| prescricao_unique_cod     | varchar | Código para a pescrição                                       |    Obrigatório             |
 | data_prescricao          | timestamp     | Data da pescrição                |                 |
 | data_registro    | timestamp     | Data em que ocorreu o registro   | Obrigatório                |
 | data_exclusao | timestamp     |   Data da exclusão da prescrição       |                 |
-| exame     | varchar   | Nome do exame                               |                 |
-| pessoa_unique_cod            | varchar | Paciente vinculado à prescrição    |                 |
+| exame     | varchar   | Nome do exame                               |   Obrigatório              |
+| pessoa_unique_cod            | varchar | Paciente vinculado à prescrição    |  Obrigatório               |
 | profissional_unique_cod               | varchar | Código do profissional que fez a prescrição              |                 |
 | documento_nao_estruturado_texto     | varchar   | Documento de prescrição textual, não estruturado                               |                 |
 | obs_resultado_exame     | varchar   | Observações sobre os resultados                               |                 |
