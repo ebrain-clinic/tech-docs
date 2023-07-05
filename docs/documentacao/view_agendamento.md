@@ -14,8 +14,8 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 | hora_inicio                  |   timestamp  | Hora do ínicio marcada. Como é um agendamento, pode ser uma data no futuro, para agendamento vindouros, ou no passado, caso já tenha transcorrido o tempo do agendamento                                                                                                 |             |
 | hora_fim                     |    timestamp  | Hora do fim marcada. Ver `hora_inicio`  | |
 | data_chegada                 | timestamp       |  Data da chegada do paciente na clínica |             |
-| hora_inicio_efetivo          | timestamp  |  Hora que efetivamente ocorreu o atendimento. Será sempre uma data do passado                                                                                                |  Origatório caso o evento tenha de fato acontecido           |
-| hora_fim_efetivo             | timestamp   | Hora que efetivamente acaba o atendimento. Será sempre uma data do passado | Origatório caso o evento tenha de fato acontecido |
+| hora_inicio_efetivo          | timestamp  |  Hora que efetivamente ocorreu o atendimento. Será sempre uma data do passado                                                                                                |  Obrigatório caso o evento tenha de fato acontecido           |
+| hora_fim_efetivo             | timestamp   | Hora que efetivamente acaba o atendimento. Será sempre uma data do passado | Obrigatório caso o evento tenha de fato acontecido |
 | observacoes                  |  varchar   | Referente à quaisquer observações                                                                                                  |             |
 | motivo_nao_atendimento       |  varchar          |  Motivo do não atendimento                                                                                                 |             |
 | nao_atendido                 |  boolean          |  Indica que não houve o atendimento                                                                                                 |             |
