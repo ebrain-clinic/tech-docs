@@ -25,4 +25,4 @@ Descreve a estrutura de dados de evoluções dos pacientes. As evoluções repre
 ## Arquivo
 <p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
 
-[Clique aqui para baixar o arquivo csv](../arquivos_exemplos/evolucao.csv ':ignore')
+[Clique aqui para baixar o arquivo csv](arquivos_exemplos/evolucao.csv ':ignore')
