@@ -1,6 +1,6 @@
 # Paciente
 <p align="justify"> 
-Este documento descreve os campos necessários para importar os dados de pacientes no sistema Ebrain. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
+Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
  </p>
 
 ## Descrição dos campos
@@ -10,7 +10,7 @@ Este documento descreve os campos necessários para importar os dados de pacient
 | codigo_nas_clinicas | varchar  | Número que a clínica possa ter do cliente e que não seja a chave primária |      |
 | data_registro   | timestamp  | Data de registro da pessoa                                                                      | Obrigatório      |
 | tratamento                  | varchar  |   Descrição de tratamento |                  |
-| nome_civil_razao_social     | varchar  | Nome civil ou razão social da pessoa                                                             | Obrigatório      |
+| nome_civil_razao_social     | varchar  | Nome civil da pessoa ou razão social da empresa                                                             | Obrigatório      |
 | nome_social                 | varchar  | Nome pelo qual o paciente quer ser chamado   |     |
 | data_nascimento             | date  | Data de nascimento da pessoa  | |
 | sexo_biologico_ao_nascer    | varchar  | Sexo biológico ao nascer da pessoa   |       |
@@ -106,8 +106,7 @@ Este documento descreve os campos necessários para importar os dados de pacient
 |------------|-------|
 | Masculino  |   M   |
 | Feminino   |   F   |
-
-
+| Outro/Intersexo     |   O   |
 
 
 ### estado_civil
@@ -122,8 +121,6 @@ Este documento descreve os campos necessários para importar os dados de pacient
 
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
+<p align="justify">Realize o dowload do arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1GqlT9TtNxXqw5sda9q7_rI_WllFQs56j)
-
-
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/pessoa.csv ':ignore')

@@ -1,6 +1,6 @@
 # Serviços
 <p align="justify"> 
-Este documento descreve os campos necessários para importar os dados de serviços ou procedimentos ofertados pela clínica no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações destes serviços médicos.
+Descreve a estrutura de dados de serviços ou procedimentos realizados pela clínica. A tabela de descrição dos campos abrange as principais informações destes serviços médicos.
  </p>
 
  ## Descrição dos campos
@@ -22,7 +22,6 @@ Este documento descreve os campos necessários para importar os dados de serviç
 
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
+<p align="justify">Realize o dowload do arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1_lWIyxqXTPap8pkN9fLN3vcohTemex6V)
-
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/servico.csv ':ignore')

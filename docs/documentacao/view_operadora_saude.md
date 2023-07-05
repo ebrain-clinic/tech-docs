@@ -1,6 +1,6 @@
 # Operadora de saúde
 <p align="justify"> 
-Este documento descreve os campos necessários para importar os dados das operadoras de saúde no sistema Ebrain. A tabela de descrição dos campos abrange as principais informações destas operadoras/convênios médicos.
+Descreve a estrutura de dados de operadoras de saúde, como convênios, planos de saúde, estruturas semelhantes. A tabela de descrição dos campos abrange as principais informações destas estidades.
  </p>
 
  ## Descrição dos campos
@@ -18,7 +18,6 @@ Este documento descreve os campos necessários para importar os dados das operad
 
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo abaixo:</p>
+<p align="justify">Realize o dowload do arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv](https://drive.google.com/uc?export=download&id=1vVzRyMKALsSLPdrWSQuzPmXj0wD3tPHo)
-
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/operadora_saude.csv ':ignore')
