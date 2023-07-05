@@ -26,18 +26,18 @@ Este documento apresenta os modelos de importação de dados para o sistema **eb
 - [Prescrição de Medicamentos](documentacao/view_prescricao_medicamento.md)
 - [Prescrição de Exames](documentacao/view_exames.md)
 
-## <span style="color: #00C985;">Observações Gerais de Tipo</span>
+## <span style="color: #00C985;">Codificação e Tipos de dados</span>
 
 Todos os arquivos devem ser codificados no padrão **Unicode UTF-8**.
 
-Os tipos são definidos conforme a tabela abaixo:
+Os tipos são definidos conforme o seguinte padrão:
 
 | Tipo                       | Domínio | Exemplo                                                           |
 |----------------------------|-------- | ------------------------------------------------------------------|
 | varchar                    | Conjunto de caracteres na codificação UTF-8        | "texto"                |
-| int                        | Números inteiros        | 1                                                 |
-| boolean                       | `true` ou `false` | true                                                 |
-| date                       | YYYY-MM-DD | 2019-01-01                                                     |
-| timestamp                  | Formato da ISO 8601 | 2019-01-01 00:00:00                                   |
+| int                        | Números inteiros, sem indicação de decimais   | 1                           |
+| boolean                    | `true` ou `false` | true                                                 |
+| date                       | Formato YYYY-MM-DD | 2019-01-01                                                     |
+| timestamp                  | Formato da [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) | 2019-01-01 00:00:00                                   |
 | numeric(21,2)              | Números decimais | 10.00                                                    |
-| json                       | JSON | {"campo1": "valor1", "campo2": "valor2"}                             |
+| json                       | JSON | "{"campo1": "valor1", "campo2": "valor2"}"                             |
