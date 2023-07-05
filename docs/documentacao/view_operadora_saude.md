@@ -7,7 +7,7 @@ Este documento descreve os campos necessários para importar os dados das operad
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
-| externo_cod                 | varchar     | Código único da operadora de saúde                       |     Obrigatório            |
+| externo_cod                 | varchar     | Código único sem repetição da operadora de saúde                       |     Obrigatório            |
 | nome               | varchar | Nome da operadora de saúde                                       |   Obrigatório              |
 | data_registro          | timestamp     | Data do registro                        |   Obrigatório              |
 | registro_ans    | varchar     | Registro ANS da operadora de saúde                 |                 |

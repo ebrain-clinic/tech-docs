@@ -6,7 +6,7 @@ Este documento descreve os campos necessários para importar os dados de pacient
 ## Descrição dos campos
 | Campo                       | Tipo  | Descrição                                                                                        | Restrição        |
 |-----------------------------|-------|--------------------------------------------------------------------------------------------------|------------------|
-| unique_cod  | varchar | Chave primária da pessoa | Obrigatório |
+| unique_cod  | varchar | Código único sem repetição da pessoa | Obrigatório |
 | codigo_nas_clinicas | varchar  | Número que a clínica possa ter do cliente e que não seja a chave primária |      |
 | data_registro   | timestamp  | Data de registro da pessoa                                                                      | Obrigatório      |
 | tratamento                  | varchar  |   Descrição de tratamento |                  |

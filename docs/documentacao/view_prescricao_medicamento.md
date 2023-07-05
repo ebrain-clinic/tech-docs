@@ -7,7 +7,7 @@ Este documento descreve os campos necessários para importar os dados de prescri
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
-| unique_cod                 | varchar     | Código único para cada medicamento na prescrição                       |  Obrigatório            |
+| unique_cod                 | varchar     | Código único sem repetição para cada medicamento na prescrição                       |  Obrigatório            |
 | prescricao_unique_cod     | varchar | Código da pescrição                                       |  Obrigatório               |
 | data_prescricao          | timestamp     | Data da pescrição                |                 |
 | data_registro    | timestamp     | Data em que ocorreu o registro   | Obrigatório                |
