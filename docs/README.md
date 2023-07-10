@@ -35,6 +35,6 @@ Os tipos descritos nos modelos são definidos conforme o seguinte padrão:
 | int                        | Números inteiros, sem indicação de decimais   | 1                           |
 | boolean                    | `true` ou `false` | true                                                 |
 | date                       | Formato YYYY-MM-DD | 2019-01-01                                                     |
-| timestamp                  | Formato da [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) | 2019-01-01 00:00:00                                   |
+| timestamp                  | Formato da [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) | 2019-01-01 18:30:55                                   |
 | numeric(21,2)              | Números decimais | 10.00                                                    |
 | json                       | JSON | "{"campo1": "valor1", "campo2": "valor2"}"                             |
