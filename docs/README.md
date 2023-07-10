@@ -41,7 +41,7 @@ Os tipos descritos nos modelos são definidos conforme o seguinte padrão:
 | numeric(21,2)              | Números decimais | 10.00                                                    |
 | json                       | JSON | "{"campo1": "valor1", "campo2": "valor2"}"                             |
 
-## <span style="color: #00C985;">`unique_cod`</span>
+### <span style="color: #00C985;">Campos `unique_cod`</span>
 
 Os campos `unique_cod` representam chaves primárias, e devem representar uma única linha (tupla ou registro) no arquivo de modelo.
 
