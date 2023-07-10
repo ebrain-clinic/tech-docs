@@ -14,12 +14,12 @@ Modelos de arquivos de importação disponíveis:
 1. [Pacientes](documentacao/view_pessoa.md)
 1. [Agendamento](documentacao/view_agendamento.md)
 1. [Evolução](documentacao/view_evolucao.md)
-1. [Operadora de Saúde](documentacao/view_operadora_saude.md)
-1. [Serviços](documentacao/view_servicos.md)
 1. [Prescrição de Medicamentos](documentacao/view_prescricao_medicamento.md)
 1. [Prescrição de Exames](documentacao/view_exames.md)
 1. [Atestados Médicos](documentacao/view_prescricao_atestados.md)
 1. [Relatórios médicos](documentacao/view_prescricao_relatorios.md)
+1. [Operadora de Saúde](documentacao/view_operadora_saude.md)
+1. [Serviços](documentacao/view_servicos.md)
 
 ## <span style="color: #00C985;">Formato e codificação de arquivos</span>
 
