@@ -131,6 +131,6 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
   
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo:</p>
+<p align="justify">Arquivo de exemplo:</p>
 
 [Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/pessoa.csv ':ignore')

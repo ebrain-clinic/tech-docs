@@ -23,6 +23,6 @@ Descreve a estrutura de dados de prescrições de medicamentos. A tabela de desc
 | medicamento_tarja     |  varchar  | Indica a tarja do medicamento, no caso de prescrição estruturada. Sugestões: tarja vermelha, tarja preta, tarja amarela...                      | Não deve ser informado se `documento_nao_estruturado_texto` for preenchido                |
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo:</p>
+<p align="justify">Arquivo de exemplo:</p>
 
 [Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_medicamento.csv ':ignore')

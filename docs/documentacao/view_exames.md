@@ -22,6 +22,6 @@ Descreve a estrutura de dados de prescrições de exames. A tabela de descriçã
 
   
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo:</p>
+<p align="justify">Arquivo de exemplo:</p>
 
 [Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_exame.csv ':ignore')

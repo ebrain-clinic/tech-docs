@@ -22,6 +22,6 @@ Descreve a estrutura de dados de serviços ou procedimentos realizados pela clí
 
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo:</p>
+<p align="justify">Arquivo de exemplo:</p>
 
 [Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/servico.csv ':ignore')

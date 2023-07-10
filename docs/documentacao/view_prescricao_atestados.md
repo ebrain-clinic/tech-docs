@@ -17,6 +17,6 @@ Descreve a estrutura de dados de emissão de atestados médicos. A tabela de des
 | documento_texto                   | varchar   | Prescrição textual que contém o conteúdo do atestado médico.              | Obrigatório |
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo:</p>
+<p align="justify">Arquivo de exemplo:</p>
 
 [Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_atestados.csv ':ignore')

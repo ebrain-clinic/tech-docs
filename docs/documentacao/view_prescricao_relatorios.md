@@ -17,6 +17,6 @@ Descreve a estrutura de dados de relatórios médicos. A tabela de descrição d
 | documento_texto                   | varchar   | Prescrição textual que contém o conteúdo do relatório médico.             | Obrigatório |
 
 ## Arquivo
-<p align="justify">Realize o dowload do arquivo de exemplo:</p>
+<p align="justify">Arquivo de exemplo:</p>
 
 [Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_relatorios.csv ':ignore')
