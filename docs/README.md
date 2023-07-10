@@ -3,11 +3,13 @@
 
 ## <span style="color: #00C985;">Sobre</span>
 
-Este documento apresenta os modelos de importação de dados para o sistema **ebrain**. Os dados importados referem-se a, pacientes, profissionais, agendamentos, atendimentos, evoluções de prontuários, prescrições de medicamentos, prescrições de exames, atestados, relatórios e outros documentos, serviços ofertados pela clínica, operadoras de saúde, entre outros.
+Este documento apresenta os modelos de importação de dados para o sistema **ebrain**. São passíveis de serem importados dados de pacientes, profissionais, agendamentos, atendimentos, evoluções de prontuários, prescrições de medicamentos, prescrições de exames, atestados, relatórios e outros documentos, serviços ofertados pela clínica, operadoras de saúde, entre outros. Veja nas seções seguintes detalhes de cada modelo de arquivo de importação. Exemplos de arquivos de importação também estão disponíveis.
 
 Mais informações disponíveis no site [www.ebrain.clinic](https://www.ebrain.clinic).
 
 ## <span style="color: #00C985;">Modelos</span>
+
+Modelos de arquivos de importação disponíveis:
 
 - [Pacientes](documentacao/view_pessoa.md)
 - [Agendamento](documentacao/view_agendamento.md)
