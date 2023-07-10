@@ -17,11 +17,15 @@ Mais informações disponíveis no site [www.ebrain.clinic](https://www.ebrain.c
 - [Prescrição de Medicamentos](documentacao/view_prescricao_medicamento.md)
 - [Prescrição de Exames](documentacao/view_exames.md)
 
-## <span style="color: #00C985;">Codificação e Tipos de dados</span>
+## <span style="color: #00C985;">Formato e codificação de arquivos</span>
 
-Todos os arquivos devem ser codificados no padrão **Unicode UTF-8**.
+Todos os arquivos devem ser salvos em [formato CSV](https://pt.wikipedia.org/wiki/Comma-separated_values), ou seja, arquivo texto simples separados por vírgulas, e codificados no padrão **Unicode UTF-8**.
 
-Os tipos são definidos conforme o seguinte padrão:
+Os arquivos CSV podem ser gerados pela equipe de tecnologia responsável pelo software atual, ou manualmente a partir de uma planilha Excel criada pelo cliente. Em todos os casos, use os arquivos de exemplo disponíveis em cada página de Modelo.
+
+## <span style="color: #00C985;">Tipos de dados</span>
+
+Os tipos descritos nos modelos são definidos conforme o seguinte padrão:
 
 | Tipo                       | Domínio | Exemplo                                                           |
 |----------------------------|-------- | ------------------------------------------------------------------|
