@@ -1,6 +1,6 @@
-# Prescrição de Atestados Médicos
+# Atestados Médicos
 <p align="justify"> 
-Descreve a estrutura de dados de prescrições de atestados médicos. A tabela de descrição dos campos abrange as principais informações destas prescrições.
+Descreve a estrutura de dados de emissão de atestados médicos. A tabela de descrição dos campos abrange as principais informações destas prescrições.
  </p>
 
  ## Descrição dos campos

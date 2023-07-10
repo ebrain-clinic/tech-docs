@@ -18,6 +18,8 @@ Modelos de arquivos de importação disponíveis:
 - [Serviços](documentacao/view_servicos.md)
 - [Prescrição de Medicamentos](documentacao/view_prescricao_medicamento.md)
 - [Prescrição de Exames](documentacao/view_exames.md)
+- [Atestados Médicos](documentacao/view_prescricao_atestados.md)
+- [Relatórios médicos](documentacao/view_prescricao_relatorios.md)
 
 ## <span style="color: #00C985;">Formato e codificação de arquivos</span>
 
@@ -38,3 +40,9 @@ Os tipos descritos nos modelos são definidos conforme o seguinte padrão:
 | timestamp                  | Formato da [ISO 8601](https://pt.wikipedia.org/wiki/ISO_8601) | 2019-01-01 18:30:55                                   |
 | numeric(21,2)              | Números decimais | 10.00                                                    |
 | json                       | JSON | "{"campo1": "valor1", "campo2": "valor2"}"                             |
+
+## <span style="color: #00C985;">`unique_cod`</span>
+
+Os campos `unique_cod` representam chaves primárias, e devem representar uma única linha (tupla ou registro) no arquivo de modelo.
+
+Campos como `pessoa_unique_cod`, `profissional_unique_cod`, entre outros com o mesmo sufixo, representam ligações (chaves estrangeiras), e devem ser preenchidos com o valor do campo `unique_cod` do arquivo de modelo correspondente.

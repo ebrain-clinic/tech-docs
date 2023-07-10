@@ -1,6 +1,6 @@
-# Prescrição de Relatórios Médicos
+# Relatórios Médicos
 <p align="justify"> 
-Descreve a estrutura de dados de prescrições de relatórios médicos. A tabela de descrição dos campos abrange as principais informações destas prescrições.
+Descreve a estrutura de dados de relatórios médicos. A tabela de descrição dos campos abrange as principais informações destas prescrições.
  </p>
 
  ## Descrição dos campos
