@@ -8,12 +8,11 @@ Descreve a estrutura de dados de relatórios médicos. A tabela de descrição d
 | Campo                             | Tipo      | Descrição                                                                 | Restrição   |
 |-----------------------------------|-----------|--------------------------------------------------------------------------|---------------|
 | unique_cod                        | varchar   | Código único sem repetição para cada linha de prescrição.                 | Obrigatório |
-| data_informada                    | timestamp | Data informada na prescrição.                                             |             |
-| data_exclusao                     | timestamp | Data da exclusão da prescrição.                                           |             |
-| data_importacao                   | timestamp | Data em que ocorreu a importação do registro.                             | Obrigatório |
-| pessoa_unique_cod                 | varchar   | Código do paciente vinculado à prescrição.                                | Obrigatório |
-| profissional_unique_cod           | varchar   | Código do profissional que fez a prescrição.                              | Obrigatório |
-| prontuario_unique_cod             | varchar   | Código do prontuário que contém a prescrição.                             | Obrigatório |
+| data_informada                    | timestamp | Data informada no documento.                                             |             |
+| data_exclusao                     | timestamp | Data da exclusão do documento.                                           |             |
+| pessoa_unique_cod                 | varchar   | Código do paciente vinculado ao documento.                                | Obrigatório |
+| profissional_unique_cod           | varchar   | Código do profissional que fez o documento.                              | Obrigatório |
+| prontuario_unique_cod             | varchar   | Código do prontuário que contém o documento.                             | Obrigatório |
 | documento_texto                   | varchar   | Prescrição textual que contém o conteúdo do relatório médico.             | Obrigatório |
 
 ## Arquivo
