@@ -9,3 +9,4 @@
   - [Relatórios Médicos](documentacao/view_prescricao_relatorios.md)
   - [Operadora de Saúde](documentacao/view_operadora_saude.md)
   - [Serviços](documentacao/view_servicos.md)
+  - [Profissionais](documentacao/dados_profissionais.md)
