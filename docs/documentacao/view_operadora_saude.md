@@ -1,6 +1,6 @@
 # Operadora de saúde
 <p align="justify"> 
-Descreve a estrutura de dados de operadoras de saúde, como convênios, planos de saúde, estruturas semelhantes. A tabela de descrição dos campos abrange as principais informações destas estidades.
+Descreve a estrutura de dados de operadoras de saúde, como convênios, planos de saúde, estruturas semelhantes. A tabela de descrição dos campos abrange as principais informações destas entidades.
  </p>
 
  ## Descrição dos campos

@@ -1,22 +1,24 @@
 # Profissionais
 
 <p align="justify"> 
-Descreve a estrutura de dados de profissionais.
+Descreve a estrutura de dados de profissionais. A tabela de descrição dos campos abrange as principais informações.
  </p>
 
-| Campo                   |tipo  | Descrição                | Restriçao |
+ ## Descrição dos campos
+
+| Campo                   |tipo  | Descrição                | Restrição |
 |--------------------------|-|------------------------------|----|
-| in_pessoa_nome           |varchar | Nome do profissional         |Obrigatório |
-| in_profissional_nome     |varchar | Nome usado profissionalmente |Obrigatório |
-| in_profissional_crm      |varchar | CRM do profissional          |Obrigatório |
-| in_profissional_uf       |varchar | Sigla do estado do CRM       |Obrigatório | 
-| in_sexo                  |varchar | Sexo do Profissional         |Obrigatório |
-| in_cpf                   |varchar | Número do CPF                |Obrigatório |
-| in_email                 |varchar | Email do Profissional        |Obrigatório |
-| in_especialidades_id     |int | Número da especialidade (especificado em [especialidades](#especialidades) )      |Obrigatório |
-| in_unique_cod            |varchar | Código único                 |Obrigatório |
-| in_agenda_coletiva       |Boolean | Se possui agenda coletiva    |Obrigatório |
-| in_profissional_papel      |varchar | Indica papel do profissional do sistema. Sugestões:  ind_administrador, ind_medico, ind_assistente, ind_recepcionista   | |
+| pessoa_nome           |varchar | Nome do profissional         |Obrigatório |
+| profissional_nome     |varchar | Nome usado profissionalmente |Obrigatório |
+| crm      |varchar | CRM do profissional          |Obrigatório |
+| uf       |varchar | Sigla do estado do CRM       |Obrigatório | 
+| sexo                  |varchar | Sexo do Profissional         |Obrigatório |
+| cpf                   |varchar | Número do CPF                |Obrigatório |
+| email                 |varchar | Email do Profissional        |Obrigatório |
+| especialidades_id     |json | códigos das especialidades (especificadas em [especialidades](#especialidades) )      |Obrigatório |
+| unique_cod            |varchar | Código único                 |Obrigatório |
+| agenda_coletiva       |Boolean | Se precisa de uma agenda exclusiva (false) ou não (true) |Obrigatório |
+| profissional_papel    |varchar | Indica papel do profissional do sistema. Sugestões:  administrador, médico, assistente, recepcionista   | |
 
 
 # Especialidades
@@ -24,7 +26,8 @@ Descreve a estrutura de dados de profissionais.
 Descreve as especialidades disponíveis no sistema.
  </p>
 
- | in_especialidades_id |nome_especialidade  |
+ ## Descrição dos campos
+ | especialidades_id |nome_especialidade  |
 |--------------------------|-----------------|
 1	|Acupuntura
 2	|Alergia e imunologia
