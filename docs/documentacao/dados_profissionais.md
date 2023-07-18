@@ -8,6 +8,7 @@ Descreve a estrutura de dados de profissionais. A tabela de descrição dos camp
 
 | Campo                   |tipo  | Descrição                | Restrição |
 |--------------------------|-|------------------------------|----|
+| unique_cod            |varchar | Código único                 |Obrigatório |
 | pessoa_nome           |varchar | Nome do profissional         |Obrigatório |
 | profissional_nome     |varchar | Nome usado profissionalmente |Obrigatório |
 | crm      |varchar | CRM do profissional          |Obrigatório |
@@ -16,9 +17,8 @@ Descreve a estrutura de dados de profissionais. A tabela de descrição dos camp
 | cpf                   |varchar | Número do CPF                |Obrigatório |
 | email                 |varchar | Email do Profissional        |Obrigatório |
 | especialidades_id     |json | códigos das especialidades (especificadas em [especialidades](#especialidades) )      |Obrigatório |
-| unique_cod            |varchar | Código único                 |Obrigatório |
 | agenda_coletiva       |Boolean | Se precisa de uma agenda exclusiva (false) ou não (true) |Obrigatório |
-| profissional_papel    |varchar | Indica papel do profissional do sistema. Sugestões:  administrador, médico, assistente, recepcionista   | |
+| profissional_papel    | json   | Indica papéis do profissional no sistema. (especificadas em [papéis do profissional](#papéis-do-profissional) )    | |
 
 
 # Especialidades
@@ -108,6 +108,26 @@ Descreve as especialidades disponíveis no sistema.
 77	|Radiologia odontológica e imaginologia
 78	|Saúde coletiva
 
+# Papéis do Profissional
+<p align="justify"> 
+Descreve os papéis dos profissionais disponíveis no sistema.
+ </p>
+
+
+## Descrição dos campos
+
+ | label | descrição  |
+|--------------------------|-----------------|
+ROLE_ADM	|Administrador
+ROLE_ESTOQUE	|Estoque
+ROLE_ORCAMENTO	|Orçamento
+ROLE_GESTOR_APP	|Gestor do App
+ROLE_ASSISTENTE	|Assistente de Médico
+ROLE_RECEPCAO	|Recepcionista
+ROLE_IMPLANTADOR	|Implantador
+ROLE_FINANCEIRO	|Financeiro
+ROLE_PROFISSIONAL	|Médico
+ROLE_MARKETING	|Marketing
 
 
 
