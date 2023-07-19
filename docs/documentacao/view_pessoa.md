@@ -27,6 +27,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | obito_encerrado             | boolean  | Indica se o óbito está encerrado| |
 | tipo_pessoa   | varchar  | Tipo de pessoa (`PF`: Pessoa Física), (`PJ`: Pessoa Jurídica) | Obrigatório      |
 | preferencial  | boolean  | Indica se é preferencial  |   |
+| tipo_sanguineo | varchar | Tipo sanguíneo da pessoa|   |
 | nome_mae   | varchar  | Nome da mãe da pessoa  |       |
 | nome_pai        | varchar  | Nome do pai da pessoa |                  |
 | como_conheceu_detalhes      | varchar  | Detalhes de como a pessoa conheceu a clínica        |                  |
