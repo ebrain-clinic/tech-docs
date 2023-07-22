@@ -12,7 +12,6 @@ Descreve a estrutura de dados de prescrições de exames. A tabela de descriçã
 | data_prescricao          | timestamp     | Data da pescrição                |                 |
 | data_registro    | timestamp     | Data em que ocorreu o registro   | Obrigatório                |
 | data_exclusao | timestamp     |   Data da exclusão da prescrição       |                 |
-| exame     | varchar   | Nome do exame                               |   Obrigatório              |
 | pessoa_unique_cod            | varchar | Paciente vinculado à prescrição    |  Obrigatório               |
 | profissional_unique_cod               | varchar | Código do profissional que fez a prescrição              |                 |
 | exame_nome               | varchar | Nome do exame, caso a prescrição seja estruturada              | Obrigatório se `documento_nao_estruturado_texto` estiver em branco                |
