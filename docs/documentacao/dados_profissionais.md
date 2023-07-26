@@ -16,9 +16,9 @@ Descreve a estrutura de dados de profissionais. A tabela de descrição dos camp
 | sexo                  |varchar | Sexo do Profissional         |Obrigatório |
 | cpf                   |varchar | Número do CPF                |Obrigatório |
 | email                 |varchar | Email do Profissional        |Obrigatório |
-| especialidades_id     |json | códigos das especialidades (especificadas em [especialidades](#especialidades) )      |Obrigatório |
+| especialidades_id     |varchar | códigos das especialidades separados por ; (especificadas em [especialidades](#especialidades) )      |Obrigatório |
 | agenda_coletiva       |Boolean | Se precisa de uma agenda exclusiva (false) ou não (true) |Obrigatório |
-| profissional_papel    | json   | Indica papéis do profissional no sistema. (especificados em [papéis do profissional](#papéis-do-profissional) )    | |
+| profissional_papel    |varchar | papéis do profissional no sistema separados por ; (especificados em [papéis do profissional](#papéis-do-profissional) )    | |
 
 
 # Especialidades
