@@ -81,26 +81,11 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | contato4_receber_confirmacoes| boolean | Indica se o contato 4 deseja receber confirmações | Obrigatório se `contato4_telefone_numero` preenchido |
 | contato4_possui_whatsapp | boolean | Indica se o contato 4 possui WhatsApp | Obrigatório |
 | email1_descricao            | varchar  | Descrição do email 1      |         |
-| email1_endereco              | varchar  | Endereço de email 1     |   |
-| email1_preferido| boolean  | Indica se o email 1 é preferido                                                            |     Obrigatório se `email1_endereco` preenchido            |
 | email1_receber_propagandas   | boolean  | Indica se o email 1 deseja receber propagandas    |      Obrigatório se `email1_endereco` preenchido           |
 | email1_receber_confirmacoes  | boolean  | Indica se o email 1 deseja receber confirmações    |          Obrigatório se `email1_endereco` preenchido       |
 | email2_descricao | varchar | Descrição do email 2 | |
-| email2_endereco | varchar | Endereço de email 2 |  |
-| email2_preferido| boolean | Indica se o email 2 é preferido | Obrigatório se `email2_endereco` preenchido |
 | email2_receber_propagandas | boolean | Indica se o email 2 deseja receber propagandas | Obrigatório se `email2_endereco` preenchido |
 | email2_receber_confirmacoes | boolean | Indica se o email 2 deseja receber confirmações | Obrigatório se `email2_endereco` preenchido |
-| email3_descricao | varchar | Descrição do email 3 | |
-| email3_endereco | varchar | Endereço de email 3 |  |
-| email3_preferido| boolean | Indica se o email 3 é preferido | Obrigatório se `email3_endereco` preenchido |
-| email3_receber_propagandas | boolean | Indica se o email 3 deseja receber propagandas | Obrigatório se `email3_endereco` preenchido |
-| email3_receber_confirmacoes | boolean | Indica se o email 3 deseja receber confirmações | Obrigatório se `email3_endereco` preenchido |
-| email4_descricao | varchar | Descrição do email 4 | |
-| email4_endereco | varchar | Endereço de email 4 |  |
-| email4_preferido| boolean | Indica se o email 4 é preferido | Obrigatório se `email4_endereco` preenchido |
-| email4_receber_propagandas | boolean | Indica se o email 4 deseja receber propagandas | Obrigatório se `email4_endereco` preenchido |
-| email4_receber_confirmacoes | boolean | Indica se o email 4 deseja receber confirmações | Obrigatório se `email4_endereco` preenchido |
-
 
 
 ## Lista de Siglas e Padrões de Nomenclatura dos Campos

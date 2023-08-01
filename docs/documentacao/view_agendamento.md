@@ -26,26 +26,26 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 | pessoa_unique_cod           |  varchar          |  Código do paciente   |      |
 | operadora_saude_externo_cod  |  varchar          | Código da operadora de saúde                                                                                                   |             |
 | profissional_unique_cod     | varchar           |  Código do profissional responsável                                                                                                 |             |
-| serv_1_servico_unique_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
-| serv_1_observacao            |  varchar          |  Quaisquer observações sobre o serviço                                                                                                 |             |
-| serv_1_realizado             |  boolean          |  Indica se o serviço foi realizado                                                                                                 |             |
-| serv_1_quantidade            | numeric(21,2)            |  Quantidade realizada do serviço                                                                                                 |             |
-| serv_2_servico_unique_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
-| serv_2_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
-| serv_2_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
-| serv_2_quantidade            | numeric(21,2)            | Quantidade realizada do serviço                                                                                                  |             |
-| serv_3_servico_unique_cod   | varchar          |   Código do serviço relacionado                                                                                                |             |
-| serv_3_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
-| serv_3_realizado             |  boolean          |  Indica se o serviço foi realizado                                                                                                 |             |
-| serv_3_quantidade            | numeric(21,2)            |  Quantidade realizada do serviço                                                                                                 |             |
-| serv_4_servico_unique_cod   |  varchar          |  Código do serviço relacionado                                                                                                 |             |
-| serv_4_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
-| serv_4_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
-| serv_4_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço                                                                                                 |             |
-| serv_5_servico_unique_cod   |  varchar         |  Código do serviço relacionado                                                                                                 |             |
-| serv_5_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
-| serv_5_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
-| serv_5_quantidade            |  numeric(21,2)           |  Quantidade realizada do serviço                                                                                                 |             |
+| serv1_servico_unique_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
+| serv1_observacao            |  varchar          |  Quaisquer observações sobre o serviço                                                                                                 |             |
+| serv1_realizado             |  boolean          |  Indica se o serviço foi realizado                                                                                                 |             |
+| serv1_quantidade            | numeric(21,2)            |  Quantidade realizada do serviço                                                                                                 |             |
+| serv2_servico_unique_cod   |  varchar          | Código do serviço relacionado                                                                                                  |             |
+| serv2_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv2_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
+| serv2_quantidade            | numeric(21,2)            | Quantidade realizada do serviço                                                                                                  |             |
+| serv3_servico_unique_cod   | varchar          |   Código do serviço relacionado                                                                                                |             |
+| serv3_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv3_realizado             |  boolean          |  Indica se o serviço foi realizado                                                                                                 |             |
+| serv3_quantidade            | numeric(21,2)            |  Quantidade realizada do serviço                                                                                                 |             |
+| serv4_servico_unique_cod   |  varchar          |  Código do serviço relacionado                                                                                                 |             |
+| serv4_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv4_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
+| serv4_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço                                                                                                 |             |
+| serv5_servico_unique_cod   |  varchar         |  Código do serviço relacionado                                                                                                 |             |
+| serv5_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv5_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
+| serv5_quantidade            |  numeric(21,2)           |  Quantidade realizada do serviço                                                                                                 |             |
 
 
 ## Arquivo
