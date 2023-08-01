@@ -42,6 +42,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | end1_uf_id                  | int   | ID do estado do endereço principal. É extraído da base da Ebrain através da sigla fornecida.                                                               | Obrigatório      |
 | contato1_descricao          | varchar  | Descrição do contato 1                                                                            |                  |
 | contato1_telefone_ddd       | int  | DDD do telefone do contato 1                                                                     |                  |
+| contato1_NUM_ddi          | int  | DDI do telefone do contato 1            |              |
 | contato1_telefone_numero    | int  | Número do telefone do contato 1                                                                  |                  |
 | contato1_telefone_completo  | varchar  | Número completo do telefone do contato formato: (99)  99 999999999                                                         |                  |
 | contato1_preferido          | boolean  | Indica se o contato 1 é preferido             |         Obrigatório se `contato1_telefone_numero` preenchido        |
@@ -51,6 +52,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | contato1_possui_whatsapp    | boolean  | Indica se o contato 1 possui WhatsApp                 |         Obrigatório se `contato1_telefone_numero` preenchido        |
 | contato2_descricao          | varchar  | Descrição do contato 2           |                  |
 | contato2_telefone_ddd       | int  | DDD do telefone do contato 2                                                                     |                  |
+| contato2_NUM_ddi          | int  | DDI do telefone do contato 2            |              |
 | contato2_telefone_numero    | int  | Número do telefone do contato 2                                                                  |                  |
 | contato2_telefone_completo  | varchar  | Número completo do telefone do contato 2                                                         |                  |
 | contato2_preferido          | boolean  | Indica se o contato 2 é preferido         |  Obrigatório      |
@@ -60,6 +62,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | contato2_possui_whatsapp    | boolean  | Indica se o contato 2 possui WhatsApp                    |         Obrigatório se `contato2_telefone_numero` preenchido        |
 | contato3_descricao | varchar | Descrição do contato 3 | |
 | contato3_telefone_ddd | int | DDD do telefone do contato 3 | |
+| contato3_NUM_ddi          | int  | DDI do telefone do contato 3            |              |
 | contato3_telefone_numero | int | Número do telefone do contato 3 | |
 | contato3_telefone_completo | varchar | Número completo do telefone do contato 3 | |
 | contato3_preferido | boolean | Indica se o contato 3 é preferido | Obrigatório |
@@ -69,6 +72,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | contato3_possui_whatsapp | boolean | Indica se o contato 3 possui WhatsApp | Obrigatório |
 | contato4_descricao | varchar | Descrição do contato 4 | |
 | contato4_telefone_ddd | int | DDD do telefone do contato 4 | |
+| contato4_NUM_ddi          | int  | DDI do telefone do contato 4            |              |
 | contato4_telefone_numero | int | Número do telefone do contato 4 | |
 | contato4_telefone_completo | varchar | Número completo do telefone do contato 4 | |
 | contato4_preferido | boolean | Indica se o contato 4 é preferido | Obrigatório |
