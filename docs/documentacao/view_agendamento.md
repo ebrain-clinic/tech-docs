@@ -46,7 +46,14 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 | serv5_observacao            | varchar           | Quaisquer observações sobre o serviço                                                                                                   |             |
 | serv5_realizado             |  boolean          | Indica se o serviço foi realizado                                                                                                  |             |
 | serv5_quantidade            |  numeric(21,2)           |  Quantidade realizada do serviço                                                                                                 |             |
-
+| serv6_servico_unique_cod   |  varchar          |  Código do serviço relacionado                                                                                                 |             |
+| serv6_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv6_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
+| serv6_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço  
+| serv7_servico_unique_cod   |  varchar          |  Código do serviço relacionado                                                                                                 |             |
+| serv7_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv7_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
+| serv7_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço                                                                                                 |             |
 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
