@@ -39,7 +39,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | end1_bairro                 | varchar  | Bairro do endereço principal                                                                     |       |
 | end1_cep                    | varchar  | CEP do endereço principal                                                                        |       |
 | end1_municipio_id           | int   | ID do município do endereço principal, conforme tabela de códigos dos municípios do IBGE, disponível https://www.ibge.gov.br/explica/codigos-dos-municipios.php                                                            | Obrigatório      |
-| end1_uf_id                  | int   | ID do estado do endereço principal. É extraído da base da Ebrain através da sigla fornecida.                                                               | Obrigatório      |
+| end1_uf_id                  | int   | ID da Unidade da Federação do endereço principal, conforme tabela de domínio                                                               | Obrigatório      |
 | contato1_descricao          | varchar  | Descrição do contato 1                                                                            |                  |
 | contato1_telefone_ddd       | int  | DDD do telefone do contato 1                                                                     |                  |
 | contato1_num_ddi          | int  | DDI do telefone do contato 1            |              |
