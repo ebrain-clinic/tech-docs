@@ -10,3 +10,4 @@
   - [Operadora de Saúde](documentacao/view_operadora_saude.md)
   - [Serviços](documentacao/view_servicos.md)
   - [Profissionais](documentacao/dados_profissionais.md)
+  - [Alertas de Pacientes](documentacao/view_pessoa_alerta.md)

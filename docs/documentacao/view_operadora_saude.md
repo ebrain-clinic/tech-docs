@@ -7,7 +7,7 @@ Descreve a estrutura de dados de operadoras de saúde, como convênios, planos d
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
-| externo_cod                 | varchar     | Código único sem repetição da operadora de saúde                       |     Obrigatório            |
+| unique_cod                 | varchar     | Código único sem repetição da operadora de saúde                       |     Obrigatório            |
 | nome               | varchar | Nome da operadora de saúde                                       |   Obrigatório              |
 | data_registro          | timestamp     | Data do registro                        |   Obrigatório              |
 | registro_ans    | varchar     | Registro ANS da operadora de saúde                 |                 |
