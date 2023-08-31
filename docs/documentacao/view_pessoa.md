@@ -39,7 +39,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | end1_bairro                 | varchar  | Bairro do endereço principal                                                                     |       |
 | end1_cep                    | varchar  | CEP do endereço principal                                                                        |       |
 | end1_municipio_id           | int   | ID do município do endereço principal, conforme tabela de códigos dos municípios do IBGE, disponível https://www.ibge.gov.br/explica/codigos-dos-municipios.php                                                            | Obrigatório se end1_municipio_nome nulo      |
-| end1_municipio_nome         | int   | ID do município do endereço principal. É extraído da base da Ebrain através do município fornecido.                                                            | Obrigatório se end1_municipio_id nulo     |
+| end1_municipio_nome         | varchar   | Nome do município do endereço principal. É extraído da base da Ebrain através do município fornecido.                                                            | Obrigatório se end1_municipio_id nulo     |
 | end1_uf_id                  | int   | ID da Unidade da Federação do endereço principal, conforme tabela de domínio                                                               | Obrigatório      |
 | contato1_descricao          | varchar  | Descrição do contato 1                                                                            |                  |
 | contato1_telefone_ddd       | int  | DDD do telefone do contato 1                                                                     |                  |
@@ -118,6 +118,37 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | PF                  |
 | PJ                  |
 
+### end1_uf_id
+| Código | Sigla | Nome              |
+|------|---------|---------------------|
+| 0    | BR      | Brasil              |
+| 1    | SP      | São Paulo           |
+| 2    | PR      | Paraná              |
+| 3    | SC      | Santa Catarina      |
+| 4    | RS      | Rio Grande do Sul   |
+| 5    | MS      | Mato Grosso do Sul  |
+| 6    | RO      | Rondônia            |
+| 7    | AC      | Acre                |
+| 8    | AM      | Amazonas            |
+| 9    | RR      | Roraima             |
+| 10   | PA      | Pará                |
+| 11   | AP      | Amapá               |
+| 12   | TO      | Tocantins           |
+| 13   | MA      | Maranhão            |
+| 14   | RN      | Rio Grande do Norte |
+| 15   | PB      | Paraíba             |
+| 16   | PE      | Pernambuco          |
+| 17   | AL      | Alagoas             |
+| 18   | SE      | Sergipe             |
+| 19   | BA      | Bahia               |
+| 20   | MG      | Minas Gerais        |
+| 21   | RJ      | Rio de Janeiro      |
+| 22   | MT      | Mato Grosso         |
+| 23   | GO      | Goiás               |
+| 24   | DF      | Distrito Federal    |
+| 25   | PI      | Piauí               |
+| 26   | CE      | Ceará               |
+| 27   | ES      | Espírito Santo      |
 
   
 
