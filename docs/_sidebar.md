@@ -11,3 +11,4 @@
   - [Serviços](documentacao/view_servicos.md)
   - [Profissionais](documentacao/dados_profissionais.md)
   - [Alertas de Pacientes](documentacao/view_pessoa_alerta.md)
+  - [Prontuário de Alergias](documentacao/view_prontuario_alergia.md)
