@@ -1,9 +1,11 @@
 # Paciente
+
 <p align="justify"> 
 Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
  </p>
 
 ## Descrição dos campos
+
 | Campo                       | Tipo  | Descrição                                                                                        | Restrição        |
 |-----------------------------|-------|--------------------------------------------------------------------------------------------------|------------------|
 | unique_cod  | varchar | Código único sem repetição da pessoa | Obrigatório |
@@ -27,7 +29,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | obito_encerrado             | boolean  | Indica se o óbito está encerrado| |
 | tipo_pessoa   | varchar  | Tipo de pessoa (`PF`: Pessoa Física), (`PJ`: Pessoa Jurídica) | Obrigatório      |
 | preferencial  | boolean  | Indica se é preferencial  |   |
-| tipo_sanguineo | varchar | Tipo sanguíneo da pessoa|   |
+| tipo_sanguineo | varchar | Tipo sanguíneo da pessoa, conforme tabela própria em `tipo_sanguineo` |   |
 | nome_mae   | varchar  | Nome da mãe da pessoa  |       |
 | nome_pai        | varchar  | Nome do pai da pessoa |                  |
 | como_conheceu_detalhes      | varchar  | Detalhes de como a pessoa conheceu a clínica        |                  |
@@ -88,7 +90,6 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | email2_receber_propagandas | boolean | Indica se o email 2 deseja receber propagandas | Obrigatório se `email2_endereco` preenchido |
 | email2_receber_confirmacoes | boolean | Indica se o email 2 deseja receber confirmações | Obrigatório se `email2_endereco` preenchido |
 
-
 ## Lista de Siglas e Padrões de Nomenclatura dos Campos
 
 ### sexo_biologico_ao_nascer
@@ -118,7 +119,21 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | PF                  |
 | PJ                  |
 
+### tipo_sanguineo
+
+| Nomenclatura padrão |
+|---------------------|
+| A_NEG               |
+| A_POS               |
+| B_NEG               |
+| B_POS               |
+| AB_NEG              |
+| AB_POS              |
+| O_NEG               |
+| O_POS               |
+
 ### end1_uf_id
+
 | Código | Sigla | Nome              |
 |------|---------|---------------------|
 | 0    | BR      | Brasil              |
