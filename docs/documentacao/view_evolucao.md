@@ -16,6 +16,7 @@ Descreve a estrutura de dados de evoluções dos pacientes. As evoluções repre
 | data_atualizacao            | timestamp | Data e hora da última atualização do prontuário              |                 |
 | data_exclusao               | timestamp | Data e hora de exclusão do prontuário                        |                 |
 | diag_evolucao_descricao     | varchar   | Evolução em si. Preferencialmente em formato texto simples.                                      | Obrigatório                |
+| diag_evolucao_descricao_html     | varchar   | Evolução no formato HTML                             | Opcional                |
 | diag_evolucao_adendo        | boolean | Indica se existe um complemento relacionado ao prontuário           |                 |
 | diag_evolucao_data_exclusao | timestamp | Data e hora de exclusão do prontuário                         |                 |
 
