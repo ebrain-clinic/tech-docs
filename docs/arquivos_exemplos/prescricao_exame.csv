@@ -1,10 +1,16 @@
-unique_cod,prescricao_unique_cod,data_prescricao,data_registro,data_exclusao,data_atualizacao,exame_nome,pessoa_unique_cod,profissional_unique_cod,documento_nao_estruturado_texto,obs_resultado_exame,json_resultados,observacao
-20000,8000,2023-01-28 18:59:04.000,2023-01-28 18:59:04.000,,,"Lactose, teste de tolerância",100,114,,Possui intolerância a lactose.,"{ ""data_exame"": ""2023-06-28"", ""resultado"": ""Positivo"", ""lactose_tolerancia"": {""jejum"": ""Normal"",
+unique_cod,prescricao_unique_cod,data_prescricao,data_registro,data_exclusao,data_atualizacao,exame_nome,pessoa_unique_cod,profissional_unique_cod,documento_nao_estruturado_texto,texto_resultados,json_resultados,observacao
+20000,8000,2023-01-28 18:59:04.000,2023-01-28 18:59:04.000,,,"Lactose, teste de tolerância",100,114,,"Resultado: Positivo. 
+Lactose Tolerância: 
+Jejum: Normal 
+30 minutos: Intolerante 
+60 minutos: Intolerante 
+90 minutos: Intolerante 
+120 minutos: Intolerante","{ ""data_exame"": ""2023-06-28"", ""resultado"": ""Positivo"", ""lactose_tolerancia"": {""jejum"": ""Normal"",
     ""30_minutos"": ""Intolerante"",
     ""60_minutos"": ""Intolerante"",
     ""90_minutos"": ""Intolerante"",
     ""120_minutos"": ""Intolerante""
-  }",No dia anterior ao exame não consumiu lactose
+  } }",No dia anterior ao exame não consumiu lactose
 20001,8000,2023-01-27 18:59:04.000,2023-01-27 18:59:04.000,,,"Perfil lipídico / lipidograma (lípidios totais, colesterol, triglicerídios e eletroforese lipoproteínas)",100,115,,,,
 20002,8000,2023-01-29 18:59:04.000,2023-01-29 18:59:04.000,,2023-02-02 05:30:04.000,Pesquisa e/ou dosagem (Vitamina D3),100,114,,,,
 20003,18875,2023-01-30 18:59:04.000,2023-01-30 18:59:04.000,,,"Hemograma com contagem de plaquetas ou frações (eritrograma, leucograma, plaquetas)",200,114,,,,
