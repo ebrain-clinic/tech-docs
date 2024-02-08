@@ -3,6 +3,8 @@
 Descreve a estrutura de dados de prescrições de protocolos de medicamentos e exames. A tabela de descrição dos campos abrange as principais informações destas prescrições.
  </p>
 
+  ## Descrição dos campos
+
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
 | unique_cod                 | varchar     | Código único sem repetição do medicamento                     |     Obrigatório            |
