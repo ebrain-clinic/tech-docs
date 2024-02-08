@@ -13,3 +13,4 @@
   - [Alertas de Pacientes](documentacao/view_pessoa_alerta.md)
   - [Prontuário de Alergias](documentacao/view_prontuario_alergia.md)
   - [Prontuário de Antecedentes](documentacao/view_prontuario_antecedente.md)
+  - [Prescrição de Protocolos de Medicamentos e Exames](documentacao/prescricao_protocolo_medicamento_exame.md)
