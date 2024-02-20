@@ -54,6 +54,19 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 | serv7_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
 | serv7_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
 | serv7_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço                                                                                                 |             |
+| serv8_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv8_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
+| serv8_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço                                                                                                 |             |
+| serv9_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv9_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
+| serv9_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço         
+| serv10_observacao            |  varchar          | Quaisquer observações sobre o serviço                                                                                                   |             |
+| serv10_realizado             |   boolean         |   Indica se o serviço foi realizado                                                                                                |             |
+| serv10_quantidade            | numeric(21,2)  |  Quantidade realizada do serviço                                                                                                 |             |        
+| agenda_especialidade_cod            |  varchar          | Especialidade da agenda em que serão importados os agendamentos                                                                                                   |             |
+| nome_agenda_importacao             |   varchar         |   Nome da agenda em que serão importados os agendamentos                                                                                                |             |
+| agenda_coletiva            | boolean  |  Indica se a agenda é coletiva                                                                                                 |             |                                                                 
+
 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
