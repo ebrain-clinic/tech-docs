@@ -4,6 +4,8 @@
 Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos abrange as informações do evento agendado, bem como os serviços relacionados ao agendamento, independentemente do número de serviços envolvidos. Além disso, também é registrado se o agendamento foi efetivamente realizado.
  </p>
 
+> Nome do arquivo de importação: `import_agendamento`
+
 ## Descrição dos campos
 
 | Campo                        | Tipo       | Descrição                                                                                         | Restrição   |

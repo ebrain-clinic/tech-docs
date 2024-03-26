@@ -3,6 +3,9 @@
 Descreve a estrutura de dados de prescrições de medicamentos. A tabela de descrição dos campos abrange as principais informações destas prescrições.
  </p>
 
+> Nome do arquivo de importação: `import_prescricao_medicamento`
+
+
  ## Descrição dos campos
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |

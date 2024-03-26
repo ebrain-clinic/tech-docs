@@ -3,6 +3,8 @@
 Descreve a estrutura de dados de serviços ou procedimentos realizados pela clínica. A tabela de descrição dos campos abrange as principais informações destes serviços médicos.
  </p>
 
+> Nome do arquivo de importação: `servico`
+
  ## Descrição dos campos
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |

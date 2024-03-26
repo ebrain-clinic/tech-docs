@@ -4,6 +4,9 @@
 Descreve a estrutura de dados de profissionais. A tabela de descrição dos campos abrange as principais informações.
  </p>
 
+> Nome do arquivo de importação: `import_profissional `
+
+
  ## Descrição dos campos
 
 | Campo                   |tipo  | Descrição                | Restrição |

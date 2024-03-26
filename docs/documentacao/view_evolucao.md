@@ -4,6 +4,9 @@ Descreve a estrutura de dados de evoluções dos pacientes. As evoluções repre
  </p>
  A descrição do prontuário deve estar preferencialmente no formato de texto puro, sem formatação, embora descrições no formato HTML e RTF também sejam aceitas. Neste caso, o conteúdo do prontuário será convertido para texto simples, sem formatação, antes de ser importado.
 
+> Nome do arquivo de importação: `import_evolucao`
+
+
 ## Descrição dos campos
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
