@@ -3,6 +3,8 @@
 Descreve a estrutura de dados de operadoras de saúde, como convênios, planos de saúde, estruturas semelhantes. A tabela de descrição dos campos abrange as principais informações destas entidades.
  </p>
 
+> Nome do arquivo de importação: `import_operadora_saude`
+
  ## Descrição dos campos
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |

@@ -3,6 +3,9 @@
 Descreve a estrutura de dados de prescrições de protocolos de medicamentos e exames. A tabela de descrição dos campos abrange as principais informações destas prescrições.
  </p>
 
+> Nome do arquivo de importação: `import_prescricao_protocolo_medicamento_exame`
+
+
 ## Descrição dos campos
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
