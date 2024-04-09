@@ -1,6 +1,6 @@
 # Prescrição de Exames
 <p align="justify"> 
-Descreve a estrutura de dados de prescrições de exames. A tabela de descrição dos campos abrange as principais informações destas prescrições.
+Descreve a estrutura de dados de prescrições de exames. A tabela de descrição dos campos abrange as principais informações dessas prescrições.
  </p>
 
 > Nome do arquivo de importação: `import_prescricao_exame`
