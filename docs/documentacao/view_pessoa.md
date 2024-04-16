@@ -4,7 +4,7 @@
 Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A tabela de descrição dos campos se caracteriza por possuir os dados principais dos pacientes, incluindo endereço, telefone e dados básicos.
  </p>
 
-> Nome do arquivo de importação: `import_pessoa`
+> Nome do arquivo de importação: `import_pessoa.csv`
 
 ## Descrição dos campos
 
@@ -184,4 +184,4 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/pessoa.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_pessoa.csv ':ignore')

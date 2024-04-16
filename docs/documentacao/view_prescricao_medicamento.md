@@ -3,7 +3,7 @@
 Descreve a estrutura de dados de prescrições de medicamentos. A tabela de descrição dos campos abrange as principais informações dessas prescrições.
  </p>
 
-> Nome do arquivo de importação: `import_prescricao_medicamento`
+> Nome do arquivo de importação: `import_prescricao_medicamento.csv`
 
 
  ## Descrição dos campos
@@ -28,4 +28,4 @@ Descreve a estrutura de dados de prescrições de medicamentos. A tabela de desc
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_medicamento.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_prescricao_medicamento.csv ':ignore')

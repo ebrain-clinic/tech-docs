@@ -3,7 +3,7 @@
 Descreve a estrutura de dados de emissão de atestados médicos. A tabela de descrição dos campos abrange as principais informações dessas prescrições.
  </p>
 
-> Nome do arquivo de importação: `import_prescricao_atestado`
+> Nome do arquivo de importação: `import_prescricao_atestado.csv`
 
 
  ## Descrição dos campos
@@ -21,4 +21,4 @@ Descreve a estrutura de dados de emissão de atestados médicos. A tabela de des
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_atestados.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_prescricao_atestado.csv ':ignore')

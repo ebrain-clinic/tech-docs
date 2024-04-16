@@ -4,7 +4,7 @@
 Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos abrange as informações do evento agendado, bem como os serviços relacionados ao agendamento, independentemente do número de serviços envolvidos. Além disso, também é registrado se o agendamento foi efetivamente realizado.
  </p>
 
-> Nome do arquivo de importação: `import_agendamento`
+> Nome do arquivo de importação: `import_agendamento.csv`
 
 ## Descrição dos campos
 
@@ -74,4 +74,4 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/agendamento.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_agendamento.csv ':ignore')

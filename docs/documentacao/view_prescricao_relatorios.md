@@ -3,7 +3,7 @@
 Descreve a estrutura de dados de relatórios médicos. A tabela de descrição dos campos abrange as principais informações dessas prescrições.
  </p>
 
-> Nome do arquivo de importação: `import_prescricao_relatorio_medico`
+> Nome do arquivo de importação: `import_prescricao_relatorio_medico.csv`
 
 
  ## Descrição dos campos
@@ -21,4 +21,4 @@ Descreve a estrutura de dados de relatórios médicos. A tabela de descrição d
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_relatorios.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_prescricao_relatorio_medico.csv ':ignore')

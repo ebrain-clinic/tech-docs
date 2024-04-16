@@ -4,7 +4,7 @@
 Descreve a estrutura de dados de profissionais. A tabela de descrição dos campos abrange as principais informações.
  </p>
 
-> Nome do arquivo de importação: `import_profissional `
+> Nome do arquivo de importação: `import_profissional.csv`
 
 
  ## Descrição dos campos
@@ -137,4 +137,4 @@ ROLE_MARKETING	|Marketing
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/profissionais.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_profissional.csv ':ignore')

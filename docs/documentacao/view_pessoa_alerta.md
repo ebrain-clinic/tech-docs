@@ -1,12 +1,12 @@
 # Alertas de Pacientes
+
 <p align="justify"> 
 Descreve a estrutura de dados de alertas de pacientes: informações importantes a respeito do paciente não pertencentes ao prontuário médico mas importantes para o atendimento. A tabela de descrição dos campos abrange as principais informações desses alertas.
- </p>
- 
-> Nome do arquivo de importação: `import_pessoa_alerta`
+</p>
 
+> Nome do arquivo de importação: `import_pessoa_alerta.csv` 
 
-## Descrição dos campos
+ ## Descrição dos campos
 
 | Campo                       | Tipo      | Descrição                                                                  | Restrição       |
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
@@ -23,4 +23,4 @@ Descreve a estrutura de dados de alertas de pacientes: informações importantes
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/pessoa_alerta.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_pessoa_alerta.csv ':ignore')

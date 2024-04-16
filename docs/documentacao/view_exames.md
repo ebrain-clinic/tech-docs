@@ -3,7 +3,7 @@
 Descreve a estrutura de dados de prescrições de exames. A tabela de descrição dos campos abrange as principais informações dessas prescrições.
  </p>
 
-> Nome do arquivo de importação: `import_prescricao_exame`
+> Nome do arquivo de importação: `import_prescricao_exame.csv`
 
 
  ## Descrição dos campos
@@ -26,4 +26,4 @@ Descreve a estrutura de dados de prescrições de exames. A tabela de descriçã
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/prescricao_exame.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_prescricao_exame.csv ':ignore')

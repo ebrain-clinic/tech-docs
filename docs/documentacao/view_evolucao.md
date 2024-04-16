@@ -4,7 +4,7 @@ Descreve a estrutura de dados de evoluções dos pacientes. As evoluções repre
  </p>
  A descrição do prontuário deve estar preferencialmente no formato de texto puro, sem formatação, embora descrições no formato HTML e RTF também sejam aceitas. Neste caso, o conteúdo do prontuário será convertido para texto simples, sem formatação, antes de ser importado.
 
-> Nome do arquivo de importação: `import_evolucao`
+> Nome do arquivo de importação: `import_evolucao.csv`
 
 
 ## Descrição dos campos
@@ -29,4 +29,4 @@ Descreve a estrutura de dados de evoluções dos pacientes. As evoluções repre
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/evolucao.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_evolucao.csv ':ignore')
