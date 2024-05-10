@@ -8,6 +8,7 @@
   - [Atestados Médicos](documentacao/view_prescricao_atestados.md)
   - [Relatórios Médicos](documentacao/view_prescricao_relatorios.md)
   - [Operadora de Saúde](documentacao/view_operadora_saude.md)
+  - [Planos de Operadoras de Saúde](documentacao/view_operadora_saude_plano.md)
   - [Serviços](documentacao/view_servicos.md)
   - [Profissionais](documentacao/dados_profissionais.md)
   - [Alertas de Pacientes](documentacao/view_pessoa_alerta.md)
