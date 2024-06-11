@@ -25,6 +25,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | naturalidade    | varchar  | Naturalidade da pessoa |  |
 | raca      | varchar  | Raça da pessoa  |                  |
 | estado_civil    | varchar  | Estado civil da pessoa  |    |
+| nome_conjuge    | varchar  | Nome do cônjuge  |    |
 | profissao_principal_id      | int   | ID da profissão principal da pessoa       |   |
 | ocupacao_outros             | varchar  | Ocupação da pessoa   |       |
 | local_trabalho              | varchar  | Local de trabalho da pessoa      |                  |
