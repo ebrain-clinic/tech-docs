@@ -26,7 +26,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | raca      | varchar  | Raça da pessoa  |                  |
 | estado_civil    | varchar  | Estado civil da pessoa  |    |
 | nome_conjuge    | varchar  | Nome do cônjuge  |    |
-| profissao_principal_id      | int   | ID da profissão principal da pessoa       |   |
+| profissao      | varchar   | Nome da profissão da pessoa (com base no CBO - IBGE) |   |
 | ocupacao_outros             | varchar  | Ocupação da pessoa   |       |
 | local_trabalho              | varchar  | Local de trabalho da pessoa      |                  |
 | obito_encerrado             | boolean  | Indica se o óbito está encerrado| |
