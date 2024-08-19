@@ -92,24 +92,24 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | email2_descricao | varchar | Descrição do email 2 | |
 | email2_receber_propagandas | boolean | Indica se o email 2 deseja receber propagandas | Obrigatório se `email2_endereco` preenchido |
 | email2_receber_confirmacoes | boolean | Indica se o email 2 deseja receber confirmações | Obrigatório se `email2_endereco` preenchido |
-| operadora_saude1_unique_cod    | varchar  | Código único da operadora de saúde 1      |        |
+| operadora_saude1_unique_cod    | varchar  | Código único da operadora de saúde 1      |   Obrigatório se `operadora_saude1_plano_unique_cod` preenchido      |
 | operadora_saude1_numero   | varchar  | Número da carteirinha da operadora de saúde 1   |    |            |
 | operadora_saude1_validade    | date  | Data da validade da operadora de saúde 1      |        |
-| operadora_saude1_nome_operadora   | varchar  | Nome da operadora de saúde 1    |    |             |
+| operadora_saude1_nome_operadora   | varchar  | Nome da operadora de saúde 1    |   Obrigatório se `operadora_saude1_plano_unique_cod` preenchido    |             |
 | operadora_saude1_detalhes   | varchar  | Detalhes da operadora de saúde 1    |    |             |
 | operadora_saude1_plano_unique_cod   | varchar  | Código único do plano de saúde da operadora 1    |    |             |
 | operadora_saude1_nome_plano   | varchar  | Nome do plano de saúde da operadora 1    |    |             |
-| operadora_saude2_unique_cod    | varchar  | Código único da operadora de saúde 2      |        |
+| operadora_saude2_unique_cod    | varchar  | Código único da operadora de saúde 2      |   Obrigatório se `operadora_saude2_plano_unique_cod` preenchido        |
 | operadora_saude2_numero   | varchar  | Número da carteirinha da operadora de saúde 2   |    |            |
 | operadora_saude2_validade    | date  | Data da validade da operadora de saúde 2      |        |
-| operadora_saude2_nome_operadora   | varchar  | Nome da operadora de saúde 2    |    |             |
+| operadora_saude2_nome_operadora   | varchar  | Nome da operadora de saúde 2    |  Obrigatório se `operadora_saude2_plano_unique_cod` preenchido     |             |
 | operadora_saude2_detalhes   | varchar  | Detalhes da operadora de saúde 2    |    |             |
 | operadora_saude2_plano_unique_cod   | varchar  | Código único do plano de saúde da operadora 2    |    |             |
 | operadora_saude2_nome_plano   | varchar  | Nome do plano de saúde da operadora 2    |    |             |
-| operadora_saude3_unique_cod    | varchar  | Código único da operadora de saúde 3      |        |
+| operadora_saude3_unique_cod    | varchar  | Código único da operadora de saúde 3      |     Obrigatório se `operadora_saude3_plano_unique_cod` preenchido      |
 | operadora_saude3_numero   | varchar  | Número da carteirinha da operadora de saúde 3   |    |            |
 | operadora_saude3_validade    | date  | Data da validade da operadora de saúde 3      |        |
-| operadora_saude3_nome_operadora   | varchar  | Nome da operadora de saúde 3    |    |             |
+| operadora_saude3_nome_operadora   | varchar  | Nome da operadora de saúde 3    |   Obrigatório se `operadora_saude3_plano_unique_cod` preenchido    |             |
 | operadora_saude3_detalhes   | varchar  | Detalhes da operadora de saúde 3   |    |             |
 | operadora_saude3_plano_unique_cod   | varchar  | Código único do plano de saúde da operadora 3    |    |             |
 | operadora_saude3_nome_plano   | varchar  | Nome do plano de saúde da operadora 3    |    |             |
