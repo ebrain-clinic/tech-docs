@@ -10,7 +10,7 @@
   - [Operadora de Saúde](documentacao/view_operadora_saude.md)
   - [Planos de Operadoras de Saúde](documentacao/view_operadora_saude_plano.md)
   - [Serviços](documentacao/view_servicos.md)
-  - [Profissionais](documentacao/dados_profissionais.md)
+  - [Profissionais](documentacao/view_profissionais.md)
   - [Alertas de Pacientes](documentacao/view_pessoa_alerta.md)
   - [Prontuário de Alergias](documentacao/view_prontuario_alergia.md)
   - [Prontuário de Antecedentes](documentacao/view_prontuario_antecedente.md)

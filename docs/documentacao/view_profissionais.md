@@ -1,7 +1,7 @@
 # Profissionais
 
 <p align="justify"> 
-Descreve a estrutura de dados de profissionais. A tabela de descrição dos campos abrange as principais informações.
+Descreve a estrutura de dados de usuários que atuam como médicos e outros profissionais de saúde que realizam evoluções. A tabela de descrição dos campos abrange as principais informações.
  </p>
 
 > Nome do arquivo de importação: `import_profissional.csv`
