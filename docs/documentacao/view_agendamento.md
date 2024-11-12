@@ -71,6 +71,7 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 | agenda_especialidade_cod       | varchar       | Especialidade da agenda em que serão importados os agendamentos                                                                                                          |                                                    |
 | nome_agenda_importacao         | varchar       | Nome da agenda em que serão importados os agendamentos                                                                                                                   |                                                    |
 | agenda_coletiva                | boolean       | Indica se a agenda é coletiva                                                                                                                                            |                                                    |
+| clinica_unique_cod             | varchar       | Código único da clínica                                                                                                                                                  |                                                    |
 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
