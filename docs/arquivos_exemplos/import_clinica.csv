@@ -1,0 +1,4 @@
+unique_cod,principal,nome,nome_fantasia,cpf,cnpj,cnes,email_contato_principal,telefone_contato_principal,data_registro,horario_comercial_inicio,horario_comercial_fim,end1_logradouro,end1_numero,end1_complemento,end1_bairro,end1_cep,end1_municipio,end1_uf_id,clinica_especialidade
+CL001,true,Clínica Saúde Total,Saúde Total,,12345678000199,12345,contato@saudetotal.com,11999999999,2023-12-01 08:00:00,08:00:00,18:00:00,Rua das Flores,123,Sala 2,Centro,01001000,São Paulo,SP,1;3;15
+CL002,false,Clínica Bem-Estar,Bem-Estar,12345678901,,,contato@bemestar.com,21988888888,2023-11-25 09:00:00,09:00:00,17:00:00,Avenida Central,456,Prédio 1,Jardins,22041001,Rio de Janeiro,RJ,18
+CL003,false,Clínica Viva Melhor,,,98765432000111,54321,contato@vivamelhor.com,31977777777,2023-11-30 10:00:00,10:00:00,20:00:00,Rua dos Pinheiros,789,,Pinheiros,01418001,Belo Horizonte,MG,45
