@@ -113,6 +113,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | operadora_saude3_detalhes   | varchar  | Detalhes da operadora de saúde 3   |    |             |
 | operadora_saude3_plano_unique_cod   | varchar  | Código único do plano de saúde da operadora 3    |    |             |
 | operadora_saude3_nome_plano   | varchar  | Nome do plano de saúde da operadora 3    |    |             |
+| clinica_unique_cod   | varchar  | Código único da clínica   | Obrigatório caso haja mais de uma clínica   |
 
 ## Lista de Siglas e Padrões de Nomenclatura dos Campos
 
