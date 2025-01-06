@@ -93,6 +93,10 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 | nome_agenda_importacao         | varchar       | Nome da agenda em que serão importados os agendamentos                                                                                                                   |                                                    |
 | agenda_coletiva                | boolean       | Indica se a agenda é coletiva                                                                                                                                            |                                                    |
 | clinica_unique_cod             | varchar       | Código único da clínica                                                                                                                                                  |                                                    |
+### Observação
+<p align="justify"> 
+É importante destacar que eventos do tipo "bloqueio" nem sempre são importados, uma vez que o sistema Ebrain já oferece funcionalidades específicas para indicar ausências. Para registros futuros, nossa equipe realizará a análise e os extrairá em uma planilha específica, permitindo que a clínica insira manualmente as ausências no sistema, garantindo maior precisão e controle.
+</p> 
 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
