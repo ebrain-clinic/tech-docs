@@ -23,6 +23,8 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | rg_orgao                             | varchar    | Orgão emissor do RG   |                  |
 | cns                                  | varchar    | Número do cartão nacional de saúde | |
 | naturalidade                         | varchar    | Naturalidade da pessoa |  |
+| nacionalidade                        | varchar    | Nacionalidade da pessoa |  |
+| escolaridade                         | varchar    | Escolaridade da pessoa |  |
 | raca                                 | varchar    | Raça da pessoa  |                  |
 | estado_civil                         | varchar    | Estado civil da pessoa  |    |
 | nome_conjuge                         | varchar    | Nome do cônjuge  |    |
