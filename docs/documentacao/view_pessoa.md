@@ -14,7 +14,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 | codigo_nas_clinicas                  | varchar    | Número que a clínica possa ter do cliente e que não seja a chave primária |      |
 | data_registro                        | timestamp  | Data de registro da pessoa                                                                      | Obrigatório      |
 | tratamento                           | varchar    |   Descrição de tratamento |                  |
-| nome_civil_razao_social              | varchar    | Nome civil da pessoa ou razão social da empresa                                                             | Obrigatório      |
+| nome_civil_razao_social              | varchar    | Nome civil da pessoa ou razão social da empresa    | Obrigatório      |
 | nome_social                          | varchar    | Nome pelo qual o paciente quer ser chamado   |     |
 | data_nascimento                      | date       | Data de nascimento da pessoa  | |
 | sexo_biologico_ao_nascer             | varchar    | Sexo biológico ao nascer da pessoa   |       |
