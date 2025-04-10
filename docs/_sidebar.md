@@ -16,3 +16,4 @@
   - [Prontuário de Antecedentes](documentacao/view_prontuario_antecedente.md)
   - [Prescrição de Protocolos de Medicamentos e Exames](documentacao/view_prescricao_protocolo_medicamento_exame.md)
   - [Clínica](documentacao/view_clinica.md)
+  - [Orçamento](documentacao/view_orcamento.md)
