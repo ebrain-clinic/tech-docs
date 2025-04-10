@@ -121,7 +121,7 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 
 ### sexo_biologico_ao_nascer
 
-| Descrição  | sigla |
+| Descrição                                         | sigla |
 |------------|-------|
 | Masculino  |   M   |
 | Feminino   |   F   |
@@ -198,3 +198,5 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 <p align="justify">Arquivo de exemplo:</p>
 
 [Clique aqui para baixar o arquivo csv de exemplo](arquivos_exemplos/import_pessoa.csv ':ignore')
+
+[Excel de exemplo para upload de pessoas](arquivos_exemplos/pessoa.xlsx ':ignore')
