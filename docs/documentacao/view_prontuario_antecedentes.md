@@ -14,7 +14,7 @@ Descreve a estrutura de dados dos antecedentes dos pacientes que estão ligados 
 | descricao          | varchar     | Descrição dos antecedentes                        |   Obrigatório              |
 | privado               | boolean | Se é privado                                  |                 |
 | data_registro          | timestamp     |   Data do registro                |   Obrigatório              |
-| profissional_unique_cod            | varchar |  Código do profissional que registrou os antecedentes         |      Obrigatório           |
+| inclusor_unique_cod            | varchar |  Código do usuário que registrou os antecedentes         |      Obrigatório           |
 
 
 ## Arquivo

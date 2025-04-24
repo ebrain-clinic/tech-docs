@@ -16,7 +16,7 @@ Descreve a estrutura de dados de alertas de pacientes: informações importantes
 | data_exclusao    | timestamp     | Data de exclusão               |                 |
 | descricao               | varchar | Descrição do alerta                                   |   Obrigatório              |
 | concluido          | boolean     | Indica se foi concluído                  |   Obrigatório              |
-| profissional_unique_cod            | varchar |  Código do profissional que escreveu o alerta         |      Obrigatório           |
+| inclusor_unique_cod | varchar |  Código do usuário que incluiu o alerta         |      Obrigatório           |
 
 
 

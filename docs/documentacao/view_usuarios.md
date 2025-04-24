@@ -4,7 +4,7 @@
 Descreve a estrutura de dados de usuários que atuam como médicos e outros profissionais de saúde que realizam evoluções. A tabela de descrição dos campos abrange as principais informações.
  </p>
 
-> Nome do arquivo de importação: `import_profissional.csv`
+> Nome do arquivo de importação: `import_usuario.csv`
 
 
  ## Descrição dos campos
@@ -21,7 +21,7 @@ Descreve a estrutura de dados de usuários que atuam como médicos e outros prof
 | email                 |varchar | Email do Profissional        |Obrigatório |
 | especialidades_id     |varchar | códigos das especialidades separados por ; (especificadas em [especialidades](#especialidades) )      |Obrigatório |
 | agenda_coletiva       |Boolean | Se precisa de uma agenda exclusiva (false) ou não (true) |Obrigatório |
-| profissional_papel    |varchar | papéis do profissional no sistema separados por ; (especificados em [papéis do profissional](#papéis-do-profissional) )    | |
+| roles_atribuidas    |varchar | papéis do usuário no sistema separados por ; (especificados em [papéis do Usuário](#papéis-do-usuário) )    | |
 
 
 # Especialidades
@@ -111,9 +111,9 @@ Descreve as especialidades disponíveis no sistema.
 77	|Radiologia odontológica e imaginologia
 78	|Saúde coletiva
 
-# Papéis do Profissional
+# Papéis do Usuário 
 <p align="justify"> 
-Descreve os papéis dos profissionais disponíveis no sistema.
+Descreve os papéis dos Usuários disponíveis no sistema.
  </p>
 
 

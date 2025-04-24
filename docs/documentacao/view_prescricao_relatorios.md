@@ -17,6 +17,7 @@ Descreve a estrutura de dados de relatórios médicos. A tabela de descrição d
 | profissional_unique_cod           | varchar   | Código do profissional que fez o documento.                              | Obrigatório |
 | prontuario_unique_cod             | varchar   | Código do prontuário que contém o documento.                             | Obrigatório |
 | documento_texto                   | varchar   | Prescrição textual que contém o conteúdo do relatório médico.             | Obrigatório |
+| inclusor_unique_cod           | varchar   | Código do usuário que incluiu o documento.                              |  |
 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
