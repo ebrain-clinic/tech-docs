@@ -1,4 +1,4 @@
-unique_cod,pessoa_unique_cod,descricao,privado,data_registro,profissional_unique_cod
+unique_cod,pessoa_unique_cod,descricao,privado,data_registro,inclusor_unique_cod
 1,100,3 episódios de infarto,true,2020-11-27 18:59:04.000,100
 2,200,Possui síndrome do ovário policístico,,2023-01-28 18:59:04.000,100
 3,300,Já fez um ciclo de Roacutan (4 meses),,2019-06-25 10:23:37.384,200

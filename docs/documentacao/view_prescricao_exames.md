@@ -21,6 +21,7 @@ Descreve a estrutura de dados de prescrições de exames. A tabela de descriçã
 | documento_nao_estruturado_texto     | varchar   | Documento de prescrição textual, caso a prescrição não seja estruturada                               | Obrigatório se `exame_nome` estiver em branco                |
 | texto_resultados     | varchar   | Resultados em formato de texto                               |                 |
 | json_resultados     | varchar   | Resultados estruturados em json      |                 |
+| inclusor_unique_cod            | varchar |  Código do usuário que incluiu a prescrição | |
 
   
 ## Arquivo

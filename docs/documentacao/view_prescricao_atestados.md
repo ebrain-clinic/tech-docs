@@ -17,6 +17,7 @@ Descreve a estrutura de dados de emissão de atestados médicos. A tabela de des
 | profissional_unique_cod           | varchar   | Código do profissional que fez o documento.                              | Obrigatório |
 | prontuario_unique_cod             | varchar   | Código do prontuário que contém o documento.                             | Obrigatório |
 | documento_texto                   | varchar   | Prescrição textual que contém o conteúdo do atestado médico.              | Obrigatório |
+| inclusor_unique_cod            | varchar |  Código do usuário que incluiu a prescrição | |
 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>

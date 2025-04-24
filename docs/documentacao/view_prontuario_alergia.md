@@ -16,7 +16,7 @@ Descreve a estrutura de dados dos antecedentes dos pacientes, os quais estão li
 | relevante_prescricoes               | boolean | Se possui prescrições relevantes                                  |   Obrigatório              |
 | data_registro          | timestamp     |   Data do registro                |   Obrigatório              |
 | data_fim |timestamp | Data fim da alergia | |
-| profissional_unique_cod            | varchar |  Código do profissional que registrou as alergias         |      Obrigatório           |
+| inclusor_unique_cod            | varchar |  Código do usuário que registrou as alergias         |      Obrigatório           |
 
 
 ## Arquivo

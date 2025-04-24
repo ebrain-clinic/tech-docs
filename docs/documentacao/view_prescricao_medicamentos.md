@@ -24,6 +24,7 @@ Descreve a estrutura de dados de prescrições de medicamentos. A tabela de desc
 | medicamento_composicao     |  varchar  | Composição do medicamento, no caso de prescrição estruturada                        | Não deve ser informado se `documento_nao_estruturado_texto` for preenchido                |
 | medicamento_uso     |  varchar |  Descrição do uso, no caso de prescrição estruturada. Sugestões do sistema: tópico, interno, externo, oral, nasal, intralesional, intramuscular, endovenoso               | Não deve ser informado se `documento_nao_estruturado_texto` for preenchido                |
 | medicamento_tarja     |  varchar  | Indica a tarja do medicamento, no caso de prescrição estruturada. Sugestões: tarja vermelha, tarja preta, tarja amarela...                      | Não deve ser informado se `documento_nao_estruturado_texto` for preenchido                |
+| inclusor_unique_cod  | varchar |  Código do usuário que incluiu a prescrição | |
 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
