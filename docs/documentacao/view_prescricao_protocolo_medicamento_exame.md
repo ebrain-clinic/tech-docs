@@ -25,7 +25,7 @@ Descreve a estrutura de dados de prescrições de protocolos de medicamentos e e
 | data_atualizacao     |  timestamp  |Data de atualização| |
 | data_exclusao     |  timestamp  |Data de exclusão| |
 | indicacoes_clinicas     |  varchar  |Indicações clínicas para uso do protocolo| |
-| protocolo_categoria     |  varchar  |Categoria do protocolo| |
+| protocolo_categoria     |  varchar  |Categoria do protocolo. Valores permitidos: "PROTOCOLO" (se faz parte de uma receita de medicamentos com um fim específico como "protocolo para manchas na pele"), "MANIPULADO" (se é uma fórmula utilizada pelas farmácias de manipulação) ou "INDUSTRIAL" (se é um medicamento industrial comum, como dipirona)| |
 | profissional_unique_cod     |  varchar  | Código único do profissional| Obrigatório |
 | visivel_para_outros_profissionais     |  boolean  |Indica se o protocolo pode ficar visível para os outros profissionais| Obrigatório |
 | observacao     |  varchar  | Observações sobre o protocolo| |
