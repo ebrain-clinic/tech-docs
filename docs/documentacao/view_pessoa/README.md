@@ -33,9 +33,14 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 [](tables/tipo_sanguineo.md ':include')
 
 
-### end1_uf_id
+### end1_uf_sigla
 
-[](tables/end1_uf_id.md ':include')
+[](tables/end1_uf_sigla.md ':include')
+
+
+### escolaridade
+
+[](tables/escolaridade.md ':include')
 
   
 ## Arquivo
