@@ -1,6 +1,6 @@
 - **Modelos**
 
-  - [Pacientes](documentacao/view_pessoa.md)
+  - [Pacientes](documentacao/view_pessoa/)
   - [Agendamento](documentacao/view_agendamento.md)
   - [Evolução](documentacao/view_evolucao.md)
   - [Prescrição de Medicamentos](documentacao/view_prescricao_medicamentos.md)
