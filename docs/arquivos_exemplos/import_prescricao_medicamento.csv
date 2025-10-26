@@ -1,8 +1,8 @@
-unique_cod,prescricao_unique_cod,data_prescricao,data_registro,data_exclusao,data_atualizacao,pessoa_unique_cod,profissional_unique_cod,documento_nao_estruturado_texto,medicamento_nome,medicamento_descricao,medicamento_posologia,medicamento_composicao,medicamento_uso,medicamento_tarja,observacao
-100000,200,2020-11-27 18:59:04.000,2020-11-27 18:59:04.000,,,200,104,,Dorex,Analgésico e antitérmico de uso oral,Tomar 1 comprimido 2x ao  dia,Paracetamol 500mg,Alívio temporário de dores leves a moderadas.,,
-100001,200,2020-08-20 18:59:04.000,2020-08-20 18:59:04.000,,,200,104,,Dermacort,Creme tópico corticosteroide,Aplicar 2x ao dia, Hidrocortisona 1%,Tratamento de condições inflamatórias da pele,,Não aplicar mais do que indicado
-100002,300,2021-09-20 18:59:04.000,2021-09-20 18:59:04.000,,2021-09-21 18:59:04.000,300,105,,Dorminex,Ansiolítico e sedativo de uso oral,Tomar 1 hora antes de dormir,Diazepam 5mg,Auxílio no tratamento da insônia,Tarja vermelha,
-100003,400,2023-01-28 18:59:04.000,2023-01-28 18:59:04.000,,,500,104,,AcneControl, Medicamento oral para controle da acne,tomar  1cp  1x ao dia por 2 semanas,Isotretinoína 20mg,Tratamento da acne grave e recalcitrante,Tarja preta,Requer prescrição médica especializada
-100004,500,2022-03-28 13:31:51.000,2022-03-28 13:31:51.000,,,300,105,"Nome do remédio: DermaCortin
+unique_cod,prescricao_unique_cod,data_prescricao,data_registro,data_exclusao,data_atualizacao,pessoa_unique_cod,profissional_unique_cod,documento_nao_estruturado_texto,medicamento_nome,medicamento_descricao,medicamento_posologia,medicamento_composicao,medicamento_uso,medicamento_tarja,observacao,inclusor_unique_cod
+100000,200,2020-11-27 18:59:04.000,2020-11-27 18:59:04.000,,,200,100,,Dorex,Analgésico e antitérmico de uso oral,Tomar 1 comprimido 2x ao  dia,Paracetamol 500mg,Alívio temporário de dores leves a moderadas.,,,100
+100001,201,2020-08-20 18:59:04.000,2020-08-20 18:59:04.000,,,200,100,,Dermacort,Creme tópico corticosteroide,Aplicar 2x ao dia, Hidrocortisona 1%,Tratamento de condições inflamatórias da pele,,Não aplicar mais do que indicado,100
+100002,300,2021-09-20 18:59:04.000,2021-09-20 18:59:04.000,,2021-09-21 18:59:04.000,300,200,,Dorminex,Ansiolítico e sedativo de uso oral,Tomar 1 hora antes de dormir,Diazepam 5mg,Auxílio no tratamento da insônia,Tarja vermelha,,200
+100003,400,2023-01-28 18:59:04.000,2023-01-28 18:59:04.000,,,500,100,,AcneControl, Medicamento oral para controle da acne,tomar  1cp  1x ao dia por 2 semanas,Isotretinoína 20mg,Tratamento da acne grave e recalcitrante,Tarja preta,Requer prescrição médica especializada,100
+100004,500,2022-03-28 13:31:51.000,2022-03-28 13:31:51.000,,,300,200,"Nome do remédio: DermaCortin
 Uso: Tratamento de doenças inflamatórias da pele.
-Descrição: Pomada corticosteroide de uso tópico.",,,,,,,
+Descrição: Pomada corticosteroide de uso tópico.",,,,,,,,200
