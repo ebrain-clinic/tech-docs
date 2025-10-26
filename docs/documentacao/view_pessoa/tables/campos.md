@@ -13,7 +13,7 @@
 | rg_orgao | varchar | Orgão emissor do RG |  |
 | cns | varchar | Número do cartão nacional de saúde |  |
 | naturalidade | varchar | Naturalidade da pessoa |  |
-| nacionalidade | varchar | Nacionalidade da pessoa |  |
+| nacionalidade | varchar | Nacionalidade da pessoa. Exemplos: "AUSTRÁLIA" ou "BRASIL" |  |
 | escolaridade | varchar | Escolaridade da pessoa, conforme tabela própria em `escolaridade` |  |
 | raca | varchar | Raça da pessoa |  |
 | estado_civil | varchar | Estado civil da pessoa |  |
