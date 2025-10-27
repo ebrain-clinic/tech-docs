@@ -1,0 +1,6 @@
+unique_cod,orcamento_unique_cod,data_pedido,data_registro,data_exclusao,total,total_pago,pacote,cortesia,pessoa_unique_cod,profissional_unique_cod,vendedor_usuario_unique_cod,inclusor_usuario_unique_cod,clinica_unique_cod,operadora_saude_unique_cod
+ped-1,orc-1,2025-03-17,2025-03-17 00:00:00,,920.00,920.00,false,false,100,100,100,100,,
+ped-2,orc-2,2025-03-18,2025-03-18 10:30:00,,430.00,215.00,false,false,200,200,200,200,,
+ped-3,,2025-03-19,2025-03-19 14:15:00,,1200.00,1200.00,true,false,300,100,100,100,,
+ped-4,,2025-03-20,2025-03-20 09:00:00,,0.00,0.00,false,true,400,200,200,200,,
+ped-5,,2025-03-21,2025-03-21 16:45:00,,650.00,0.00,false,false,500,100,100,100,,
