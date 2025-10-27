@@ -19,3 +19,6 @@
   - [Clínica](documentacao/view_clinica/)
   - [Orçamento](documentacao/view_orcamento/)
   - [Item Orçamento](documentacao/view_item_orcamento/)
+  - [Pedido](documentacao/view_pedido/)
+  - [Item Pedido](documentacao/view_item_pedido/)
+  - [Item Pedido - Consumos](documentacao/view_item_pedido_consumos/)
