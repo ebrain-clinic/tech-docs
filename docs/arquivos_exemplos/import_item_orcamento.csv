@@ -1,0 +1,6 @@
+unique_cod,orcamento_unique_cod,descricao,quantidade,valor_unitario,valor_desconto_percentual,valor_desconto_absoluto,valor_total_item,observacoes,servico_unique_cod
+iorc-1,orc-1,Aplicação de peelings médicos,2,400.00,,50.00,800.00,Inclui esfoliação química e máscara calmante,600
+iorc-2,orc-1,Kit home care pós-procedimento,1,120.00,5.00,,120.00,Fornecido junto ao peeling,700
+iorc-3,orc-2,Consulta dermatológica detalhada,1,250.00,,0.00,250.00,Análise completa da pele,800
+iorc-4,orc-2,Peeling químico leve,1,180.00,10.00,,180.00,Indicada para manchas superficiais,600
+iorc-5,orc-2,Máscara calmante hidratante,2,45.00,,10.00,90.00,Aplicação complementar em cabine,900

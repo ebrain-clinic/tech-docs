@@ -1,3 +1,6 @@
 unique_cod,descricao,concluido,data_registro,data_exclusao,pessoa_unique_cod,inclusor_unique_cod
-100,Observação: Possui alergia a pimenta e teve reação ao medicamento. Orientei suspender o mesmo.,true,2020-01-22 12:51:16.000,,100,700
-104,"Paciente teve oferta de desconto enviado por e-mail, pois é o mês de seu aniversário.",true,2019-02-06 11:39:09.000,,200,700
+100,Observação: Possui alergia a pimenta e teve reação ao medicamento. Orientei suspender o mesmo.,true,2020-01-22 12:51:16.000,,100,100
+104,"Paciente teve oferta de desconto enviado por e-mail, pois é o mês de seu aniversário.",true,2019-02-06 11:39:09.000,,200,100
+105,Alerta de faltas recorrentes,false,2021-03-10 09:25:00.000,,300,200
+106,Paciente solicita contato apenas por whatsapp,false,2021-06-15 14:40:00.000,,400,200
+107,Alerta financeiro: possui parcelas em aberto,true,2022-02-01 08:15:00.000,,500,100

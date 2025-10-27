@@ -1,0 +1,4 @@
+| Nomenclatura padrão |
+|---------------------|
+| PF                  |
+| PJ                  |
