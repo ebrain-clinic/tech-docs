@@ -10,6 +10,16 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 
 [](tables/campos.md ':include')
 
+## Lista de Siglas e Padrões de Nomenclatura dos Campos
+
+### registro_automatico_trigger
+
+[](tables/registro_automatico_trigger.md ':include')
+
+### dominio_motivo_cancelamento
+
+[](tables/dominio_motivo_cancelamento.md ':include')
+
 
 ### Observação
 <p align="justify"> 

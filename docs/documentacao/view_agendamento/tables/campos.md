@@ -3,7 +3,7 @@
 | unique_cod | varchar | Código único sem repetição do agendamento | Obrigatório |
 | descricao | varchar | Descrição do agendamento, como o nome da pessoa, caso ainda não esteja cadastrada |  |
 | descricao_status_personalizado | varchar | Possíveis status de agendamento da clínica, que são específicos a ela |  |
-| registro_automatico_trigger | varchar | São triggers que relacionamos com a descricao_status_personalizado para compor a schema0000.tipo_evento_agendado_status: AGENDAMENTO, CONFIRMACAO, CONFIRMACAO_RETIRADA, CHEGADA, CHEGADA_RETIRADA, PRONTUARIO_ABERTO, ATENDIMENTO_FINALIZADO, CANCELADO |  |
+| registro_automatico_trigger | varchar | São triggers que relacionamos com a descricao_status_personalizado para compor a tipo_evento_agendado_status. Ver valores possíveis abaixo |  |
 | data_registro | timestamp | Data de registro | Obrigatório |
 | hora_inicio | timestamp | Hora do ínicio marcada. Como é um agendamento, pode ser uma data no futuro, para agendamento vindouros, ou no passado, caso já tenha transcorrido o tempo do agendamento |  |
 | hora_fim | timestamp | Hora do fim marcada. Ver `hora_inicio` |  |
@@ -13,7 +13,7 @@
 | hora_fim_efetivo | timestamp | Hora que efetivamente acaba o atendimento. Será sempre uma data do passado | Obrigatório se o evento tenha sido realizado |
 | observacoes | varchar | Referente à quaisquer observações |  |
 | motivo_nao_atendimento | varchar | Motivo do não atendimento |  |
-| dominio_motivo_cancelamento | varchar | Tipo de motivo de cancelamento: pode ser "Cancelado pelo cliente", "Cancelado pela clínica", ou "Não compareceu" |  |
+| dominio_motivo_cancelamento | varchar | Tipo de motivo de cancelamento. Ver valores possíveis abaixo |  |
 | nao_atendido | boolean | Indica que não houve o atendimento |  |
 | encaixe | boolean | Indica se é um encaixe |  |
 | remoto | boolean | Indica se é um atendimento remoto |  |
