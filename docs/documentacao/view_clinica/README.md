@@ -14,4 +14,4 @@ Descreve a estrutura de dados relacionada às clínicas, incluindo informações
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_clinica.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_clinica/import_clinica.csv ':ignore')

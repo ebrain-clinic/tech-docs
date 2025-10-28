@@ -14,5 +14,5 @@ Descreve a estrutura de dados relacionada aos consumos de itens de pedido, regis
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_item_pedido_consumos.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_item_pedido_consumos/import_item_pedido_consumos.csv ':ignore')
 

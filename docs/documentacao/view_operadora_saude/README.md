@@ -13,4 +13,4 @@ Descreve a estrutura de dados de operadoras de saúde, como convênios, planos d
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_operadora_saude.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_operadora_saude/import_operadora_saude.csv ':ignore')

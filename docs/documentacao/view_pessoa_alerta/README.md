@@ -14,4 +14,4 @@ Descreve a estrutura de dados de alertas de pacientes: informações importantes
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_pessoa_alerta.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_pessoa_alerta/import_pessoa_alerta.csv ':ignore')

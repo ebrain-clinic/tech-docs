@@ -36,4 +36,4 @@ Descreve os papéis dos Usuários disponíveis no sistema.
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_profissional.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_usuarios/import_profissional.csv ':ignore')

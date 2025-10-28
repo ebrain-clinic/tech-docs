@@ -14,5 +14,5 @@ Descreve a estrutura de dados relacionada aos itens de um pedido, contendo infor
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_item_pedido.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_item_pedido/import_item_pedido.csv ':ignore')
 

@@ -14,5 +14,5 @@ Descreve a estrutura de dados relacionada aos itens de cada orçamento, incluind
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_item_orcamento.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_item_orcamento/import_item_orcamento.csv ':ignore')
 
