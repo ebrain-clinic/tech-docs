@@ -13,4 +13,4 @@ Descreve a estrutura de dados de planos de operadoras de saúde. A tabela de des
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_operadora_saude_plano.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_operadora_saude_plano/import_operadora_saude_plano.csv ':ignore')

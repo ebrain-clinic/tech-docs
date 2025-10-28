@@ -13,4 +13,4 @@ Descreve a estrutura de dados dos antecedentes dos pacientes, os quais estão li
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_prontuario_alergia.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_prontuario_alergia/import_prontuario_alergia.csv ':ignore')

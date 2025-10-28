@@ -29,4 +29,4 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_agendamento.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_agendamento/import_agendamento.csv ':ignore')

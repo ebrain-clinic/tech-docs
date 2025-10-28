@@ -13,4 +13,4 @@ Descreve a estrutura de dados de serviços ou procedimentos realizados pela clí
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_servico.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_servico/import_servico.csv ':ignore')

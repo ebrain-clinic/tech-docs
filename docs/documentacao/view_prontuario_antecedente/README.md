@@ -13,4 +13,4 @@ Descreve a estrutura de dados dos antecedentes dos pacientes que estão ligados 
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_prontuario_antecedente.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_prontuario_antecedente/import_prontuario_antecedente.csv ':ignore')

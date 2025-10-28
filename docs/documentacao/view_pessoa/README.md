@@ -46,6 +46,6 @@ Descreve a estrutura de dados de pacientes e pessoas físicas e jurídicas. A ta
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_pessoa.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_pessoa/import_pessoa.csv ':ignore')
 
-[Excel de exemplo para upload de pessoas](../../arquivos_exemplos/pessoa.xlsx ':ignore')
+[Excel de exemplo para upload de pessoas](./pessoa.xlsx ':ignore')

@@ -14,4 +14,4 @@ Descreve a estrutura de dados de prescrições de medicamentos. A tabela de desc
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_prescricao_medicamento.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_prescricao_medicamento/import_prescricao_medicamento.csv ':ignore')

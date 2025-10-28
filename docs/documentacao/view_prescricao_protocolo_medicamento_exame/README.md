@@ -14,7 +14,7 @@ Descreve a estrutura de dados de prescrições de protocolos de medicamentos e e
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_prescricao_protocolo_medicamento_exame.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_prescricao_protocolo_medicamento_exame/import_prescricao_protocolo_medicamento_exame.csv ':ignore')
 
 
 

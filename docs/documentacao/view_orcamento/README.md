@@ -14,5 +14,5 @@ Descreve a estrutura de dados relacionada aos orçamentos, se foi concluído, se
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_orcamento.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_orcamento/import_orcamento.csv ':ignore')
 

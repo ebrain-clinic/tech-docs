@@ -13,5 +13,5 @@ Descreve a estrutura de dados relacionada às vendas associadas a orçamentos, c
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](../../arquivos_exemplos/import_pedido.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_pedido/import_pedido.csv ':ignore')
 
