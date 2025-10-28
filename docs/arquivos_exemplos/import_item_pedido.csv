@@ -1,0 +1,6 @@
+unique_cod,ordem,venda_unique_cod,descricao,quantidade,data_registro,data_limite_consumo,quantidade_execucao_pendente,valor_unitario,valor_desconto_percentual,valor_desconto_absoluto,subtotal,servico_unique_cod
+iped-1,1,ped-1,Aplicação de peelings médicos,2,2025-03-17 00:00:00,2025-06-17 00:00:00,1,400.00,,50.00,800.00,600
+iped-2,2,ped-1,Kit home care pós-procedimento,1,2025-03-17 00:00:00,2025-06-17 00:00:00,1,120.00,5.00,,120.00,700
+iped-3,1,ped-2,Consulta dermatológica detalhada,1,2025-03-18 10:30:00,2025-06-18 10:30:00,0,250.00,,0.00,250.00,800
+iped-4,2,ped-2,Peeling químico leve,1,2025-03-18 10:30:00,2025-06-18 10:30:00,1,180.00,10.00,,180.00,600
+iped-5,1,ped-3,Laser Fracionado para Estrias,4,2025-03-19 14:15:00,2025-06-19 14:15:00,2,300.00,,,1200.00,1000

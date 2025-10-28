@@ -44,22 +44,7 @@
       loadNavbar: true, // Desabilita a barra de navegação
       alias: {
           '/_sidebar.md': '_sidebar.md',
-          '/documentacao/view_agendamento.md': '/documentacao/view_agendamento/',
-          '/documentacao/view_clinica.md': '/documentacao/view_clinica/',
-          '/documentacao/view_evolucao.md': '/documentacao/view_evolucao/',
-          '/documentacao/view_operadora_saude.md': '/documentacao/view_operadora_saude/',
-          '/documentacao/view_operadora_saude_plano.md': '/documentacao/view_operadora_saude_plano/',
-          '/documentacao/view_orcamento.md': '/documentacao/view_orcamento/',
-          '/documentacao/view_pessoa_alerta.md': '/documentacao/view_pessoa_alerta/',
-          '/documentacao/view_prescricao_atestados.md': '/documentacao/view_prescricao_atestado/',
-          '/documentacao/view_prescricao_exames.md': '/documentacao/view_prescricao_exame/',
-          '/documentacao/view_prescricao_medicamentos.md': '/documentacao/view_prescricao_medicamento/',
-          '/documentacao/view_prescricao_protocolo_medicamento_exame.md': '/documentacao/view_prescricao_protocolo_medicamento_exame/',
-          '/documentacao/view_prescricao_relatorios.md': '/documentacao/view_prescricao_relatorio/',
-          '/documentacao/view_prontuario_alergia.md': '/documentacao/view_prontuario_alergia/',
-          '/documentacao/view_prontuario_antecedentes.md': '/documentacao/view_prontuario_antecedente/',
-          '/documentacao/view_servicos.md': '/documentacao/view_servico/',
-          '/documentacao/view_usuarios.md': '/documentacao/view_usuarios/'
+          '/documentacao/(.*)\\.md': '/documentacao/$1/'
       },
       search: {
         maxAge: 86400000, // Expiration time, the default one day
