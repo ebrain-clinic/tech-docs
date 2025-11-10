@@ -1,0 +1,6 @@
+unique_cod,pessoa_nome,profissional_nome,crm,uf,sexo,cpf,email,especialidades_id,visualizar_so_oque_incluir,agenda_coletiva,roles_atribuidas,usuario_id,criar_agenda,clinicas_que_tem_acesso
+100,Ana Júlia Costa,Dra. Ana Júlia,999999,DF,F,66192680051,julia_exemplo@gmail.com,18;15,false,false,ROLE_PROFISSIONAL;ROLE_ADM,,true,
+200,Matheus Costa Viana,Dr. Matheus Viana,888888,DF,M,32996870000,matheus_exemplo@gmail.com,18;19,false,false,ROLE_PROFISSIONAL;ROLE_FINANCEIRO,,true,
+350,João Vitor Oliveira,João Oliveira,,,M,75387102056,joao_exemplo@gmail.com,1,true,true,ROLE_ASSISTENTE;ROLE_FINANCEIRO,,false,
+400,Carla Azevedo,Dra. Carla,777777,SP,F,45678912030,carla_exemplo@gmail.com,18;22,false,false,ROLE_PROFISSIONAL;ROLE_MARKETING,,true,
+500,Renato Martins,Dr. Renato,666666,RJ,M,98765432012,renato_exemplo@gmail.com,19,false,true,ROLE_PROFISSIONAL;ROLE_GESTOR_APP,,true,

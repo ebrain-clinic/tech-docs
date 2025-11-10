@@ -23,7 +23,7 @@
 | operadora_saude_unique_cod | varchar | Código da operadora de saúde |  |
 | profissional_unique_cod | varchar | Código do profissional responsável |  |
 | inclusor_unique_cod | varchar | Código do usuário responsável pelo registro |  |
-| agenda_especialidade_cod | varchar | Especialidade da agenda em que serão importados os agendamentos |  |
+| agenda_especialidade_cod | int | ID da especialidade da agenda em que serão importados os agendamentos (ver [especialidades](documentacao/view_especialidade/)) |  |
 | nome_agenda_importacao | varchar | Nome da agenda em que serão importados os agendamentos |  |
 | agenda_coletiva | boolean | Indica se a agenda é coletiva |  |
 | clinica_unique_cod | varchar | Código único da clínica |  |

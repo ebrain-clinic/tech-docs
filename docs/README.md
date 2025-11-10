@@ -7,6 +7,18 @@ Este documento apresenta os modelos de dados do sistema **ebrain**. São passív
 
 Mais informações disponíveis no site [www.ebrain.clinic](https://www.ebrain.clinic).
 
+## <span style="color: #00C985;">📥 Baixar Arquivos de Exemplo</span>
+
+Para facilitar o processo de importação, disponibilizamos todos os arquivos CSV de exemplo em um único arquivo compactado:
+
+<p align="center">
+  <a href="arquivos_exemplos.zip" download style="display: inline-block; padding: 12px 24px; background-color: #00C985; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0;">
+    ⬇️ Baixar Todos os Exemplos (ZIP)
+  </a>
+</p>
+
+O arquivo contém os exemplos de CSVs para todos os modelos de dados disponíveis. Você também pode baixar exemplos individuais em cada página de documentação.
+
 ## <span style="color: #00C985;">Formato e codificação de arquivos</span>
 
 Todos os arquivos devem ser salvos em [formato CSV](https://pt.wikipedia.org/wiki/Comma-separated_values), ou seja, arquivo texto simples separados por vírgulas, e codificados no padrão [Unicode UTF-8](https://pt.wikipedia.org/wiki/UTF-8).

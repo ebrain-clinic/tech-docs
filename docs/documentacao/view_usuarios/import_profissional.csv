@@ -1,6 +1,0 @@
-pessoa_nome,profissional_nome,crm,uf,sexo,cpf,email,especialidades_id,unique_cod,agenda_coletiva,profissional_papel
-Ana Júlia Costa,Dra. Ana Júlia,999999,DF,F,66192680051,julia_exemplo@gmail.com,18;15,100,false,ROLE_PROFISSIONAL;ROLE_ADM
-Matheus Costa Viana,Dr. Matheus Viana,888888,DF,M,32996870000,matheus_exemplo@gmail.com,18;19,200,false,ROLE_PROFISSIONAL;ROLE_FINANCEIRO
-João Vitor Oliveira,João Oliveira,,,M,75387102056,joao_exemplo@gmail.com,1,350,true,ROLE_ASSISTENTE;ROLE_FINANCEIRO
-Carla Azevedo,Dra. Carla,777777,SP,F,45678912030,carla_exemplo@gmail.com,18;22,400,false,ROLE_PROFISSIONAL;ROLE_MARKETING
-Renato Martins,Dr. Renato,666666,RJ,M,98765432012,renato_exemplo@gmail.com,19,500,true,ROLE_PROFISSIONAL;ROLE_GESTOR_APP

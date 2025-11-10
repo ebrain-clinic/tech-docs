@@ -8,6 +8,10 @@
 | sexo                  |varchar | Sexo do Profissional         |Obrigatório |
 | cpf                   |varchar | Número do CPF                |Obrigatório |
 | email                 |varchar | Email do Profissional        |Obrigatório |
-| especialidades_id     |varchar | códigos das especialidades separados por ; (especificadas em [especialidades](#especialidades) )      |Obrigatório |
-| agenda_coletiva       |Boolean | Se precisa de uma agenda exclusiva (false) ou não (true) |Obrigatório |
-| roles_atribuidas    |varchar | papéis do usuário no sistema separados por ; (especificados em [papéis do Usuário](#papéis-do-usuário) )    | |
+| especialidades_id     |varchar | ID(s) das especialidades separados por ponto e vírgula. Ex: "18" ou "1;3;15" (ver [especialidades](documentacao/view_especialidade/))      |Obrigatório |
+| visualizar_so_oque_incluir |boolean | Indica se o usuário visualiza apenas o que ele incluiu | |
+| agenda_coletiva       |boolean | Se precisa de uma agenda exclusiva (false) ou não (true) |Obrigatório |
+| roles_atribuidas    |varchar | Papéis do usuário no sistema separados por ; (especificados em [papéis do Usuário](#papéis-do-usuário) )    | |
+| usuario_id |varchar | ID do usuário no sistema (se já existir) | |
+| criar_agenda |boolean | Indica se deve criar agenda para este usuário | |
+| clinicas_que_tem_acesso |varchar | Códigos das clínicas que o usuário tem acesso, separados por ; | |

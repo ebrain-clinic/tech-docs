@@ -21,4 +21,4 @@
 | observacao     |  varchar  | Observações sobre o protocolo| |
 | composto_por_exames     |  boolean  | Indica se o protocolo é composto por exames| |
 | composto_por_medicamentos     |  boolean  | Indica se o protocolo é composto por medicamentos| |
-| protocolo_especialidade     |  varchar  | especialidade do protocolo| Obrigatório |
+| protocolo_especialidade     |  int  | ID da especialidade do protocolo (ver [especialidades](documentacao/view_especialidade/))| Obrigatório |

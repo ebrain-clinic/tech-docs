@@ -19,4 +19,4 @@
 | end1_cep                    | varchar     | CEP do endereço principal da clínica                                                      |         |
 | end1_municipio              | varchar     | Nome do município do endereço principal da clínica                                         |         |
 | end1_uf_id                  | varchar     | Sigla do estado (UF) do endereço principal da clínica                                      |         |
-| clinica_especialidade       | varchar     | Especialidades associadas à clínica                                                       | Obrigatório        |
+| clinica_especialidade       | varchar     | ID(s) da(s) especialidade(s) associadas à clínica, separados por ponto e vírgula. Ex: "18" ou "1;3;15" (ver [especialidades](documentacao/view_especialidade/))                                                       | Obrigatório        |
