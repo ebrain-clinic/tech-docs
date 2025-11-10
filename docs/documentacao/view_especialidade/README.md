@@ -11,7 +11,7 @@ Descreve as especialidades disponíveis no sistema. Esta é uma tabela de refer�
 ## Uso
 
 Este campo é referenciado em:
-- [Profissionais](documentacao/view_usuarios/) - especialidades dos profissionais
+- [Usuários](documentacao/view_usuarios/) - especialidades dos usuários
 - [Serviços](documentacao/view_servico/) - especialidades que podem realizar o serviço
 - [Agendamento](documentacao/view_agendamento/) - especialidade da agenda
 - [Agendamento - Serviço](documentacao/view_agedamento_servico/) - especialidade da agenda

@@ -11,7 +11,7 @@
   - [Planos de Operadoras de Saúde](documentacao/view_operadora_saude_plano/)
   - [Serviços](documentacao/view_servico/)
   - [Agendamento - Serviço](documentacao/view_agedamento_servico/)
-  - [Profissionais](documentacao/view_usuarios/)
+  - [Usuários](documentacao/view_usuarios/)
   - [Alertas de Pacientes](documentacao/view_pessoa_alerta/)
   - [Prontuário de Alergias](documentacao/view_prontuario_alergia/)
   - [Prontuário de Antecedentes](documentacao/view_prontuario_antecedente/)

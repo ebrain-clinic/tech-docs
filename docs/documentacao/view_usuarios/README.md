@@ -1,7 +1,7 @@
-# Profissionais
+# Usuários
 
-<p align="justify"> 
-Descreve a estrutura de dados de usuários que atuam como médicos e outros profissionais de saúde que realizam evoluções. A tabela de descrição dos campos abrange as principais informações.
+<p align="justify">
+Descreve a estrutura de dados de usuários do sistema, incluindo médicos e outros profissionais de saúde que realizam evoluções, bem como usuários administrativos como assistentes, recepcionistas e outros colaboradores. A tabela de descrição dos campos abrange as principais informações.
  </p>
 
 > Nome do arquivo de importação: `import_usuario.csv`
@@ -26,4 +26,4 @@ Descreve os papéis dos Usuários disponíveis no sistema.
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_usuarios/import_profissional.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_usuarios/import_usuario.csv ':ignore')
