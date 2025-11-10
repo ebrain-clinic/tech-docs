@@ -12,16 +12,6 @@ Descreve a estrutura de dados de usuários que atuam como médicos e outros prof
 [](tables/campos.md ':include')
 
 
-# Especialidades
-<p align="justify">
-Descreve as especialidades disponíveis no sistema.
- </p>
-
- ## Descrição dos campos
-
-[](tables/especialidades.md ':include')
-
-
 # Papéis do Usuário 
 <p align="justify"> 
 Descreve os papéis dos Usuários disponíveis no sistema.

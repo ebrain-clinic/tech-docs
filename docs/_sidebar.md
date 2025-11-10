@@ -22,3 +22,7 @@
   - [Pedido](documentacao/view_pedido/)
   - [Item Pedido](documentacao/view_item_pedido/)
   - [Item Pedido - Consumos](documentacao/view_item_pedido_consumos/)
+
+- **Tabelas de Referência**
+
+  - [Especialidades](documentacao/view_especialidade/)
