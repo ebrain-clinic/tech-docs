@@ -12,3 +12,4 @@
 | atende_convenio     | boolean   | Indica se aceita convênio médico                                 |                 |
 | especialidade_id     | varchar   | ID(s) da(s) especialidade(s) do serviço, separados por vírgula. Ex: "18" ou "1,3,18" (ver [especialidades](documentacao/view_especialidade/))                                 |                 |
 | valor_particular     |  decimal(10, 2)   | Valor do serviço particular                           |                 |
+| prontuario_indicacao_produto     | boolean   | Indica se o serviço permite associação com produtos                           |                 |
