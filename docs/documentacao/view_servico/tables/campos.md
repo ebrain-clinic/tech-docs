@@ -10,5 +10,5 @@
 | gratuito     | boolean   | Indica se é um serviço gratuito                                  |                 |
 | atende_particular     | boolean   | Indica se aceita atendimento particular                                  |                 |
 | atende_convenio     | boolean   | Indica se aceita convênio médico                                 |                 |
-| especialidade_id     | boolean   | Especialidade do serviço                                 |                 |
+| especialidade_id     | varchar   | ID(s) da(s) especialidade(s) do serviço, separados por vírgula. Ex: "18" ou "1,3,18" (ver [especialidades](documentacao/view_especialidade/))                                 |                 |
 | valor_particular     |  decimal(10, 2)   | Valor do serviço particular                           |                 |
