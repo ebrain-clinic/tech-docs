@@ -1,6 +1,6 @@
-nome,data_inicio,data_importacao,data_fim,evo_admin_id,agendavel,agendavel_via_app,gratuito,atende_particular,atende_convenio,especialidade_id,valor_particular,unique_cod,prontuario_indicacao_produto
-Biopsia de pele,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,false,false,true,true,18,700,600,true
-Aplicação Toxina Botulínica,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,true,false,true,false,18,800,700,true
-Limpeza de pele,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,true,false,true,true,18,500,800,true
-Laser CO2,2020-01-01,2023-06-28 12:39:52.969 -0300,2023-01-01,,true,true,false,true,false,18,500,900,true
-Laser Fracionado para Estrias,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,true,false,true,false,18,500,1000,true
+nome,data_inicio,data_importacao,data_fim,evo_admin_id,agendavel,agendavel_via_app,gratuito,atende_particular,atende_convenio,especialidade_id,valor_particular,unique_cod,modelo_unique_cods,prontuario_indicacao_produto
+Biopsia de pele,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,false,false,true,true,18,700,600,,true
+Aplicação Toxina Botulínica,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,true,false,true,false,18,800,700,,true
+Limpeza de pele,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,true,false,true,true,18,500,800,,true
+Laser CO2,2020-01-01,2023-06-28 12:39:52.969 -0300,2023-01-01,,true,true,false,true,false,18,500,900,LASER_CO2_001,true
+Laser Fracionado para Estrias,2023-01-01,2023-06-28 12:39:52.969 -0300,,,true,true,false,true,false,18,500,1000,LASER_FRAC_001,true
