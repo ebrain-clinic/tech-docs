@@ -10,6 +10,7 @@
   - [Operadora de Saúde](documentacao/view_operadora_saude/)
   - [Planos de Operadoras de Saúde](documentacao/view_operadora_saude_plano/)
   - [Serviços](documentacao/view_servico/)
+  - [Equipamentos](documentacao/view_equipamento/)
   - [Agendamento - Serviço](documentacao/view_agedamento_servico/)
   - [Usuários](documentacao/view_usuarios/)
   - [Alertas de Pacientes](documentacao/view_pessoa_alerta/)
