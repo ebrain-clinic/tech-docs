@@ -12,9 +12,9 @@ Mais informações disponíveis no site [www.ebrain.clinic](https://www.ebrain.c
 Para facilitar o processo de importação, disponibilizamos todos os arquivos CSV de exemplo em um único arquivo compactado:
 
 <p align="center">
-  <a href="arquivos_exemplos.zip" download style="display: inline-block; padding: 12px 24px; background-color: #00C985; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0;">
+  <button id="download-zip-btn" style="display: inline-block; padding: 12px 24px; background-color: #00C985; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; margin: 10px 0; border: none; cursor: pointer; font-size: 1em;">
     ⬇️ Baixar Todos os Exemplos (ZIP)
-  </a>
+  </button>
 </p>
 
 O arquivo contém os exemplos de CSVs para todos os modelos de dados disponíveis. Você também pode baixar exemplos individuais em cada página de documentação.
