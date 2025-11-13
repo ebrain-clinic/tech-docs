@@ -68,5 +68,128 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+  <!-- JSZip for dynamic ZIP generation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+  <!-- Custom script for dynamic ZIP generation -->
+  <script>
+    // Auto-discover and generate ZIP with all CSV example files
+    async function generateExamplesZip() {
+      const button = document.getElementById('download-zip-btn');
+      if (!button) return;
+
+      const originalText = button.innerHTML;
+
+      try {
+        // Update button state
+        button.innerHTML = '⏳ Gerando arquivo...';
+        button.disabled = true;
+        button.style.cursor = 'wait';
+
+        // Fetch and parse sidebar to discover all views
+        const sidebarResponse = await fetch('_sidebar.md');
+        const sidebarText = await sidebarResponse.text();
+
+        // Extract all view links from sidebar (pattern: documentacao/view_*/
+        const viewRegex = /\(documentacao\/(view_[^/)]+)\//g;
+        const viewMatches = [...sidebarText.matchAll(viewRegex)];
+        const viewDirs = [...new Set(viewMatches.map(match => match[1]))];
+
+        console.log(`Found ${viewDirs.length} view directories in sidebar`);
+
+        // Create ZIP instance
+        const zip = new JSZip();
+        let filesAdded = 0;
+
+        // For each view, try to fetch its CSV file
+        const fetchPromises = viewDirs.map(async (viewDir) => {
+          // Extract view name from directory (e.g., view_pessoa -> pessoa)
+          const viewName = viewDir.replace('view_', '');
+
+          // Construct CSV path
+          const csvPath = `documentacao/${viewDir}/import_${viewName}.csv`;
+
+          try {
+            const response = await fetch(csvPath);
+            if (response.ok) {
+              const content = await response.text();
+              const fileName = `import_${viewName}.csv`;
+              zip.file(fileName, content);
+              filesAdded++;
+              console.log(`✓ Added: ${fileName}`);
+              return fileName;
+            } else {
+              console.log(`✗ Not found: ${csvPath}`);
+              return null;
+            }
+          } catch (error) {
+            console.warn(`Error fetching ${csvPath}:`, error);
+            return null;
+          }
+        });
+
+        // Wait for all fetch attempts
+        await Promise.all(fetchPromises);
+
+        console.log(`Total files added to ZIP: ${filesAdded}`);
+
+        if (filesAdded === 0) {
+          throw new Error('Nenhum arquivo CSV encontrado');
+        }
+
+        // Generate ZIP blob
+        const blob = await zip.generateAsync({
+          type: 'blob',
+          compression: 'DEFLATE',
+          compressionOptions: { level: 9 }
+        });
+
+        // Create download link and trigger download
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = 'arquivos_exemplos.zip';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        // Clean up
+        URL.revokeObjectURL(link.href);
+
+        // Success feedback
+        button.innerHTML = `✅ ${filesAdded} arquivos baixados!`;
+        setTimeout(() => {
+          button.innerHTML = originalText;
+          button.disabled = false;
+          button.style.cursor = 'pointer';
+        }, 2000);
+
+      } catch (error) {
+        console.error('Error generating ZIP:', error);
+        button.innerHTML = '❌ Erro ao gerar arquivo';
+        setTimeout(() => {
+          button.innerHTML = originalText;
+          button.disabled = false;
+          button.style.cursor = 'pointer';
+        }, 3000);
+      }
+    }
+
+    // Attach event listener using Docsify hook (for SPA compatibility)
+    if (window.$docsify) {
+      window.$docsify.plugins = [].concat(window.$docsify.plugins || [], [
+        function(hook) {
+          hook.doneEach(function() {
+            const button = document.getElementById('download-zip-btn');
+            if (button && !button.hasAttribute('data-zip-listener')) {
+              button.addEventListener('click', generateExamplesZip);
+              button.setAttribute('data-zip-listener', 'true');
+              console.log('ZIP download button initialized');
+            }
+          });
+        }
+      ]);
+    }
+  </script>
 </body>
 </html>
