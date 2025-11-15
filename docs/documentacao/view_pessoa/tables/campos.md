@@ -18,7 +18,7 @@
 | raca | varchar | Raça da pessoa |  |
 | estado_civil | varchar | Estado civil da pessoa |  |
 | nome_conjuge | varchar | Nome do cônjuge |  |
-| profissao | varchar | Nome da profissão da pessoa (com base no CBO - IBGE) |  |
+| profissao_principal | varchar | Nome da profissão da pessoa (com base no CBO - IBGE) |  |
 | ocupacao_outros | varchar | Ocupação da pessoa |  |
 | local_trabalho | varchar | Local de trabalho da pessoa |  |
 | obito_encerrado | boolean | Indica se o óbito está encerrado |  |
@@ -44,7 +44,7 @@
 | contato1_telefone_ddd | int | DDD do telefone do contato 1 |  |
 | contato1_num_ddi | int | DDI do telefone do contato 1 |  |
 | contato1_telefone_numero | int | Número do telefone do contato 1 |  |
-| contato1_telefone_completo | varchar | Número completo do telefone do contato formato: (99)  99 999999999 |  |
+| contato1_telefone_numero_completo | varchar | Número completo do telefone do contato formato: (99)  99 999999999 |  |
 | contato1_preferido | boolean | Indica se o contato 1 é preferido | Obrigatório se `contato1_telefone_numero` preenchido |
 | contato1_tipo_contato_id | int | ID do tipo de contato do contato 1 (1 - celular, 2 - fixo) | Obrigatório se `contato1_telefone_numero` preenchido |
 | contato1_receber_propagandas | boolean | Indica se o contato 1 deseja receber propagandas | Obrigatório se `contato1_telefone_numero` preenchido |
@@ -54,7 +54,7 @@
 | contato2_telefone_ddd | int | DDD do telefone do contato 2 |  |
 | contato2_num_ddi | int | DDI do telefone do contato 2 |  |
 | contato2_telefone_numero | int | Número do telefone do contato 2 |  |
-| contato2_telefone_completo | varchar | Número completo do telefone do contato 2 |  |
+| contato2_telefone_numero_completo | varchar | Número completo do telefone do contato 2 |  |
 | contato2_preferido | boolean | Indica se o contato 2 é preferido | Obrigatório |
 | contato2_tipo_contato_id | int | ID do tipo de contato do contato 2 (1 - celular, 2 - fixo) | Obrigatório se `contato2_telefone_numero` preenchido |
 | contato2_receber_propagandas | boolean | Indica se o contato 2 deseja receber propagandas | Obrigatório se `contato2_telefone_numero` preenchido |
@@ -64,7 +64,7 @@
 | contato3_telefone_ddd | int | DDD do telefone do contato 3 |  |
 | contato3_num_ddi | int | DDI do telefone do contato 3 |  |
 | contato3_telefone_numero | int | Número do telefone do contato 3 |  |
-| contato3_telefone_completo | varchar | Número completo do telefone do contato 3 |  |
+| contato3_telefone_numero_completo | varchar | Número completo do telefone do contato 3 |  |
 | contato3_preferido | boolean | Indica se o contato 3 é preferido | Obrigatório |
 | contato3_tipo_contato_id | int | ID do tipo de contato do contato 3 (1 - celular, 2 - fixo) | Obrigatório se `contato3_telefone_numero` preenchido |
 | contato3_receber_propagandas | boolean | Indica se o contato 3 deseja receber propagandas | Obrigatório se `contato3_telefone_numero` preenchido |
@@ -74,7 +74,7 @@
 | contato4_telefone_ddd | int | DDD do telefone do contato 4 |  |
 | contato4_num_ddi | int | DDI do telefone do contato 4 |  |
 | contato4_telefone_numero | int | Número do telefone do contato 4 |  |
-| contato4_telefone_completo | varchar | Número completo do telefone do contato 4 |  |
+| contato4_telefone_numero_completo | varchar | Número completo do telefone do contato 4 |  |
 | contato4_preferido | boolean | Indica se o contato 4 é preferido | Obrigatório |
 | contato4_tipo_contato_id | int | ID do tipo de contato do contato 4 (1 - celular, 2 - fixo) | Obrigatório se `contato4_telefone_numero` preenchido |
 | contato4_receber_propagandas | boolean | Indica se o contato 4 deseja receber propagandas | Obrigatório se `contato4_telefone_numero` preenchido |

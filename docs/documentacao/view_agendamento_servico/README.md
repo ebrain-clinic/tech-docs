@@ -14,4 +14,4 @@ Descreve a estrutura de dados de ligação entre serviços e agendamentos. A tab
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_agedamento_servico/import_agendamento_servico.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_agendamento_servico/import_agendamento_servico.csv ':ignore')

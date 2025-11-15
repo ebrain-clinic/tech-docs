@@ -4,7 +4,7 @@
 Descreve a estrutura de dados de usuários do sistema, incluindo médicos e outros profissionais de saúde que realizam evoluções, bem como usuários administrativos como assistentes, recepcionistas e outros colaboradores. A tabela de descrição dos campos abrange as principais informações.
  </p>
 
-> Nome do arquivo de importação: `import_usuario.csv`
+> Nome do arquivo de importação: `import_user.csv`
 
 
 ## Descrição dos campos
@@ -26,4 +26,4 @@ Descreve os papéis dos Usuários disponíveis no sistema.
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_usuarios/import_usuario.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_usuario/import_user.csv ':ignore')
