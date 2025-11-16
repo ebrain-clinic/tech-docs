@@ -1,6 +1,6 @@
 unique_cod,principal,nome,nome_fantasia,cpf,cnpj,cnes,email_contato_principal,telefone_contato_principal,data_registro,horario_comercial_inicio,horario_comercial_fim,end1_logradouro,end1_numero,end1_complemento,end1_bairro,end1_cep,end1_municipio_id,end1_uf_id,end1_pais,end1_cidade_nome_internacional,clinica_especialidade
-CL001,true,Clínica Saúde Total,Saúde Total,,12345678000199,12345,contato@saudetotal.com,11999999999,2023-12-01 08:00:00,08:00:00,18:00:00,Rua das Flores,123,Sala 2,Centro,01001000,3830,1,Brasil,São Paulo,1;3;15
-CL002,false,Clínica Bem-Estar,Bem-Estar,12345678901,,,contato@bemestar.com,21988888888,2023-11-25 09:00:00,09:00:00,17:00:00,Avenida Central,456,Prédio 1,Jardins,22041001,3243,21,Brasil,Rio de Janeiro,18
-CL003,false,Clínica Viva Melhor,Viva Melhor,,98765432000111,54321,contato@vivamelhor.com,31977777777,2023-11-30 10:00:00,10:00:00,20:00:00,Rua dos Pinheiros,789,,Pinheiros,01418001,3830,1,Brasil,Belo Horizonte,45
-CL004,false,Clínica Horizonte,Clínica Horizonte,,11223344000155,67890,contato@horizonte.com,41966666666,2023-11-28 07:30:00,07:30:00,19:00:00,Rua Horizonte,321,,Centro,80010000,3830,1,Brasil,Curitiba,12;18
-CL005,false,Clínica Vida Plena,Vida Plena,,22334455000100,98765,contato@vidaplena.com,71955555555,2023-11-22 08:30:00,08:30:00,17:30:00,Avenida da Saúde,654,Conjunto B,Saúde,40120000,3830,1,Brasil,Salvador,5;9
+CL001,true,Clínica Saúde Total,Saúde Total,,12345678000199,12345,contato@saudetotal.com,11999999999,2023-12-01 08:00:00,08:00:00,18:00:00,Rua das Flores,123,Sala 2,Centro,01001000,3830,1,,,1;3;15
+CL002,false,Clínica Bem-Estar,Bem-Estar,12345678901,,,contato@bemestar.com,21988888888,2023-11-25 09:00:00,09:00:00,17:00:00,Avenida Central,456,Prédio 1,Jardins,22041001,3243,21,,,18
+CL003,false,Clínica Viva Melhor,Viva Melhor,,98765432000111,54321,contato@vivamelhor.com,31977777777,2023-11-30 10:00:00,10:00:00,20:00:00,Rua dos Pinheiros,789,,Pinheiros,01418001,3830,1,,,45
+CL004,false,Clínica Horizonte,Clínica Horizonte,,11223344000155,67890,contato@horizonte.com,41966666666,2023-11-28 07:30:00,07:30:00,19:00:00,Rua Horizonte,321,,Centro,80010000,3830,1,,,12;18
+CL005,false,Clínica Vida Plena,Vida Plena,,22334455000100,98765,contato@vidaplena.com,71955555555,2023-11-22 08:30:00,08:30:00,17:30:00,Avenida da Saúde,654,Conjunto B,Saúde,40120000,3830,1,,,5;9

@@ -1,5 +1,5 @@
 unique_cod,equipamento_modelo_unique_cod,equipamento_modelo_nome,observacoes_modelo,data_registro_modelo,equipamento_nome,numero_serie,observacoes_equipamento,data_registro_equipamento,data_exclusao
 EQ001,LASER_CO2_001,Laser CO2 Fracionado,Equipamento para tratamentos dermatológicos,2023-01-01,Laser CO2 - Unidade 1,SN123456,Equipamento principal da sala 1,2023-01-15,
 EQ002,LASER_FRAC_001,Laser Fracionado,Laser para tratamento de estrias e cicatrizes,2023-01-01,Laser Fracionado - Unidade 1,SN789012,Equipamento da sala 2,2023-02-01,
-EQ003,LASER_FRAC_001,Laser Fracionado,Laser para tratamento de estrias e cicatrizes,2023-01-01,Laser Fracionado - Unidade 2,SN789013,Equipamento backup,2023-03-15,
+EQ003,LASER_FRAC_002,Laser Fracionado,Laser para tratamento de estrias e cicatrizes,2023-01-01,Laser Fracionado - Unidade 2,SN789013,Equipamento backup,2023-03-15,
 EQ004,BODY_SCULPTOR_001,Body Sculptor,Equipamento de estética corporal,2023-01-01,Body Sculptor - Principal,SN345678,,2023-01-20,
