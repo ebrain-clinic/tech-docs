@@ -7,4 +7,5 @@
 | relevante_prescricoes               | boolean | Se possui prescrições relevantes                                  |   Obrigatório              |
 | data_registro          | timestamp     |   Data do registro                |   Obrigatório              |
 | data_fim |timestamp | Data fim da alergia | |
+| prontuario_especialidade_cod | int | Código da especialidade do prontuário (se houver) |  |
 | inclusor_unique_cod            | varchar |  Código do usuário que registrou as alergias         |      Obrigatório           |

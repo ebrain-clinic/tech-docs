@@ -22,3 +22,4 @@
 | composto_por_exames     |  boolean  | Indica se o protocolo é composto por exames| |
 | composto_por_medicamentos     |  boolean  | Indica se o protocolo é composto por medicamentos| |
 | protocolo_especialidade     |  int  | ID da especialidade do protocolo (ver [especialidades](documentacao/view_especialidade/))| Obrigatório |
+| inclusor_unique_cod | varchar | Código único do usuário que criou o registro |  |

@@ -7,4 +7,5 @@
 | profissional_unique_cod           | varchar   | Código do profissional que fez o documento.                              | Obrigatório |
 | prontuario_unique_cod             | varchar   | Código do prontuário que contém o documento.                             | Obrigatório |
 | documento_texto                   | varchar   | Prescrição textual que contém o conteúdo do atestado médico.              | Obrigatório |
-| inclusor_unique_cod            | varchar |  Código do usuário que incluiu a prescrição | |
+| inclusor_unique_cod               | varchar   | Código do usuário que incluiu a prescrição |  |
+| prontuario_especialidade_cod      | int       | Código da especialidade do prontuário (se houver) |  |
