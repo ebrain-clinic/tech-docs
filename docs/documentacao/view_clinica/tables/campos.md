@@ -18,7 +18,7 @@
 | end1_bairro                 | varchar     | Bairro do endereço principal da clínica                                                   |         |
 | end1_cep                    | varchar     | CEP do endereço principal da clínica                                                      |         |
 | end1_municipio_id           | bigint      | ID do município do endereço principal da clínica                                           |         |
-| end1_uf_id                  | varchar     | Sigla do estado (UF) do endereço principal da clínica                                      |         |
+| end1_uf_id                  | bigint      | Sigla do estado (UF) do endereço principal da clínica                                      |         |
 | end1_pais                   | varchar     | Nome do país do endereço internacional                                                     |         |
 | end1_cidade_nome_internacional | varchar  | Nome da cidade do endereço internacional                                                   |         |
 | clinica_especialidade       | varchar     | ID(s) da(s) especialidade(s) associadas à clínica, separados por ponto e vírgula. Ex: "18" ou "1;3;15" (ver [especialidades](documentacao/view_especialidade/))                                                       | Obrigatório        |

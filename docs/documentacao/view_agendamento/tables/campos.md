@@ -27,4 +27,4 @@
 | nome_agenda_importacao | varchar | Nome da agenda em que serão importados os agendamentos |  |
 | agenda_coletiva | boolean | Indica se a agenda é coletiva |  |
 | clinica_unique_cod | varchar | Código único da clínica |  |
-| bloqueio | boolean | Indica se o agendamento é ou não um bloqueio |  |
+| bloqueio | varchar | Indica se o agendamento é ou não um bloqueio. Valores possíveis: IMPORTAR_COMO_BLOQUEIO, IMPORTAR_COMO_AGENDAMENTO, NAO_IMPORTAR, NULL |  |
