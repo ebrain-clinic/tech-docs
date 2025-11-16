@@ -2,6 +2,7 @@
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
 | unique_cod                 | varchar     | Código único sem repetição do antecedente                     |     Obrigatório            |
 | pessoa_unique_cod | varchar     |   Código do paciente                         |      Obrigatório           |
+| profissional_unique_cod | varchar | Código do profissional |  |
 | descricao          | varchar     | Descrição dos antecedentes                        |   Obrigatório              |
 | privado               | boolean | Se é privado                                  |                 |
 | data_registro          | timestamp     |   Data do registro                |   Obrigatório              |

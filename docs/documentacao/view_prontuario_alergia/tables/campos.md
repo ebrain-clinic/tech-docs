@@ -2,6 +2,7 @@
 |-----------------------------|-----------|----------------------------------------------------------------------------|-----------------|
 | unique_cod                 | varchar     | Código único sem repetição da alergia                     |     Obrigatório            |
 | pessoa_unique_cod | varchar     |   Código do paciente                         |      Obrigatório           |
+| profissional_unique_cod | varchar | Código do profissional |  |
 | nome          | varchar     | Nome da alergia                        |   Obrigatório              |
 | observacao    |  varchar    | Observações à respeito da alergia               |                 |
 | relevante_prescricoes               | boolean | Se possui prescrições relevantes                                  |   Obrigatório              |
