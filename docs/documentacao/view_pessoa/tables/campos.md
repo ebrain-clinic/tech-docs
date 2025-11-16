@@ -3,6 +3,7 @@
 | unique_cod | varchar | Código único sem repetição da pessoa | Obrigatório |
 | codigo_nas_clinicas | varchar | Número que a clínica possa ter do cliente e que não seja a chave primária |  |
 | data_registro | timestamp | Data de registro da pessoa | Obrigatório |
+| data_exclusao | timestamp | Data de exclusão da pessoa |  |
 | tratamento | varchar | Descrição de tratamento |  |
 | nome_civil_razao_social | varchar | Nome civil da pessoa ou razão social da empresa | Obrigatório |
 | nome_social | varchar | Nome pelo qual o paciente quer ser chamado |  |
