@@ -5,6 +5,7 @@
   - [Planos de Operadoras de Saúde](documentacao/view_operadora_saude_plano/)
   - [Pacientes](documentacao/view_pessoa/)
   - [Serviços](documentacao/view_servico/)
+  - [Orientações de Serviço](documentacao/view_servico_orientacao/)
 
   <!-- Agendamento chain -->
   - [Agendamento](documentacao/view_agendamento/)
