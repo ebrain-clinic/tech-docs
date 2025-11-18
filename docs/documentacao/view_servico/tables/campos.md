@@ -18,4 +18,4 @@
 | modelo_unique_cods     | varchar   | Código(s) único(s) do(s) modelo(s) de equipamento associado(s) ao serviço, separados por vírgula. Ex: "ABC123" ou "ABC123,DEF456" (ver [equipamentos](documentacao/view_equipamento/))                           |                 |
 | diagnostico_associacao_automatica | boolean | Indica se o serviço associa diagnóstico automaticamente |                 |
 | minutos_duracao_padrao | int | Duração padrão do serviço em minutos |                 |
-| prontuario_indicacao_produto | varchar | Indica se o serviço permite associação com produtos |                 |
+| prontuario_indicacao_produto | boolean | Indica se o serviço permite associação com produtos |                 |
