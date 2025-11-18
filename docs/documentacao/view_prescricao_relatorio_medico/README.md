@@ -14,4 +14,4 @@ Descreve a estrutura de dados de relatórios médicos. A tabela de descrição d
 ## Arquivo
 <p align="justify">Arquivo de exemplo:</p>
 
-[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_prescricao_relatorio/import_prescricao_relatorio_medico.csv ':ignore')
+[Clique aqui para baixar o arquivo csv de exemplo](documentacao/view_prescricao_relatorio_medico/import_prescricao_relatorio_medico.csv ':ignore')

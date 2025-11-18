@@ -3,6 +3,7 @@
 | unique_cod | varchar | Código único sem repetição da pessoa | Obrigatório |
 | codigo_nas_clinicas | varchar | Número que a clínica possa ter do cliente e que não seja a chave primária |  |
 | data_registro | timestamp | Data de registro da pessoa | Obrigatório |
+| data_exclusao | timestamp | Data de exclusão da pessoa |  |
 | tratamento | varchar | Descrição de tratamento |  |
 | nome_civil_razao_social | varchar | Nome civil da pessoa ou razão social da empresa | Obrigatório |
 | nome_social | varchar | Nome pelo qual o paciente quer ser chamado |  |
@@ -18,7 +19,7 @@
 | raca | varchar | Raça da pessoa |  |
 | estado_civil | varchar | Estado civil da pessoa |  |
 | nome_conjuge | varchar | Nome do cônjuge |  |
-| profissao | varchar | Nome da profissão da pessoa (com base no CBO - IBGE) |  |
+| profissao_principal | varchar | Nome da profissão da pessoa (com base no CBO - IBGE) |  |
 | ocupacao_outros | varchar | Ocupação da pessoa |  |
 | local_trabalho | varchar | Local de trabalho da pessoa |  |
 | obito_encerrado | boolean | Indica se o óbito está encerrado |  |
@@ -39,12 +40,12 @@
 | end1_municipio_nome | varchar | Nome do município do endereço principal. É extraído da base da Ebrain através do município fornecido. | Obrigatório se end1_municipio_id nulo |
 | end1_uf_sigla | varchar | Sigla da Unidade da Federação do endereço principal, conforme tabela de domínio | Obrigatório |
 | end1_cidade_nome_internacional | varchar | Nome da cidade do endereço caso seja um endereço internacional |  |
-| end1_pais_unique_cod | int | Código identificador do país do endereço caso seja um endereço internacional |  |
+| end1_pais | varchar | Código identificador do país do endereço caso seja um endereço internacional |  |
 | contato1_descricao | varchar | Descrição do contato 1 |  |
 | contato1_telefone_ddd | int | DDD do telefone do contato 1 |  |
 | contato1_num_ddi | int | DDI do telefone do contato 1 |  |
 | contato1_telefone_numero | int | Número do telefone do contato 1 |  |
-| contato1_telefone_completo | varchar | Número completo do telefone do contato formato: (99)  99 999999999 |  |
+| contato1_telefone_numero_completo | varchar | Número completo do telefone do contato formato: (99)  99 999999999 |  |
 | contato1_preferido | boolean | Indica se o contato 1 é preferido | Obrigatório se `contato1_telefone_numero` preenchido |
 | contato1_tipo_contato_id | int | ID do tipo de contato do contato 1 (1 - celular, 2 - fixo) | Obrigatório se `contato1_telefone_numero` preenchido |
 | contato1_receber_propagandas | boolean | Indica se o contato 1 deseja receber propagandas | Obrigatório se `contato1_telefone_numero` preenchido |
@@ -54,7 +55,7 @@
 | contato2_telefone_ddd | int | DDD do telefone do contato 2 |  |
 | contato2_num_ddi | int | DDI do telefone do contato 2 |  |
 | contato2_telefone_numero | int | Número do telefone do contato 2 |  |
-| contato2_telefone_completo | varchar | Número completo do telefone do contato 2 |  |
+| contato2_telefone_numero_completo | varchar | Número completo do telefone do contato 2 |  |
 | contato2_preferido | boolean | Indica se o contato 2 é preferido | Obrigatório |
 | contato2_tipo_contato_id | int | ID do tipo de contato do contato 2 (1 - celular, 2 - fixo) | Obrigatório se `contato2_telefone_numero` preenchido |
 | contato2_receber_propagandas | boolean | Indica se o contato 2 deseja receber propagandas | Obrigatório se `contato2_telefone_numero` preenchido |
@@ -64,7 +65,7 @@
 | contato3_telefone_ddd | int | DDD do telefone do contato 3 |  |
 | contato3_num_ddi | int | DDI do telefone do contato 3 |  |
 | contato3_telefone_numero | int | Número do telefone do contato 3 |  |
-| contato3_telefone_completo | varchar | Número completo do telefone do contato 3 |  |
+| contato3_telefone_numero_completo | varchar | Número completo do telefone do contato 3 |  |
 | contato3_preferido | boolean | Indica se o contato 3 é preferido | Obrigatório |
 | contato3_tipo_contato_id | int | ID do tipo de contato do contato 3 (1 - celular, 2 - fixo) | Obrigatório se `contato3_telefone_numero` preenchido |
 | contato3_receber_propagandas | boolean | Indica se o contato 3 deseja receber propagandas | Obrigatório se `contato3_telefone_numero` preenchido |
@@ -74,7 +75,7 @@
 | contato4_telefone_ddd | int | DDD do telefone do contato 4 |  |
 | contato4_num_ddi | int | DDI do telefone do contato 4 |  |
 | contato4_telefone_numero | int | Número do telefone do contato 4 |  |
-| contato4_telefone_completo | varchar | Número completo do telefone do contato 4 |  |
+| contato4_telefone_numero_completo | varchar | Número completo do telefone do contato 4 |  |
 | contato4_preferido | boolean | Indica se o contato 4 é preferido | Obrigatório |
 | contato4_tipo_contato_id | int | ID do tipo de contato do contato 4 (1 - celular, 2 - fixo) | Obrigatório se `contato4_telefone_numero` preenchido |
 | contato4_receber_propagandas | boolean | Indica se o contato 4 deseja receber propagandas | Obrigatório se `contato4_telefone_numero` preenchido |
@@ -107,4 +108,14 @@
 | operadora_saude3_detalhes | varchar | Detalhes da operadora de saúde 3 |  |
 | operadora_saude3_plano_unique_cod | varchar | Código único do plano de saúde da operadora 3 |  |
 | operadora_saude3_nome_plano | varchar | Nome do plano de saúde da operadora 3 |  |
+| operadora_saude4_unique_cod | varchar | Código único da operadora de saúde 4 | Obrigatório se `operadora_saude4_plano_unique_cod` preenchido |
+| operadora_saude4_numero | varchar | Número da carteirinha da operadora de saúde 4 |  |
+| operadora_saude4_validade | date | Data da validade da operadora de saúde 4 |  |
+| operadora_saude4_nome_operadora | varchar | Nome da operadora de saúde 4 | Obrigatório se `operadora_saude4_plano_unique_cod` preenchido |
+| operadora_saude4_detalhes | varchar | Detalhes da operadora de saúde 4 |  |
+| operadora_saude4_plano_unique_cod | varchar | Código único do plano de saúde da operadora 4 |  |
+| operadora_saude4_nome_plano | varchar | Nome do plano de saúde da operadora 4 |  |
+| endereco_instagram | varchar | Endereço do Instagram da pessoa |  |
+| endereco_facebook | varchar | Endereço do Facebook da pessoa |  |
+| endereco_twitter | varchar | Endereço do Twitter da pessoa |  |
 | clinica_unique_cod | varchar | Código único da clínica | Obrigatório caso haja mais de uma clínica |

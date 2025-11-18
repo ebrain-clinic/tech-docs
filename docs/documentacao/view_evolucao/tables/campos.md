@@ -11,4 +11,5 @@
 | diag_evolucao_descricao_html     | varchar   | Evolução no formato HTML                             | Opcional                |
 | diag_evolucao_adendo        | boolean | Indica se existe um complemento relacionado ao prontuário           |                 |
 | diag_evolucao_data_exclusao | timestamp | Data e hora de exclusão do prontuário                         |                 |
+| prontuario_especialidade_cod | int | Código da especialidade do prontuário (se houver) |  |
 | inclusor_unique_cod    | varchar     | Código do usuário relacionado à prescrição da evolução | Obrigatório se profissional_unique_cod nulo |

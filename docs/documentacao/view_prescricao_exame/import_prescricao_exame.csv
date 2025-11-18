@@ -1,4 +1,4 @@
-unique_cod,prescricao_unique_cod,data_prescricao,data_registro,data_exclusao,data_atualizacao,exame_nome,pessoa_unique_cod,profissional_unique_cod,documento_nao_estruturado_texto,texto_resultados,json_resultados,observacao,inclusor_unique_cod
+unique_cod,prescricao_unique_cod,data_prescricao,data_registro,data_exclusao,data_atualizacao,exame_nome,pessoa_unique_cod,profissional_unique_cod,documento_nao_estruturado_texto,texto_resultados,json_resultados,observacao,prontuario_especialidade_cod,inclusor_unique_cod
 20000,8000,2023-01-28 18:59:04.000,2023-01-28 18:59:04.000,,,"Lactose, teste de tolerância",100,100,,"Resultado: Positivo.
 Lactose Tolerância:
 Jejum: Normal
@@ -10,8 +10,8 @@ Jejum: Normal
     ""60_minutos"": ""Intolerante"",
     ""90_minutos"": ""Intolerante"",
     ""120_minutos"": ""Intolerante""
-  } }",No dia anterior ao exame não consumiu lactose,100
-20001,8001,2023-01-27 18:59:04.000,2023-01-27 18:59:04.000,,,"Perfil lipídico / lipidograma (lípidios totais, colesterol, triglicerídios e eletroforese lipoproteínas)",100,200,,,,,200
-20002,8002,2023-01-29 18:59:04.000,2023-01-29 18:59:04.000,,2023-02-02 05:30:04.000,Pesquisa e/ou dosagem (Vitamina D3),100,100,,,,,100
-20003,18875,2023-01-30 18:59:04.000,2023-01-30 18:59:04.000,,,"Hemograma com contagem de plaquetas ou frações (eritrograma, leucograma, plaquetas)",200,100,,,,,100
-20004,18876,2023-01-18 18:59:04.000,2023-01-18 18:59:04.000,2023-01-28 18:59:04.000,,Cortisol,300,200,"Lactose, teste de tolerância, Cortisol, Vitamina A, Vitamina D",,,,200
+  } }",No dia anterior ao exame não consumiu lactose,100,100
+20001,8001,2023-01-27 18:59:04.000,2023-01-27 18:59:04.000,,,"Perfil lipídico / lipidograma (lípidios totais, colesterol, triglicerídios e eletroforese lipoproteínas)",100,200,,,,,100,200
+20002,8002,2023-01-29 18:59:04.000,2023-01-29 18:59:04.000,,2023-02-02 05:30:04.000,Pesquisa e/ou dosagem (Vitamina D3),100,100,,,,,100,100
+20003,18875,2023-01-30 18:59:04.000,2023-01-30 18:59:04.000,,,"Hemograma com contagem de plaquetas ou frações (eritrograma, leucograma, plaquetas)",200,100,,,,,100,100
+20004,18876,2023-01-18 18:59:04.000,2023-01-18 18:59:04.000,2023-01-28 18:59:04.000,,Cortisol,300,200,"Lactose, teste de tolerância, Cortisol, Vitamina A, Vitamina D",,,,200,200

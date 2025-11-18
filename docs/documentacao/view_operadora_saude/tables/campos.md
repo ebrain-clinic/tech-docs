@@ -6,5 +6,6 @@
 | registro_ans    | varchar     | Registro ANS da operadora de saúde                 |                 |
 | codigo_na_operadora | varchar     |   Código usado na operadora                           |                 |
 | versao_tiss            | varchar |    Versão do padrão TISS que a operadora usa       |                 |
+| data_exclusao          | timestamp | Data de exclusão da operadora                      |                 |
 | particular               | boolean | Indica se é particular                    |                 |
 | cortesia     | boolean   | Indica se é cortesia                                  |                 |

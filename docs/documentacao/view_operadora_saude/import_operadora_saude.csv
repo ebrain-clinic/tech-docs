@@ -1,6 +1,6 @@
-unique_cod,nome,data_registro,registro_ans,codigo_na_operadora,versao_tiss,particular,cortesia
-700,Unimed,2020-06-28 10:33:37.384 -0300,,1,,true,false
-800,SulAmérica,2020-06-20 10:33:37.384 -0300,5555,2,1,true,false
-900,Amil,2020-06-28 10:33:37.384 -0300,,3,,true,false
-1000,Bradesco,2020-06-29 10:33:37.384 -0300,,4,,true,false
-1100,NotreDame,2020-06-30 10:33:37.384 -0300,7777,5,3,false,false
+unique_cod,nome,data_registro,registro_ans,codigo_na_operadora,versao_tiss,data_exclusao,particular,cortesia
+700,Unimed,2020-06-28 10:33:37.384 -0300,,1,,,true,false
+800,SulAmérica,2020-06-20 10:33:37.384 -0300,5555,2,1,,true,false
+900,Amil,2020-06-28 10:33:37.384 -0300,,3,,,true,false
+1000,Bradesco,2020-06-29 10:33:37.384 -0300,,4,,,true,false
+1100,NotreDame,2020-06-30 10:33:37.384 -0300,7777,5,3,,false,false

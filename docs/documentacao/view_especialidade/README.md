@@ -11,10 +11,10 @@ Descreve as especialidades disponíveis no sistema. Esta é uma tabela de refer�
 ## Uso
 
 Este campo é referenciado em:
-- [Usuários](documentacao/view_usuarios/) - especialidades dos usuários
+- [Usuários](documentacao/view_usuario/) - especialidades dos usuários
 - [Serviços](documentacao/view_servico/) - especialidades que podem realizar o serviço
 - [Agendamento](documentacao/view_agendamento/) - especialidade da agenda
-- [Agendamento - Serviço](documentacao/view_agedamento_servico/) - especialidade da agenda
+- [Agendamento - Serviço](documentacao/view_agendamento_servico/) - especialidade da agenda
 - [Prescrição de Protocolos](documentacao/view_prescricao_protocolo_medicamento_exame/) - especialidade do protocolo
 - [Clínica](documentacao/view_clinica/) - especialidades atendidas pela clínica
 
