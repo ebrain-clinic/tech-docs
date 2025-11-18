@@ -1,0 +1,19 @@
+unique_cod,servico_unique_cod,titulo,descricao,tipo_evento_servico_orientacao,horas_decorridas,dias_decorridos,envio_automatico_app,data_registro,data_exclusao,nome_servico,especialidade_id_aplicaveis
+ORIENT_001,700,Pesquisa de satisfação,"Olá @paciente! 😊
+Agradecemos sua visita! Sua opinião é muito importante para nós.
+Por favor, responda nossa breve pesquisa de satisfação.
+Obrigado! 💚",HORA_ATENDIMENTO,1,,true,2024-11-18 10:00:00,,Aplicação Toxina Botulínica,18
+ORIENT_002,800,Lembrete de consulta,"Olá @paciente! 👋
+Este é um lembrete sobre sua consulta de limpeza de pele amanhã.
+Por favor, confirme sua presença respondendo esta mensagem.
+Até breve! 🏥",HORA_AGENDADA,,-1,true,2024-11-18 10:00:00,,Limpeza de pele,
+ORIENT_003,900,Orientações pós-procedimento,"Olá @paciente! 💙
+Aqui estão algumas orientações importantes após seu procedimento:
+• Evite exposição solar por 48 horas
+• Mantenha a área hidratada
+• Em caso de dúvidas, entre em contato conosco
+
+Estamos à disposição! ✨",HORA_ATENDIMENTO,2,,true,2024-11-18 10:00:00,,Laser CO2,"1,18"
+ORIENT_004,1000,Lembrete pós-procedimento,"Olá @paciente!
+Já faz uma semana desde seu procedimento. Como está a recuperação?
+Se tiver alguma dúvida ou preocupação, estamos aqui para ajudar! 💚",HORA_REGISTRO,,7,true,2024-11-18 10:00:00,,Laser Fracionado para Estrias,
