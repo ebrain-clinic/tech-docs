@@ -1,0 +1,18 @@
+unique_cod,data_registro,pessoa_unique_cod,descricao,telefone_ddd,num_ddi,telefone_numero,telefone_numero_completo,preferido,receber_propagandas,receber_confirmacoes,possui_whatsapp
+500-986059878,2022-07-21 19:03:01.004,500,celular,61,55,986059878,5561986059878,true,true,true,true
+500-Aoliveira@gmail.com,2022-07-21 19:03:01.004,500,Aoliveira@gmail.com,,,,,false,false,true,false
+500-Aoliveira2@gmail.com,2022-07-21 19:03:01.004,500,Aoliveira2@gmail.com,,,,,false,false,true,false
+300-986059876,2022-07-19 19:03:01.002,300,celular,61,55,986059876,5561986059876,true,true,true,true
+300-33915699,2022-07-19 19:03:01.002,300,fixo,61,55,33915699,556133915699,false,false,false,false
+300-LucasSouza@gmail.com,2022-07-19 19:03:01.002,300,LucasSouza@gmail.com,,,,,false,true,true,false
+300-LucasSouza2@gmail.com,2022-07-19 19:03:01.002,300,LucasSouza2@gmail.com,,,,,false,false,true,false
+400-986059877,2022-07-11 19:03:01.003,400,celular,61,55,986059877,5561986059877,true,true,true,true
+400-JG@gmail.com,2022-07-11 19:03:01.003,400,JG@gmail.com,,,,,false,false,true,false
+400-JG2@gmail.com,2022-07-11 19:03:01.003,400,JG2@gmail.com,,,,,false,false,true,false
+200-986059875,2022-07-01 19:03:01.001,200,celular,61,55,986059875,5561986059875,true,true,true,true
+200-33915698,2022-07-01 19:03:01.001,200,fixo,61,55,33915698,556133915698,false,false,false,false
+200-larinha@gmail.com,2022-07-01 19:03:01.001,200,larinha@gmail.com,,,,,false,false,true,false
+200-larinha2@gmail.com,2022-07-01 19:03:01.001,200,larinha2@gmail.com,,,,,false,false,true,false
+100-986059874,2022-07-11 19:03:01.000,100,celular,61,55,986059874,5561986059874,true,true,true,true
+100-maria@gmail.com,2022-07-11 19:03:01.000,100,maria@gmail.com,,,,,false,false,true,false
+100-maria2@gmail.com,2022-07-11 19:03:01.000,100,maria2@gmail.com,,,,,false,false,true,false

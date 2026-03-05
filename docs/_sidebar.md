@@ -4,6 +4,8 @@
   - [Operadora de Saúde](documentacao/view_operadora_saude/)
   - [Planos de Operadoras de Saúde](documentacao/view_operadora_saude_plano/)
   - [Pacientes](documentacao/view_pessoa/)
+  - [Pacientes - Contatos](documentacao/view_pessoa_contato/)
+  - [Pacientes - Operadoras de Saúde](documentacao/view_pessoa_operadora_saude/)
   - [Serviços](documentacao/view_servico/)
   - [Orientações de Serviço](documentacao/view_servico_orientacao/)
 
