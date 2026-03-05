@@ -119,3 +119,4 @@
 | endereco_facebook | varchar | Endereço do Facebook da pessoa |  |
 | endereco_twitter | varchar | Endereço do Twitter da pessoa |  |
 | clinica_unique_cod | varchar | Código único da clínica | Obrigatório caso haja mais de uma clínica |
+| pessoa_indicacao_unique_cod | varchar | Código único da pessoa que indicou o paciente |  |
