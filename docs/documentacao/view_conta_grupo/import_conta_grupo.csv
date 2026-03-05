@@ -1,0 +1,6 @@
+unique_cod,clinica_unique_cod,caixa_padrao_unique_cod,nome,padrao,data_inicio
+IMPORTACAO,,CAIXA_PRINCIPAL,Grupo de contas - Importação,false,2026-03-05
+RECEBIMENTOS,,CAIXA_PRINCIPAL,Recebimentos Gerais,true,2026-03-05
+PAGAMENTOS,,CAIXA_OPERACIONAL,Pagamentos Gerais,false,2026-03-05
+CONVENIOS,,CAIXA_PRINCIPAL,Recebimentos de Convênios,false,2026-03-05
+DESPESAS_ADM,,CAIXA_OPERACIONAL,Despesas Administrativas,false,2026-03-05

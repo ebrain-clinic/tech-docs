@@ -1,0 +1,6 @@
+unique_cod,conta_unique_cod,conta_parcela_unique_cod,meio_transacao_unique_cod,inclusor_unique_cod,caixa_lancamento_unique_cod,data_registro,data_lancamento,tipo_lancamento,valor,valor_restante,descricao,meio_transacao_parcelas,meio_transacao_parcela_atual
+HIST_1,CONTA_REC_1,CONTA_REC_1_PARCELA_1,PIX_RECEBIMENTO,USER_1,CX_LANC_1,2026-03-05 10:00:00,2026-03-10 11:00:00,RECEBIMENTO,150.00,0.00,Recebimento da parcela 1,1,1
+HIST_2,CONTA_REC_2,CONTA_REC_2_PARCELA_1,DINHEIRO_RECEBIMENTO,USER_2,CX_LANC_2,2026-03-05 11:00:00,2026-03-15 09:30:00,RECEBIMENTO,200.00,0.00,Recebimento da parcela 1,3,1
+HIST_3,CONTA_REC_2,CONTA_REC_2_PARCELA_2,CARTAO_CREDITO_RECEBIMENTO,USER_2,,2026-03-05 11:00:00,2026-04-15 09:30:00,REGISTRO,200.00,200.00,Registro da parcela 2,3,2
+HIST_4,CONTA_REC_3,CONTA_REC_3_PARCELA_1,BOLETO_RECEBIMENTO,USER_3,,2026-03-05 12:00:00,2026-03-20 08:00:00,REGISTRO,160.00,160.00,Registro da parcela 1,2,1
+HIST_5,CONTA_PAG_1,CONTA_PAG_1_PARCELA_1,PIX_PAGAMENTO,USER_4,CX_LANC_3,2026-03-05 13:00:00,2026-03-18 15:00:00,PAGAMENTO,480.00,0.00,Pagamento da parcela 1,1,1
