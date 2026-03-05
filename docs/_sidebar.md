@@ -32,7 +32,7 @@
   - [Item Pedido - Consumos](documentacao/view_item_pedido_consumos/)
 
   <!-- Other -->
-  - [Usuários](documentacao/view_usuario/)
+  - [Usuários](documentacao/view_user/)
   - [Equipamentos](documentacao/view_equipamento/)
 
   <!-- Last -->
