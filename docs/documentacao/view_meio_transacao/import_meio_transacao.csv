@@ -1,0 +1,6 @@
+unique_cod,nome,ordem,data_fim,tipo_conta,complemento,data_inicio,max_parcelas,min_parcelas,freq_parcelas,dias_tipo_contagem,valor_min_parcela,caixa_unique_cod,tipo_lancamento,plano_conta_taxa_unique_cod,pessoa_juridica_pagamento_taxa_unique_cod
+PIX_RECEBIMENTO,PIX,1,,RECEBIMENTO,,2026-03-05,1,1,1,UTIL,0.00,CAIXA_PRINCIPAL,UNICO,,
+DINHEIRO_RECEBIMENTO,Dinheiro,2,,RECEBIMENTO,,2026-03-05,1,1,1,CORRIDO,0.00,CAIXA_OPERACIONAL,UNICO,,
+CARTAO_CREDITO_RECEBIMENTO,Cartao de Credito,3,,RECEBIMENTO,Parcelado em ate 6x,2026-03-05,6,1,30,CORRIDO,20.00,BANCO_AZUL,PARCELADO,120,
+BOLETO_RECEBIMENTO,Boleto,4,,RECEBIMENTO,,2026-03-05,1,1,1,UTIL,0.00,BANCO_AZUL,UNICO,,
+PIX_PAGAMENTO,PIX,5,,PAGAMENTO,,2026-03-05,1,1,1,UTIL,0.00,CARTEIRA_PIX,UNICO,,

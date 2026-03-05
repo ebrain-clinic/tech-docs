@@ -1,0 +1,7 @@
+unique_cod,data_registro,pessoa_unique_cod,operadora_saude_unique_cod,numero,validade,nome_operadora,detalhes,plano_unique_cod,nome_plano
+300-900,2022-07-19 19:03:01.002,300,900,7777777,2022-01-05,Amil,,4,Prata
+400-1000,2022-07-11 19:03:01.003,400,1000,3333333,2022-05-23,Bradesco,,,
+200-800,2022-07-01 19:03:01.001,200,800,8888888,2024-02-05,SulAmérica,,10,Gold
+100-700,2022-07-11 19:03:01.000,100,700,9999999,2023-01-01,Unimed,,4,Prata
+100-800,2022-07-11 19:03:01.000,100,800,666666666,2023-09-05,SulAmérica,,1,Clássico
+100-900,2022-07-11 19:03:01.000,100,900,555555555,2023-12-31,Amil,,50,Executivo

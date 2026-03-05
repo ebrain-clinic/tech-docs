@@ -1,0 +1,6 @@
+unique_cod,plano_conta_pai_unique_cod,codigo,descricao,data_registro
+100,,1,Receitas,2026-03-05 09:00:00
+110,100,1.1,Receitas de Serviços,2026-03-05 09:00:00
+120,100,1.2,Receitas Financeiras,2026-03-05 09:00:00
+200,,2,Despesas,2026-03-05 09:00:00
+210,200,2.1,Despesas Administrativas,2026-03-05 09:00:00

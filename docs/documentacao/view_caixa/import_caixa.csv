@@ -1,0 +1,6 @@
+unique_cod,nome,data_fim,data_inicio,tipo_pessoa,nome_reduzido,conta_bancaria,percentual_reducao_comissoes,clinica_unique_cod
+CAIXA_PRINCIPAL,Conta corrente principal,,2026-03-05 08:00:00,PJ,CAIXA PRINC,true,,
+CAIXA_OPERACIONAL,Caixa operacional da recepcao,,2026-03-05 08:00:00,PJ,CAIXA OPER,false,,
+BANCO_AZUL,Conta banco azul agencia 1234,,2026-03-05 08:00:00,PJ,BCO AZUL,true,,
+CARTEIRA_PIX,Carteira PIX principal,,2026-03-05 08:00:00,PJ,CART PIX,true,,
+CAIXA_EVENTOS,Caixa para eventos e cursos,,2026-03-05 08:00:00,PJ,CX EVENTOS,false,,

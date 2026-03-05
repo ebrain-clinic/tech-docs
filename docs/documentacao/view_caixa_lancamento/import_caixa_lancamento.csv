@@ -1,0 +1,6 @@
+unique_cod,inclusor_unique_cod,meio_transacao_unique_cod,data_pagamento,descricao,valor,caixa_unique_cod,plano_conta_unique_cod,tipo_lancamento
+CX_LANC_1,USER_1,PIX_RECEBIMENTO,2026-03-10 11:00:00,Recebimento da conta 1,150.00,CAIXA_PRINCIPAL,110,RECEBIMENTO
+CX_LANC_2,USER_2,DINHEIRO_RECEBIMENTO,2026-03-15 09:30:00,Recebimento da primeira parcela da conta 2,200.00,CAIXA_OPERACIONAL,110,RECEBIMENTO
+CX_LANC_3,USER_4,PIX_PAGAMENTO,2026-03-18 15:00:00,Pagamento de fornecedor da conta 1,480.00,CARTEIRA_PIX,210,PAGAMENTO
+CX_LANC_4,USER_5,BOLETO_RECEBIMENTO,2026-03-20 16:45:00,Recebimento avulso por boleto,160.00,BANCO_AZUL,110,RECEBIMENTO
+CX_LANC_5,USER_2,CARTAO_CREDITO_RECEBIMENTO,2026-04-15 10:00:00,Recebimento avulso em cartao de credito,200.00,BANCO_AZUL,110,RECEBIMENTO
