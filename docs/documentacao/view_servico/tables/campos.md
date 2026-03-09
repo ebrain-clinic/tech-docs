@@ -3,7 +3,6 @@
 | unique_cod                 | varchar     | Código único sem repetição do serviço                       |     Obrigatório            |
 | nome               | varchar | Nome do serviço                                      |   Obrigatório              |
 | data_inicio          | timestamp     | Data do ínicio deste serviço                   |   Obrigatório              |
-| data_importacao    | timestamp     | Data que ocorreu a importação     |                 |
 | data_fim | timestamp     | Data que o serviço parou de ser realizado        |                 |
 | evo_admin_id | int | ID do serviço no sistema EVO (interno) |  |
 | agendavel            | boolean |   Indica se é agendavel      |                 |
