@@ -9,6 +9,7 @@
 | hora_fim | timestamp | Hora do fim marcada. Ver `hora_inicio` |  |
 | data_chegada | timestamp | Data da chegada do paciente na clínica |  |
 | data_confirmacao | timestamp | Data de confirmação da consulta do paciente na clínica |  |
+| data_cancelamento | timestamp | Data em que o agendamento foi cancelado | Obrigatório se o agendamento tiver status de cancelado |
 | hora_inicio_efetivo | timestamp | Hora que efetivamente ocorreu o atendimento. Será sempre uma data do passado | Obrigatório se o evento tenha sido realizado |
 | hora_fim_efetivo | timestamp | Hora que efetivamente acaba o atendimento. Será sempre uma data do passado | Obrigatório se o evento tenha sido realizado |
 | observacoes | varchar | Referente à quaisquer observações |  |

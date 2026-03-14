@@ -1,6 +1,6 @@
 unique_cod,conta_grupo_unique_cod,plano_conta_unique_cod,pessoa_unique_cod,pedido_unique_cod,data_registro,tipo_conta,descricao,data_vencimento,valor_inicial,valor_recebido_pago,total_parcelas
-CONTA_REC_1,IMPORTACAO,110,PESSOA_1,PEDIDO_1,2026-03-05 10:00:00,RECEBIMENTO,Conta referente a procedimento,2026-03-10,150.00,150.00,1
-CONTA_REC_2,RECEBIMENTOS,110,PESSOA_2,PEDIDO_2,2026-03-05 11:00:00,RECEBIMENTO,Conta referente a pacote de sessoes,2026-03-15,600.00,200.00,3
-CONTA_REC_3,CONVENIOS,110,PESSOA_3,,2026-03-05 12:00:00,RECEBIMENTO,Conta referente a convenio,2026-03-20,320.00,0.00,2
-CONTA_PAG_1,PAGAMENTOS,210,PESSOA_4,,2026-03-05 13:00:00,PAGAMENTO,Conta de fornecedor de materiais,2026-03-18,480.00,480.00,1
-CONTA_PAG_2,DESPESAS_ADM,210,PESSOA_5,,2026-03-05 14:00:00,PAGAMENTO,Conta de aluguel da unidade,2026-03-25,2500.00,0.00,1
+CONTA_REC_1,IMPORTACAO,110,100,ped-1,2026-03-05 10:00:00,RECEBIMENTO,Conta referente a procedimento,2026-03-10,150.00,150.00,1
+CONTA_REC_2,RECEBIMENTOS,110,200,ped-2,2026-03-05 11:00:00,RECEBIMENTO,Conta referente a pacote de sessoes,2026-03-15,600.00,200.00,3
+CONTA_REC_3,CONVENIOS,110,300,,2026-03-05 12:00:00,RECEBIMENTO,Conta referente a convenio,2026-03-20,320.00,0.00,2
+CONTA_PAG_1,PAGAMENTOS,210,400,,2026-03-05 13:00:00,PAGAMENTO,Conta de fornecedor de materiais,2026-03-18,480.00,480.00,1
+CONTA_PAG_2,DESPESAS_ADM,210,500,,2026-03-05 14:00:00,PAGAMENTO,Conta de aluguel da unidade,2026-03-25,2500.00,0.00,1
