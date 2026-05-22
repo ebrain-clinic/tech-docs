@@ -1,0 +1,4 @@
+unique_cod,nome,nome_curto,data_registro,data_exclusao,controlar_estoque,nome_principio_ativo,clinica_unique_cod
+BOTOX,Botox 100U,Botox,2023-01-01,,true,Toxina botulínica,
+DYSPORT,Dysport 500U,Dysport,2023-01-01,,true,Toxina botulínica,
+RENNOVA_FILL,Rennova Fill,Rennova Fill,2023-01-01,,true,Ácido hialurônico,

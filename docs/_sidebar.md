@@ -10,6 +10,10 @@
   - [Serviços](documentacao/view_servico/)
   - [Orientações de Serviço](documentacao/view_servico_orientacao/)
   - [Equipamentos](documentacao/view_equipamento/)
+  - [Laboratórios](documentacao/view_laboratorio/)
+  - [Produtos](documentacao/view_produto/)
+  - [Produtos - Apresentações](documentacao/view_produto_apresentacao/)
+  - [Produtos - Labels](documentacao/view_produto_label/)
 
 - **Atendimento**
 
