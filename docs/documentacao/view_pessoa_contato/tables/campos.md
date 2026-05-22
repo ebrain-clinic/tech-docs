@@ -6,7 +6,7 @@
 | descricao | varchar | Descrição do contato. Use `celular`, `fixo` ou o e-mail | Obrigatório |
 | telefone_ddd | int | DDD do telefone (quando aplicável) |  |
 | num_ddi | int | DDI do telefone (quando aplicável) |  |
-| telefone_numero | int | Número do telefone (quando aplicável) |  |
+| telefone_numero | bigint | Número do telefone (quando aplicável) |  |
 | telefone_numero_completo | varchar | Número completo do telefone |  |
 | preferido | boolean | Indica se o contato é preferido | Obrigatório |
 | receber_propagandas | boolean | Indica se o contato recebe propagandas | Obrigatório |

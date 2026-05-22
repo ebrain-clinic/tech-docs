@@ -1,0 +1,4 @@
+unique_cod,nome,unidade,generico,produto_unique_cod,quantidade,data_exclusao,fracao_unidade,uso_fracionado,clinica_unique_cod,laboratorio_unique_cod,laboratorio_nome
+BOTOX-100U,Frasco 100U,Frasco,false,BOTOX,100,,Unidade,true,,ALLERGAN,Allergan
+DYSPORT-500U,Frasco 500U,Frasco,false,DYSPORT,500,,Unidade,true,,GALDERMA,Galderma
+RENNOVA_FILL-1ML,Seringa 1mL,Seringa,false,RENNOVA_FILL,1,,mL,true,,,

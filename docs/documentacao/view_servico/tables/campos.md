@@ -19,3 +19,4 @@
 | minutos_duracao_padrao | int | Duração padrão do serviço em minutos |                 |
 | prontuario_indicacao_produto | boolean | Indica se o serviço permite associação com produtos |                 |
 | prontuario_indicacao_anatomia | boolean | Indica se o serviço permite associação com funcionalidades de anatomia |                 |
+| observacoes | varchar | Observações internas do serviço |                 |
