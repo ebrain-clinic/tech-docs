@@ -15,3 +15,4 @@
 | inclusor_unique_cod | varchar | Código do usuário que fez a inclusão do registro |  |
 | pessoa_unique_cod | varchar | Código do paciente |  |
 | agenda_especialidade_cod | int | ID da especialidade da agenda (ver [especialidades](documentacao/view_especialidade/)) |  |
+| usuario_executante_unique_cod | varchar | Código do usuário executante do serviço |  |
