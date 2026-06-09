@@ -1,7 +1,7 @@
 # Livro Caixa
 
 <p align="justify"> 
-Descreve a estrutura de dados dos livros caixa utilizados pelo financeiro, como caixa físico e contas bancárias. Este modelo também pode ser associado à clínica e aos meios de transação.
+Descreve a estrutura de dados dos livros caixa utilizados pelo financeiro, como caixa físico e contas bancárias. A associação do livro caixa com clínicas é feita pelo modelo Livros Caixa - Clínicas.
 </p>
 
 > Nome do arquivo de importação: `import_caixa.csv`
@@ -13,6 +13,7 @@ Descreve a estrutura de dados dos livros caixa utilizados pelo financeiro, como 
 ## Modelos relacionados
 
 - [Grupos de Contas](documentacao/view_conta_grupo/)
+- [Livros Caixa - Clínicas](documentacao/view_caixa_clinica/)
 - [Meios de Transação](documentacao/view_meio_transacao/)
 - [Lançamentos de Caixa](documentacao/view_caixa_lancamento/)
 

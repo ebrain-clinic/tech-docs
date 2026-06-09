@@ -1,7 +1,7 @@
 # Lançamento de Caixa
 
 <p align="justify"> 
-Descreve a estrutura de dados dos lançamentos de entrada e saída em livros caixa. Este modelo registra recebimentos e pagamentos, associando valor, data, meio de transação, plano de contas e livro caixa.
+Descreve a estrutura de dados dos lançamentos de entrada e saída em livros caixa. Este modelo registra recebimentos, pagamentos, exclusões e cancelamentos, associando valor, data, meio de transação, plano de contas e livro caixa.
 </p>
 
 > Nome do arquivo de importação: `import_caixa_lancamento.csv`

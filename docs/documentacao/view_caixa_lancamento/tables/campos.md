@@ -8,4 +8,5 @@
 | valor | numeric | Valor do lançamento de caixa |  |
 | caixa_unique_cod | varchar | Código único do livro caixa associado ao lançamento |  |
 | plano_conta_unique_cod | varchar | Código único do plano de contas associado ao lançamento |  |
-| tipo_lancamento | varchar | Tipo do lançamento de caixa | Valores esperados no importador atual: `PAGAMENTO`, `RECEBIMENTO` |
+| tipo_lancamento | varchar | Tipo do lançamento de caixa | Valores válidos quando informado: `PAGAMENTO`, `RECEBIMENTO`, `CANCELADO`, `EXCLUSAO` |
+| caixa_lancamento_cancelado_unique_cod | varchar | Código único do lançamento de caixa cancelado por este lançamento | Obrigatório quando `tipo_lancamento` for `CANCELADO` |

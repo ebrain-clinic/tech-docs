@@ -14,6 +14,7 @@ Descreve a estrutura de dados dos meios de transação utilizados em recebimento
 
 - [Livros Caixa](documentacao/view_caixa/)
 - [Plano de Contas](documentacao/view_plano_conta/)
+- [Taxas de Meios de Transação](documentacao/view_meio_transacao_taxa/)
 - [Lançamentos de Caixa](documentacao/view_caixa_lancamento/)
 - [Histórico de Parcelas](documentacao/view_conta_parcela_historico/)
 

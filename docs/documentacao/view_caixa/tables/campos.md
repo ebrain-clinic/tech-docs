@@ -8,4 +8,3 @@
 | nome_reduzido | varchar | Nome reduzido do livro caixa | Máximo de 15 caracteres |
 | conta_bancaria | boolean | Indica se o livro caixa representa uma conta bancária |  |
 | percentual_reducao_comissoes | numeric | Percentual de redução de comissões aplicado ao livro caixa |  |
-| clinica_unique_cod | varchar | Código único da clínica associada ao livro caixa | Obrigatório caso haja mais de uma clínica |
