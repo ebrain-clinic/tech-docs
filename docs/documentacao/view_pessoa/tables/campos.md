@@ -11,6 +11,7 @@
 | sexo_biologico_ao_nascer | varchar | Sexo biológico ao nascer da pessoa |  |
 | cpf | varchar | CPF da pessoa |  |
 | rg | varchar | RG da pessoa |  |
+| passaporte | varchar | Documento de passaporte da pessoa |  |
 | rg_orgao | varchar | Orgão emissor do RG |  |
 | cns | varchar | Número do cartão nacional de saúde |  |
 | naturalidade | varchar | Naturalidade da pessoa |  |
