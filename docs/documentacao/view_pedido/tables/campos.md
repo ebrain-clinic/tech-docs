@@ -2,6 +2,7 @@
 | ---------------------------- | --------- | ------------------------------------------------------- | ------------ |
 | unique_cod                   | varchar   | Código único do pedido                                | Obrigatório |
 | orcamento_unique_cod         | varchar   | Código único do orçamento original associado         |              |
+| agendamento_unique_cod       | varchar   | Código único do agendamento associado ao pedido       |              |
 | data_pedido                  | date      | Data do pedido                                          |              |
 | data_registro                | timestamp | Data e hora de registro do pedido                       | Obrigatório |
 | data_exclusao                | timestamp | Data e hora de exclusão do pedido                      |              |

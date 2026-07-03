@@ -45,6 +45,7 @@
   - [Plano de Contas](documentacao/view_plano_conta/)
   - [Grupos de Contas](documentacao/view_conta_grupo/)
   - [Livros Caixa](documentacao/view_caixa/)
+  - [Livros Caixa - Clínicas](documentacao/view_caixa_clinica/)
   - [Meios de Transação](documentacao/view_meio_transacao/)
   - [Contas](documentacao/view_conta/)
   - [Parcelas de Contas](documentacao/view_conta_parcela/)

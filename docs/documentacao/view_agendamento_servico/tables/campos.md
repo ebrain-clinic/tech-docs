@@ -4,6 +4,7 @@
 | ordem | integer | Ordem na aplicação |  |
 | agendamento_unique_cod | varchar | Código único do agendamento ao qual o serviço está associado | Obrigatório |
 | profissional_unique_cod | varchar | Código do profissional responsável pelo serviço |  |
+| usuario_executante_unique_cod | varchar | Código do usuário executante associado ao serviço do atendimento |  |
 | quantidade | numeric | Quantidade do serviço realizado | Obrigatório |
 | servico_unique_cod | varchar | Código único do serviço | Obrigatório |
 | item_pedido_unique_cod | varchar | Código do item do pedido associado ao serviço |  |

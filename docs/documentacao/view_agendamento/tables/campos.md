@@ -23,6 +23,7 @@
 | pessoa_unique_cod | varchar | Código do paciente |  |
 | operadora_saude_unique_cod | varchar | Código da operadora de saúde |  |
 | profissional_unique_cod | varchar | Código do profissional responsável |  |
+| usuario_executante_unique_cod | varchar | Código do usuário executante associado ao atendimento |  |
 | inclusor_unique_cod | varchar | Código do usuário responsável pelo registro |  |
 | agenda_especialidade_cod | int | ID da especialidade da agenda em que serão importados os agendamentos (ver [especialidades](documentacao/view_especialidade/)) |  |
 | nome_agenda_importacao | varchar | Nome da agenda em que serão importados os agendamentos |  |
