@@ -3,7 +3,7 @@
 | unique_cod | varchar | Código único sem repetição do agendamento | Obrigatório |
 | descricao | varchar | Descrição do agendamento, como o nome da pessoa, caso ainda não esteja cadastrada |  |
 | descricao_status_personalizado | varchar | Possíveis status de agendamento da clínica, que são específicos a ela |  |
-| registro_automatico_trigger | varchar | São triggers que relacionamos com a descricao_status_personalizado para compor a tipo_evento_agendado_status. Ver valores possíveis abaixo |  |
+| registro_automatico_trigger | varchar | São triggers que relacionamos com a descricao_status_personalizado para compor a tipo_evento_agendado_status. [Clique aqui para ver valores possíveis.](#registro_automatico_trigger) |  |
 | data_registro | timestamp | Data de registro | Obrigatório |
 | hora_inicio | timestamp | Hora do ínicio marcada. Como é um agendamento, pode ser uma data no futuro, para agendamento vindouros, ou no passado, caso já tenha transcorrido o tempo do agendamento |  |
 | hora_fim | timestamp | Hora do fim marcada. Ver `hora_inicio` |  |
@@ -14,7 +14,7 @@
 | hora_fim_efetivo | timestamp | Hora que efetivamente acaba o atendimento. Será sempre uma data do passado | Obrigatório se o evento tenha sido realizado |
 | observacoes | varchar | Referente à quaisquer observações |  |
 | motivo_nao_atendimento | varchar | Motivo do não atendimento |  |
-| dominio_motivo_cancelamento | varchar | Tipo de motivo de cancelamento. Ver valores possíveis abaixo |  |
+| dominio_motivo_cancelamento | varchar | Tipo de motivo de cancelamento. [Clique aqui para ver valores possíveis.](#dominio_motivo_cancelamento) |  |
 | nao_atendido | boolean | Indica que não houve o atendimento |  |
 | encaixe | boolean | Indica se é um encaixe |  |
 | remoto | boolean | Indica se é um atendimento remoto |  |
@@ -28,8 +28,8 @@
 | agenda_especialidade_cod | int | ID da especialidade da agenda em que serão importados os agendamentos (ver [especialidades](documentacao/view_especialidade/)) |  |
 | nome_agenda_importacao | varchar | Nome da agenda em que serão importados os agendamentos |  |
 | agenda_coletiva | boolean | Indica se a agenda é coletiva |  |
-| tipo_disponibilidade_equipamento | varchar | Tipo de disponibilidade para agenda de equipamento. Ver valores possíveis abaixo |  |
+| tipo_disponibilidade_equipamento | varchar | Tipo de disponibilidade para agenda de equipamento. [Clique aqui para ver valores possíveis.](#tipo_disponibilidade_equipamento) |  |
 | quantidade_disponivel_equipamento | int | Quantidade disponível quando a agenda for de equipamento e usar disponibilidade por quantidade |  |
-| tipo_agenda | varchar | Tipo da agenda. Ver valores possíveis abaixo |  |
+| tipo_agenda | varchar | Tipo da agenda. [Clique aqui para ver valores possíveis.](#tipo_agenda) |  |
 | clinica_unique_cod | varchar | Código único da clínica |  |
-| bloqueio | varchar | Indica se o agendamento é ou não um bloqueio. Ver valores possíveis abaixo |  |
+| bloqueio | varchar | Indica se o agendamento é ou não um bloqueio. [Clique aqui para ver valores possíveis.](#bloqueio) |  |
