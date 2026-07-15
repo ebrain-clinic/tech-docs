@@ -28,5 +28,8 @@
 | agenda_especialidade_cod | int | ID da especialidade da agenda em que serão importados os agendamentos (ver [especialidades](documentacao/view_especialidade/)) |  |
 | nome_agenda_importacao | varchar | Nome da agenda em que serão importados os agendamentos |  |
 | agenda_coletiva | boolean | Indica se a agenda é coletiva |  |
+| tipo_disponibilidade_equipamento | varchar | Tipo de disponibilidade para agenda de equipamento. Ver valores possíveis abaixo |  |
+| quantidade_disponivel_equipamento | int | Quantidade disponível quando a agenda for de equipamento e usar disponibilidade por quantidade |  |
+| tipo_agenda | varchar | Tipo da agenda. Ver valores possíveis abaixo |  |
 | clinica_unique_cod | varchar | Código único da clínica |  |
-| bloqueio | varchar | Indica se o agendamento é ou não um bloqueio. Valores possíveis: IMPORTAR_COMO_BLOQUEIO, IMPORTAR_COMO_AGENDAMENTO, NAO_IMPORTAR, NULL |  |
+| bloqueio | varchar | Indica se o agendamento é ou não um bloqueio. Ver valores possíveis abaixo |  |

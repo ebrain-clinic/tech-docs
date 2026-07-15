@@ -20,6 +20,18 @@ Descreve a estrutura de dados de agendamento. A tabela de descrição dos campos
 
 [](tables/dominio_motivo_cancelamento.md ':include')
 
+### tipo_disponibilidade_equipamento
+
+[](tables/tipo_disponibilidade_equipamento.md ':include')
+
+### tipo_agenda
+
+[](tables/tipo_agenda.md ':include')
+
+### bloqueio
+
+[](tables/bloqueio.md ':include')
+
 
 ### Observação
 <p align="justify"> 
