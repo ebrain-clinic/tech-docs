@@ -97,3 +97,6 @@
 | 95 | Generalista |
 | 96 | Massoterapia |
 | 97 | Cardiopediatria |
+| 98 | Veterinária |
+| 99 | Técnica de Enfermagem |
+| 100 | Terapia Integrativa |
