@@ -10,6 +10,8 @@
 | profissional_unique_cod               | varchar | Código do profissional que fez a prescrição              |  Obrigatório               |
 | documento_nao_estruturado_texto     | varchar   | Documento de prescrição textual,  caso a prescrição não seja estruturada                                |  Obrigatório se `medicamento_nome` estiver em branco                |
 | medicamento_nome     | varchar   | Nome do medicamento, no caso de prescrição estruturada                               |  Obrigatório se `documento_nao_estruturado_texto` estiver em branco               |
+| quantidade | numeric | Quantidade prescrita do medicamento, no caso de prescrição estruturada | |
+| unidade | varchar | Unidade da quantidade prescrita do medicamento, no caso de prescrição estruturada | |
 | medicamento_descricao     | varchar   | Descrição do medicamento, no caso de prescrição estruturada                              | Não deve ser informado se `documento_nao_estruturado_texto` for preenchido                |
 | medicamento_posologia     | varchar   | Posologia do medicamento, no caso de prescrição estruturada                               | Não deve ser informado se `documento_nao_estruturado_texto` for preenchido                |
 | medicamento_composicao     |  varchar  | Composição do medicamento, no caso de prescrição estruturada                        | Não deve ser informado se `documento_nao_estruturado_texto` for preenchido                |
