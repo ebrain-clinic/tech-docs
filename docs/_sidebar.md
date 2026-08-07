@@ -8,6 +8,7 @@
   - [Operadora de Saúde](documentacao/view_operadora_saude/)
   - [Planos de Operadoras de Saúde](documentacao/view_operadora_saude_plano/)
   - [Serviços](documentacao/view_servico/)
+  - [Profissionais - Serviços](documentacao/view_profissional_servico/)
   - [Orientações de Serviço](documentacao/view_servico_orientacao/)
   - [Equipamentos](documentacao/view_equipamento/)
   - [Laboratórios](documentacao/view_laboratorio/)

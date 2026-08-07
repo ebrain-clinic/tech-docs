@@ -10,5 +10,8 @@
 | descricao | varchar | Descrição da conta |  |
 | data_vencimento | date | Data de vencimento da conta |  |
 | valor_inicial | numeric | Valor inicial da conta |  |
+| valor_pre_descontos | numeric | Valor da conta antes da aplicação de descontos |  |
+| valor_desconto_absoluto | numeric | Valor absoluto de desconto aplicado à conta |  |
+| valor_desconto_percentual | numeric | Valor percentual de desconto aplicado à conta |  |
 | valor_recebido_pago | numeric | Valor efetivamente recebido ou pago na conta |  |
 | total_parcelas | int | Quantidade total de parcelas associadas à conta |  |

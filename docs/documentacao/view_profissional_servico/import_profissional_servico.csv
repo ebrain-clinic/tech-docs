@@ -1,0 +1,2 @@
+unique_cod,data_registro,minutos_duracao_padrao,valor_particular,atende_particular,atende_convenio,profissional_unique_cod,servico_unique_cod
+PROFISSIONAL_SERVICO_001,2026-01-01 08:00:00,30,150.00,true,true,PROFISSIONAL_001,SERVICO_001
