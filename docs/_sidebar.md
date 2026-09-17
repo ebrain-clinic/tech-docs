@@ -25,6 +25,7 @@
 
   - [Alertas de Pacientes](documentacao/view_pessoa_alerta/)
   - [Evolução](documentacao/view_evolucao/)
+  - [Templates de Documentos](documentacao/view_documento_template/)
   - [Prescrição de Medicamentos](documentacao/view_prescricao_medicamento/)
   - [Prescrição de Exames](documentacao/view_prescricao_exame/)
   - [Atestados Médicos](documentacao/view_prescricao_atestado/)

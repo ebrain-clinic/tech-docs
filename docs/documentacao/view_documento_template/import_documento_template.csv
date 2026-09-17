@@ -1,0 +1,4 @@
+unique_cod,nome,tipo,data_exclusao,data_registro,conteudo_titulo,conteudo_body,profissional_unique_cod
+template-001,Receituário padrão,RECEITUARIO,,2026-08-27 09:00:00,Receituário,"<p>@paciente</p><p>@medico</p><p>Uso conforme orientação médica.</p>",100
+template-002,Solicitação de exames,EXAME,,2026-08-27 09:05:00,Solicitação de exames,"<p>@paciente</p><p>Solicito os exames descritos abaixo.</p>",100
+template-003,Atestado médico,ATESTADO,,2026-08-27 09:10:00,Atestado,"<p>Declaro para os devidos fins que @paciente esteve em atendimento.</p>",100
