@@ -1,7 +1,7 @@
 | Campo              | Tipo    | Descrição                                                            | Restrição |
 |--------------------|---------|----------------------------------------------------------------------|-----------|
-| unique_cod         | varchar | Código externo estável do estoque                                    | Obrigatório |
+| unique_cod         | varchar | Código único do estoque                                              | Obrigatório |
 | nome_estoque       | varchar | Nome do estoque, com até 200 caracteres                              | Obrigatório e único por clínica |
-| clinica_unique_cod | varchar | Código da clínica do estoque                                         |           |
+| clinica_unique_cod | varchar | Código único da clínica à qual o estoque pertence                    |           |
 
-A view de destino usa unique_cod como import_id de produto_estoque e como código externo no import_externo. Dentro do mesmo tenant, estoques distintos podem ter o mesmo nome normalizado por `upper(btrim(nome_estoque))` somente quando pertencem a clínicas diferentes. A repetição na mesma clínica é um erro. Quando a clínica não é informada, a importação usa a clínica padrão, que também participa dessa validação.
+O `nome_estoque` pode se repetir quando os estoques pertencem a clínicas diferentes. Na mesma clínica, não são permitidos nomes iguais, desconsiderando espaços no início ou no fim e diferenças entre letras maiúsculas e minúsculas. Quando `clinica_unique_cod` não é informado, o estoque pertence à clínica padrão e o nome também deve ser único nela.
