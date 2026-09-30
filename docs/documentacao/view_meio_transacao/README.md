@@ -6,6 +6,8 @@ Descreve a estrutura de dados dos meios de transação utilizados em recebimento
 
 > Nome do arquivo de importação: `import_meio_transacao.csv`
 
+O campo `plano_conta_unique_cod` referencia o plano de contas utilizado para classificar as despesas de taxas do meio de transação. Esse vínculo não define valores ou percentuais de taxas e não cria registros de taxas automaticamente.
+
 ## Descrição dos campos
 
 [](tables/campos.md ':include')

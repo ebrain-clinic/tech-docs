@@ -14,5 +14,5 @@
 | valor_min_parcela | numeric | Valor mínimo por parcela |  |
 | caixa_unique_cod | varchar | Código único do livro caixa associado ao meio de transação |  |
 | tipo_lancamento | varchar | Forma de lançamento no caixa para transações parceladas | Valores válidos quando informado: `UNICO`, `PARCELADO` |
-| plano_conta_taxa_unique_cod | varchar | Código único do plano de contas utilizado para registrar taxa do meio de transação |  |
+| plano_conta_unique_cod | varchar | Código único do plano de contas utilizado para registrar despesas de taxas do meio de transação | Deve corresponder a um `unique_cod` informado em Plano de Contas, quando preenchido |
 | pessoa_juridica_pagamento_taxa_unique_cod | varchar | Código único da pessoa jurídica que recebe o pagamento da taxa |  |
