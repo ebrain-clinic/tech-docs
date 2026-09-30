@@ -16,6 +16,12 @@
     :root {
       --sidebar-width: 22rem;
     }
+
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3 {
+      color: #00C985;
+    }
   </style>
 
 </head>
@@ -51,6 +57,7 @@
       search: {
         maxAge: 86400000, // Expiration time, the default one day
         paths: [], // or 'auto'
+        namespace: 'tech-docs-plain-headings-v1',
         placeholder: 'Pesquisar...',
         noData: 'Nenhum resultado'
       },

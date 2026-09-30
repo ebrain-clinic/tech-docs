@@ -1,13 +1,13 @@
-# <span style="color: #00C985;">ebrain - Documentação Técnica</span>
+# ebrain - Documentação Técnica
 
 
-## <span style="color: #00C985;">Sobre</span>
+## Sobre
 
 Este documento apresenta os modelos de dados do sistema **ebrain**. São passíveis de serem exportados e importados dados de pacientes, profissionais, agendamentos, atendimentos, evoluções de prontuários, prescrições de medicamentos, prescrições de exames, atestados, relatórios e outros documentos, serviços ofertados pela clínica, operadoras de saúde, entre outros. Exemplos de arquivos também estão disponíveis.
 
 Mais informações disponíveis no site [www.ebrain.clinic](https://www.ebrain.clinic).
 
-## <span style="color: #00C985;">📥 Baixar Arquivos de Exemplo</span>
+## 📥 Baixar Arquivos de Exemplo
 
 Para facilitar o processo de importação, disponibilizamos todos os arquivos CSV de exemplo em um único arquivo compactado:
 
@@ -19,13 +19,13 @@ Para facilitar o processo de importação, disponibilizamos todos os arquivos CS
 
 O arquivo contém os exemplos de CSVs para todos os modelos de dados disponíveis. Você também pode baixar exemplos individuais em cada página de documentação.
 
-## <span style="color: #00C985;">Formato e codificação de arquivos</span>
+## Formato e codificação de arquivos
 
 Todos os arquivos devem ser salvos em [formato CSV](https://pt.wikipedia.org/wiki/Comma-separated_values), ou seja, arquivo texto simples separados por vírgulas, e codificados no padrão [Unicode UTF-8](https://pt.wikipedia.org/wiki/UTF-8).
 
 Os arquivos CSV podem ser gerados pela equipe de tecnologia responsável pelo software atual, ou manualmente a partir de uma planilha Excel criada pelo cliente. Em todos os casos, use os arquivos de exemplo disponíveis em cada página de Modelo.
 
-## <span style="color: #00C985;">Tipos de dados</span>
+## Tipos de dados
 
 Os tipos descritos nos modelos são definidos conforme o seguinte padrão:
 
@@ -39,7 +39,7 @@ Os tipos descritos nos modelos são definidos conforme o seguinte padrão:
 | numeric(21,2)              | Números decimais | 10.00                                                    |
 | json                       | JSON | "{"campo1": "valor1", "campo2": "valor2"}"                             |
 
-### <span style="color: #00C985;">Campos `unique_cod`</span>
+### Campos `unique_cod`
 
 Os campos `unique_cod` representam chaves primárias, e devem representar uma única linha (tupla ou registro) no arquivo de modelo.
 

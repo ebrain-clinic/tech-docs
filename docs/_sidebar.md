@@ -14,6 +14,8 @@
   - [Laboratórios](documentacao/view_laboratorio/)
   - [Produtos](documentacao/view_produto/)
   - [Produtos - Apresentações](documentacao/view_produto_apresentacao/)
+  - [Produtos - Estoques](documentacao/view_produto_estoque/)
+  - [Produtos - Alertas de Estoque](documentacao/view_produto_estoque_alerta/)
   - [Produtos - Labels](documentacao/view_produto_label/)
 
 - **Atendimento**
